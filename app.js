@@ -2,8 +2,8 @@
 'use strict';
 
 const RETAILERS = [
-  { slug: 'lululemon', name: 'Lululemon', file: 'lululemon.json',  color: '#E30613' },
-  { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'alo-yoga.json',   color: '#1a1a1a' },
+  { slug: 'lululemon', name: 'Lululemon', file: 'data/lululemon.json',  color: '#E30613' },
+  { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'data/alo-yoga.json',   color: '#1a1a1a' },
 ];
 
 const TYPE_STYLE = {
@@ -430,4 +430,19 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-window.addEventListener('DOMContentLoaded', init);
+function showFatalError(msg) {
+  const el = document.getElementById('loading');
+  if (el) {
+    el.textContent = 'ERROR: ' + msg;
+    el.style.maxWidth = '90vw';
+    el.style.color = '#c0392b';
+    el.style.whiteSpace = 'pre-wrap';
+    el.style.fontFamily = 'ui-monospace, monospace';
+    el.style.fontSize = '11px';
+  }
+}
+window.addEventListener('error', e => showFatalError((e.error && e.error.message) || e.message));
+window.addEventListener('unhandledrejection', e => showFatalError('promise: ' + ((e.reason && e.reason.message) || String(e.reason))));
+window.addEventListener('DOMContentLoaded', () => {
+  init().catch(e => showFatalError(e.message + '\n' + (e.stack || '').split('\n').slice(0,3).join('\n')));
+});
