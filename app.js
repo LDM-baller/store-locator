@@ -212,6 +212,16 @@ function updateChips() {
   const region = detectRegion();
   const regionLabel = region ? (COUNTRY_NAMES[region] || region) : 'Worldwide';
 
+  // Region label shown ONCE as a header pill instead of repeated in every
+  // chip. Keeps all 3 retailer chips on one row even on narrow phones.
+  const anyActive = RETAILERS.some(r => state.data[r.slug] && state.active[r.slug]);
+  if (!anyActive) return;
+
+  const regionPill = document.createElement('span');
+  regionPill.className = 'chips-region';
+  regionPill.textContent = regionLabel;
+  host.appendChild(regionPill);
+
   RETAILERS.forEach(r => {
     if (!state.data[r.slug] || !state.active[r.slug]) return;
     const stores = storesInRegion(r.slug, region);
@@ -219,10 +229,10 @@ function updateChips() {
     const chip = document.createElement('button');
     chip.className = 'chip';
     chip.dataset.slug = r.slug;
+    chip.title = `${r.name} stores in ${regionLabel}`;
     chip.innerHTML =
       `<span class="swatch" style="background:${r.color}"></span>` +
       `<span class="count">${stores.length.toLocaleString()}</span>` +
-      `<span class="region">${escapeHtml(r.name)} · ${escapeHtml(regionLabel)}</span>` +
       `<span class="arrow">›</span>`;
     chip.addEventListener('click', () => openManifest(r.slug, region));
     host.appendChild(chip);

@@ -127,19 +127,31 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   position: fixed;
   top: calc(64px + var(--safe-top));
   left: 10px; right: 10px;
-  display: flex; gap: 8px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  padding: 0;
+  display: flex; gap: 6px;
+  flex-wrap: wrap;
   z-index: 999;
   pointer-events: none;
 }
-#chips::-webkit-scrollbar { display: none; }
+.chips-region {
+  pointer-events: auto;
+  display: inline-flex; align-items: center;
+  padding: 5px 11px;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: var(--surface);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  box-shadow: var(--shadow-soft);
+  white-space: nowrap;
+}
 .chip {
   pointer-events: auto;
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 8px 12px 8px 10px;
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 6px 10px 6px 9px;
   background: var(--surface);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -152,9 +164,8 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 }
 .chip:active { transform: scale(0.97); }
 .chip .swatch { width: 8px; height: 8px; border-radius: 50%; box-shadow: 0 0 0 1px rgba(0,0,0,0.15); }
-.chip .count { font-weight: 700; font-variant-numeric: tabular-nums; }
-.chip .region { color: var(--text-dim); font-size: 12px; }
-.chip .arrow { color: var(--text-faint); font-size: 14px; margin-left: 2px; }
+.chip .count { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 13px; }
+.chip .arrow { color: var(--text-faint); font-size: 13px; margin-left: 1px; }
 
 /* ===== Bottom bar ===== */
 #bottombar {
