@@ -169,32 +169,27 @@ function rebuildMarkers(slug) {
  */
 
 function detectRegion() {
-  // 1) When zoomed out wide enough to be looking at multiple continents,
-  //    always treat as "Worldwide" so the chip doesn't flicker between
-  //    countries as the year slider scrubs (e.g., US share crossing 50%).
+  // Worldwide when zoomed out far enough to see multiple continents.
   const zoom = map.getZoom();
+  if (zoom <= 3) return null;
   const bounds = map.getBounds();
-  const lngSpan = bounds.getEast() - bounds.getWest();
-  if (zoom <= 3 || lngSpan >= 180) return null;
+  if (bounds.getEast() - bounds.getWest() >= 180) return null;
 
-  // 2) Otherwise look at the dominant country among in-view stores.
-  //    A higher threshold (65%) avoids flipping on a borderline majority.
-  const counts = {};
+  // Otherwise: country = country of the visible store nearest the map center.
+  // Simple, deterministic, and matches user intuition ("what am I looking at?").
+  const center = map.getCenter();
+  let best = null, bestDsq = Infinity;
   Object.values(state.data).forEach(d => {
     if (!state.active[d._slug]) return;
     d.stores.forEach(s => {
       if (!isVisible(s, state.year)) return;
-      if (bounds.contains([s.lat, s.lng])) {
-        const c = s.country || '?';
-        counts[c] = (counts[c] || 0) + 1;
-      }
+      const dy = s.lat - center.lat;
+      const dx = s.lng - center.lng;
+      const dsq = dy * dy + dx * dx;
+      if (dsq < bestDsq) { bestDsq = dsq; best = s; }
     });
   });
-  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  if (!sorted.length) return null;
-  const [topCountry, topCount] = sorted[0];
-  const total = sorted.reduce((sum, [, n]) => sum + n, 0);
-  return topCount / total >= 0.65 ? topCountry : null;
+  return best ? (best.country || null) : null;
 }
 
 function storesInRegion(slug, region) {
