@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
-<meta name="theme-color" content="#0b0d10">
+<meta name="theme-color" content="#f4f5f7">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="LDM Locate">
 <title>LDM Locate</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 
@@ -20,10 +20,7 @@
   <div id="retailers" role="tablist" aria-label="Retailers"></div>
 </header>
 
-<div id="hud-stats" aria-live="polite">
-  <span class="hud-label">Active fleet</span>
-  <span id="active-count">—</span>
-</div>
+<div id="chips" aria-label="Stores in view"></div>
 
 <footer id="bottombar">
   <button id="playpause" aria-label="Play time-lapse">▶</button>
@@ -34,16 +31,33 @@
   <span id="year-display">2026</span>
 </footer>
 
-<div id="detail-backdrop" class="hidden" aria-hidden="true"></div>
-<aside id="detail" class="hidden" role="dialog" aria-label="Store details" aria-hidden="true">
-  <div id="detail-handle" aria-hidden="true"></div>
-  <button id="detail-close" aria-label="Close">×</button>
+<div id="sheet-backdrop" class="hidden" aria-hidden="true"></div>
+
+<aside id="manifest" class="sheet hidden" role="dialog" aria-label="Store list" aria-hidden="true">
+  <div class="sheet-handle" aria-hidden="true"></div>
+  <header class="sheet-header">
+    <div>
+      <div class="sheet-title" id="manifest-title">—</div>
+      <div class="sheet-sub" id="manifest-sub"></div>
+    </div>
+    <button class="sheet-close" data-close="manifest" aria-label="Close">×</button>
+  </header>
+  <div id="manifest-list"></div>
+</aside>
+
+<aside id="detail" class="sheet hidden" role="dialog" aria-label="Store details" aria-hidden="true">
+  <div class="sheet-handle" aria-hidden="true"></div>
+  <header class="sheet-header">
+    <button class="sheet-back hidden" id="detail-back" aria-label="Back">‹</button>
+    <div class="detail-retailer" id="detail-retailer"></div>
+    <button class="sheet-close" data-close="detail" aria-label="Close">×</button>
+  </header>
   <div id="detail-body"></div>
 </aside>
 
 <div id="loading">Loading store data…</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="app.js"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

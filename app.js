@@ -1,24 +1,32 @@
-/* LDM Locate — viewer.
- * Loads multiple retailer JSONs, renders a temporal Leaflet map,
- * and supports click-to-inspect with full provenance.
- */
+/* LDM Locate — viewer (light theme, smart chips, manifest <-> detail flow). */
 'use strict';
 
 const RETAILERS = [
-  { slug: 'lululemon', name: 'Lululemon', file: 'data/lululemon.json',  color: '#E30613' },
-  { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'data/alo-yoga.json',   color: '#111111' },
+  { slug: 'lululemon', name: 'Lululemon', file: 'lululemon.json',  color: '#E30613' },
+  { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'alo-yoga.json',   color: '#1a1a1a' },
 ];
 
 const TYPE_STYLE = {
   flagship:     { radius: 6, weight: 1.5, opacity: 1.00 },
-  regular:      { radius: 4, weight: 1.0, opacity: 0.92 },
-  concession:   { radius: 4, weight: 1.0, opacity: 0.85 },
-  outlet:       { radius: 4, weight: 1.0, opacity: 0.85 },
-  popup:        { radius: 3, weight: 0.6, opacity: 0.55 },
-  experiential: { radius: 4, weight: 1.0, opacity: 0.75 },
-  showroom:     { radius: 3, weight: 0.6, opacity: 0.55 },
-  other:        { radius: 3, weight: 0.6, opacity: 0.55 },
-  null:         { radius: 4, weight: 1.0, opacity: 0.85 },
+  regular:      { radius: 4, weight: 1.4, opacity: 0.95 },
+  concession:   { radius: 4, weight: 1.4, opacity: 0.90 },
+  outlet:       { radius: 4, weight: 1.4, opacity: 0.90 },
+  popup:        { radius: 3, weight: 1.0, opacity: 0.65 },
+  experiential: { radius: 4, weight: 1.4, opacity: 0.85 },
+  showroom:     { radius: 3, weight: 1.0, opacity: 0.65 },
+  other:        { radius: 3, weight: 1.0, opacity: 0.65 },
+  null:         { radius: 4, weight: 1.4, opacity: 0.90 },
+};
+
+const COUNTRY_NAMES = {
+  US: 'US', CA: 'Canada', MX: 'Mexico', GB: 'UK', IE: 'Ireland', FR: 'France',
+  DE: 'Germany', ES: 'Spain', IT: 'Italy', NL: 'Netherlands', BE: 'Belgium',
+  CH: 'Switzerland', SE: 'Sweden', NO: 'Norway', DK: 'Denmark', AT: 'Austria',
+  AU: 'Australia', NZ: 'New Zealand',
+  JP: 'Japan', KR: 'South Korea', CN: 'China', HK: 'Hong Kong', MO: 'Macau',
+  TW: 'Taiwan', SG: 'Singapore', MY: 'Malaysia', TH: 'Thailand',
+  AE: 'UAE', SA: 'Saudi Arabia', QA: 'Qatar', KW: 'Kuwait', BH: 'Bahrain',
+  IL: 'Israel', TR: 'Turkey',
 };
 
 const state = {
@@ -31,27 +39,27 @@ const state = {
   yearMax: 2026,
   playing: false,
   selected: null,
-  bloomLayer: null,
+  manifestRetailer: null,  // slug currently shown in manifest
+  detailFrom: null,        // 'manifest' | 'marker'
 };
 
 let map;
 
 async function init() {
-  map = L.map('map', { preferCanvas: true, worldCopyJump: true })
-    .setView([28, 5], 2);
+  map = L.map('map', { preferCanvas: true, worldCopyJump: true, zoomControl: false })
+    .setView([39.5, -98.35], 4);   // continental US default
+
   L.tileLayer(
-    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
     {
-      maxZoom: 18,
+      maxZoom: 19,
       attribution: '&copy; OpenStreetMap &copy; CARTO',
       subdomains: 'abcd',
     }
   ).addTo(map);
-  state.bloomLayer = L.layerGroup().addTo(map);
 
   await Promise.all(RETAILERS.map(loadRetailer));
 
-  // Derive year range from data (clamp slider).
   const years = [];
   Object.values(state.data).forEach(d => d.stores.forEach(s => {
     if (typeof s.year_opened === 'number') years.push(s.year_opened);
@@ -65,14 +73,16 @@ async function init() {
   slider.max = state.yearMax;
   slider.value = state.yearMax;
   state.year = state.yearMax;
+  document.getElementById('year-min').textContent = state.yearMin;
+  document.getElementById('year-max').textContent = state.yearMax;
   document.getElementById('year-display').textContent = state.year;
 
   buildRetailerToggles();
   rebuildAllMarkers();
   wireUI();
+  updateChips();
 
   document.getElementById('loading').classList.add('hidden');
-  wireSheetGestures();
 }
 
 async function loadRetailer(r) {
@@ -97,19 +107,17 @@ function buildRetailerToggles() {
   host.innerHTML = '';
   RETAILERS.forEach(r => {
     if (!state.data[r.slug]) return;
-    const total = state.data[r.slug].stores.length;
     const btn = document.createElement('button');
     btn.className = 'retailer-toggle active';
     btn.dataset.slug = r.slug;
     btn.innerHTML =
       `<span class="swatch" style="background:${r.color}"></span>` +
-      `<span>${r.name}</span>` +
-      `<span class="count" data-count></span>`;
+      `<span>${r.name}</span>`;
     btn.addEventListener('click', () => {
       state.active[r.slug] = !state.active[r.slug];
       btn.classList.toggle('active', state.active[r.slug]);
       rebuildMarkers(r.slug);
-      updateActiveCount();
+      updateChips();
     });
     host.appendChild(btn);
   });
@@ -124,7 +132,6 @@ function isVisible(s, year) {
 
 function rebuildAllMarkers() {
   RETAILERS.forEach(r => rebuildMarkers(r.slug));
-  updateActiveCount();
 }
 
 function rebuildMarkers(slug) {
@@ -142,31 +149,185 @@ function rebuildMarkers(slug) {
     const style = TYPE_STYLE[s.store_type] || TYPE_STYLE.null;
     const m = L.circleMarker([s.lat, s.lng], {
       radius: style.radius,
-      color: data._color,
+      color: '#ffffff',                 // white outline for contrast on light tiles
       weight: style.weight,
       fillColor: data._color,
-      fillOpacity: style.opacity * (s.coord_is_estimated ? 0.55 : 1),
-      opacity: 1,
+      fillOpacity: style.opacity * (s.coord_is_estimated ? 0.6 : 1),
+      opacity: 0.95,
     });
-    m.on('click', () => openDetail(s, data));
+    m.on('click', () => openDetail(s, data, 'marker'));
     m.addTo(layer);
     state.markers[slug].set(s.id, m);
   });
 }
 
-function updateActiveCount() {
-  let total = 0;
-  RETAILERS.forEach(r => {
-    if (!state.data[r.slug]) return;
-    const count = state.active[r.slug]
-      ? state.data[r.slug].stores.filter(s => isVisible(s, state.year)).length
-      : 0;
-    total += count;
-    const btn = document.querySelector(`.retailer-toggle[data-slug="${r.slug}"] [data-count]`);
-    if (btn) btn.textContent = count;
+/* ===== Smart chips (region-aware in-view counts) ===== */
+
+function regionForView(slug) {
+  const bounds = map.getBounds();
+  const data = state.data[slug];
+  if (!data) return { count: 0, region: null, stores: [] };
+  const inView = data.stores.filter(s => {
+    if (!isVisible(s, state.year)) return false;
+    return bounds.contains([s.lat, s.lng]);
   });
-  document.getElementById('active-count').textContent = total.toLocaleString();
+  // Pick the dominant country in view (>=60% of in-view stores) as the label
+  const counts = {};
+  inView.forEach(s => {
+    const c = s.country || '?';
+    counts[c] = (counts[c] || 0) + 1;
+  });
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  let region = null;
+  if (sorted.length) {
+    const [topC, topN] = sorted[0];
+    if (inView.length > 0 && topN / inView.length >= 0.6) region = topC;
+  }
+  return { count: inView.length, region, stores: inView };
 }
+
+function updateChips() {
+  const host = document.getElementById('chips');
+  host.innerHTML = '';
+  RETAILERS.forEach(r => {
+    if (!state.data[r.slug] || !state.active[r.slug]) return;
+    const { count, region } = regionForView(r.slug);
+    if (count === 0) return;
+    const regionLabel = region ? COUNTRY_NAMES[region] || region : 'in view';
+    const chip = document.createElement('button');
+    chip.className = 'chip';
+    chip.dataset.slug = r.slug;
+    chip.innerHTML =
+      `<span class="swatch" style="background:${r.color}"></span>` +
+      `<span class="count">${count.toLocaleString()}</span>` +
+      `<span class="region">${escapeHtml(r.name)} · ${escapeHtml(regionLabel)}</span>` +
+      `<span class="arrow">›</span>`;
+    chip.addEventListener('click', () => openManifest(r.slug));
+    host.appendChild(chip);
+  });
+}
+
+/* ===== Manifest sheet ===== */
+
+function openManifest(slug) {
+  state.manifestRetailer = slug;
+  const data = state.data[slug];
+  const { count, region, stores } = regionForView(slug);
+  const regionLabel = region ? COUNTRY_NAMES[region] || region : 'in view';
+
+  document.getElementById('manifest-title').textContent =
+    `${data._name} · ${regionLabel}`;
+  document.getElementById('manifest-sub').textContent =
+    `${count.toLocaleString()} ${count === 1 ? 'store' : 'stores'} as of ${state.year}`;
+
+  const list = document.getElementById('manifest-list');
+  list.innerHTML = '';
+  // Sort: by city then name for readability
+  const sorted = stores.slice().sort((a, b) =>
+    (a.city || '').localeCompare(b.city || '') ||
+    (a.name || '').localeCompare(b.name || '')
+  );
+  sorted.forEach(s => {
+    const item = document.createElement('div');
+    item.className = 'manifest-item';
+    const where = [s.city, s.state].filter(Boolean).join(', ');
+    item.innerHTML =
+      `<span class="pin" style="background:${data._color}"></span>` +
+      `<div class="body">` +
+        `<div class="name">${escapeHtml(s.name || '(unnamed)')}</div>` +
+        `<div class="meta">${escapeHtml(where)}${s.address ? ' · ' + escapeHtml(s.address) : ''}</div>` +
+      `</div>` +
+      `<span class="yr">${s.year_opened ?? ''}</span>`;
+    item.addEventListener('click', () => openDetail(s, data, 'manifest'));
+    list.appendChild(item);
+  });
+
+  showSheet('manifest');
+}
+
+/* ===== Detail sheet (minimal) ===== */
+
+function openDetail(s, data, from) {
+  state.selected = s.id;
+  state.detailFrom = from;
+  const retailerEl = document.getElementById('detail-retailer');
+  const body = document.getElementById('detail-body');
+  const back = document.getElementById('detail-back');
+
+  retailerEl.innerHTML =
+    `<span class="swatch" style="background:${data._color}"></span>` +
+    `${escapeHtml(data._name)}`;
+
+  back.classList.toggle('hidden', from !== 'manifest');
+
+  const estimated = s.coord_is_estimated || (s.raw && s.raw._year_opened_estimated);
+  const where = [s.city, s.state, s.country].filter(Boolean).join(', ');
+  const addr = s.address || '';
+  body.innerHTML =
+    `<div class="detail-name">${escapeHtml(s.name || '(unnamed)')}</div>` +
+    `<div class="detail-meta-row">` +
+      `<span class="item"><span class="k">Type</span><span class="v">${escapeHtml(s.store_type || '—')}</span></span>` +
+      `<span class="item"><span class="k">Year</span><span class="v ${estimated ? 'estimated' : ''}">${s.year_opened ?? '—'}</span></span>` +
+    `</div>` +
+    `<div class="detail-address ${(!addr && !where) ? 'empty' : ''}">` +
+      (addr ? escapeHtml(addr) + (where ? `<br>${escapeHtml(where)}` : '') :
+        (where ? escapeHtml(where) : 'No address available')) +
+      (s.postal_code ? ' ' + escapeHtml(s.postal_code) : '') +
+    `</div>`;
+
+  showSheet('detail');
+}
+
+/* ===== Sheet machinery ===== */
+
+function showSheet(name) {
+  const detail = document.getElementById('detail');
+  const manifest = document.getElementById('manifest');
+  const backdrop = document.getElementById('sheet-backdrop');
+
+  if (name === 'manifest') {
+    manifest.classList.remove('hidden');
+    manifest.setAttribute('aria-hidden','false');
+    detail.classList.add('hidden');
+    detail.setAttribute('aria-hidden','true');
+  } else if (name === 'detail') {
+    detail.classList.remove('hidden');
+    detail.setAttribute('aria-hidden','false');
+    if (state.detailFrom !== 'manifest') {
+      manifest.classList.add('hidden');
+      manifest.setAttribute('aria-hidden','true');
+    }
+  }
+  backdrop.classList.remove('hidden');
+  backdrop.setAttribute('aria-hidden','false');
+}
+
+function closeSheet() {
+  document.getElementById('detail').classList.add('hidden');
+  document.getElementById('detail').setAttribute('aria-hidden','true');
+  document.getElementById('manifest').classList.add('hidden');
+  document.getElementById('manifest').setAttribute('aria-hidden','true');
+  document.getElementById('sheet-backdrop').classList.add('hidden');
+  document.getElementById('sheet-backdrop').setAttribute('aria-hidden','true');
+  state.selected = null;
+  state.detailFrom = null;
+  state.manifestRetailer = null;
+}
+
+function backFromDetail() {
+  document.getElementById('detail').classList.add('hidden');
+  document.getElementById('detail').setAttribute('aria-hidden','true');
+  if (state.detailFrom === 'manifest') {
+    document.getElementById('manifest').classList.remove('hidden');
+    document.getElementById('manifest').setAttribute('aria-hidden','false');
+  } else {
+    closeSheet();
+  }
+  state.selected = null;
+  state.detailFrom = null;
+}
+
+/* ===== Time slider / play ===== */
 
 function setYear(y, animateBloom) {
   const prevYear = state.year;
@@ -177,7 +338,7 @@ function setYear(y, animateBloom) {
   RETAILERS.forEach(r => {
     if (state.active[r.slug]) rebuildMarkers(r.slug);
   });
-  updateActiveCount();
+  updateChips();
 
   if (animateBloom && y > prevYear) {
     RETAILERS.forEach(r => {
@@ -197,14 +358,12 @@ function spawnBloom(lat, lng, color) {
   const div = document.createElement('div');
   div.className = 'bloom-marker';
   div.style.cssText = `
-    position:absolute;
     left:${point.x}px; top:${point.y}px;
     width:14px; height:14px;
     background:${color};
     box-shadow:0 0 0 2px ${color}40;
   `;
-  const pane = map.getPane('overlayPane');
-  pane.appendChild(div);
+  map.getPane('overlayPane').appendChild(div);
   setTimeout(() => div.remove(), 850);
 }
 
@@ -213,7 +372,6 @@ function play() {
   if (state.playing) return;
   state.playing = true;
   document.getElementById('playpause').textContent = '⏸';
-  document.getElementById('playpause').setAttribute('aria-label','Pause');
   if (state.year >= state.yearMax) state.year = state.yearMin;
   playInterval = setInterval(() => {
     if (state.year >= state.yearMax) { pause(); return; }
@@ -225,7 +383,6 @@ function pause() {
   if (playInterval) clearInterval(playInterval);
   playInterval = null;
   document.getElementById('playpause').textContent = '▶';
-  document.getElementById('playpause').setAttribute('aria-label','Play');
 }
 
 function wireUI() {
@@ -234,105 +391,25 @@ function wireUI() {
     setYear(parseInt(e.target.value, 10), false);
   });
   document.getElementById('playpause').addEventListener('click', () => state.playing ? pause() : play());
-  document.getElementById('detail-close').addEventListener('click', closeDetail);
+
+  document.querySelectorAll('[data-close]').forEach(btn => {
+    btn.addEventListener('click', closeSheet);
+  });
+  document.getElementById('detail-back').addEventListener('click', backFromDetail);
+  document.getElementById('sheet-backdrop').addEventListener('click', closeSheet);
+
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeDetail();
+    if (e.key === 'Escape') closeSheet();
     if (e.key === ' ' && e.target === document.body) { e.preventDefault(); state.playing ? pause() : play(); }
   });
-}
 
-function openDetail(s, data) {
-  state.selected = s.id;
-  const el = document.getElementById('detail');
-  const backdrop = document.getElementById('detail-backdrop');
-  const body = document.getElementById('detail-body');
-  const fmt = (v) => (v == null || v === '') ? '—' : v;
-  const validation = s.year_opened_validation || '—';
-  const estimated = s.coord_is_estimated || (s.raw && s.raw._year_opened_estimated);
-  const status = s.status || 'active';
-  const statusLabel = status === 'coming_soon' ? 'Coming soon' : status[0].toUpperCase() + status.slice(1);
-  body.innerHTML = `
-    <div class="detail-retailer">
-      <span class="swatch" style="background:${data._color}"></span>
-      ${data._name}
-    </div>
-    <div class="detail-name">${escapeHtml(s.name || '(no name)')}</div>
-    <div class="detail-address">
-      ${escapeHtml(fmt(s.address))}<br>
-      ${escapeHtml([s.city, s.state, s.country].filter(Boolean).join(', '))} ${escapeHtml(s.postal_code || '')}
-    </div>
-    <div class="detail-grid">
-      <div><div class="k">Year opened</div><div class="v ${estimated ? 'estimated' : ''}">${fmt(s.year_opened)}</div></div>
-      <div><div class="k">Type</div><div class="v">${fmt(s.store_type)}</div></div>
-      <div><div class="k">Status</div><div class="v">${statusLabel}</div></div>
-      <div><div class="k">Phone</div><div class="v">${escapeHtml(fmt(s.phone))}</div></div>
-    </div>
-    ${s.hours ? `
-      <div class="detail-section-title">Hours</div>
-      <div class="detail-hours">${escapeHtml(s.hours)}</div>` : ''}
-    <div class="detail-section-title">Provenance</div>
-    <div class="detail-validation">year_opened_validation: ${escapeHtml(validation)}</div>
-    ${s.url ? `<div class="detail-section-title">Source</div>
-      <a class="detail-source" href="${escapeAttr(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.url)}</a>` : ''}
-  `;
-  el.classList.remove('hidden');
-  el.setAttribute('aria-hidden','false');
-  backdrop.classList.remove('hidden');
-  backdrop.setAttribute('aria-hidden','false');
-  el.scrollTop = 0;
-}
-function closeDetail() {
-  state.selected = null;
-  const el = document.getElementById('detail');
-  const backdrop = document.getElementById('detail-backdrop');
-  el.classList.add('hidden');
-  el.setAttribute('aria-hidden','true');
-  backdrop.classList.add('hidden');
-  backdrop.setAttribute('aria-hidden','true');
-}
-
-function wireSheetGestures() {
-  const sheet = document.getElementById('detail');
-  const handle = document.getElementById('detail-handle');
-  const backdrop = document.getElementById('detail-backdrop');
-  backdrop.addEventListener('click', closeDetail);
-
-  // Drag-to-dismiss only on touch (mobile)
-  let startY = null;
-  let dragging = false;
-  let translateY = 0;
-
-  const onStart = (e) => {
-    if (window.matchMedia('(min-width: 720px)').matches) return;
-    const t = e.touches ? e.touches[0] : e;
-    startY = t.clientY;
-    dragging = true;
-    sheet.style.transition = 'none';
-  };
-  const onMove = (e) => {
-    if (!dragging) return;
-    const t = e.touches ? e.touches[0] : e;
-    translateY = Math.max(0, t.clientY - startY);
-    sheet.style.transform = `translateY(${translateY}px)`;
-  };
-  const onEnd = () => {
-    if (!dragging) return;
-    dragging = false;
-    sheet.style.transition = '';
-    if (translateY > 80) closeDetail();
-    sheet.style.transform = '';
-    translateY = 0;
-  };
-
-  handle.addEventListener('touchstart', onStart, { passive: true });
-  handle.addEventListener('touchmove', onMove, { passive: true });
-  handle.addEventListener('touchend', onEnd);
+  // Recompute chips whenever the user pans/zooms
+  map.on('moveend', updateChips);
 }
 
 function escapeHtml(s) {
   if (s == null) return '';
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
-function escapeAttr(s) { return escapeHtml(s); }
 
 window.addEventListener('DOMContentLoaded', init);
