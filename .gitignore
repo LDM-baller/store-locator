@@ -1,0 +1,31 @@
+# Working/cached scraper artifacts at the root
+_lulu_*
+_alo_wayback_cache/
+*.bak
+
+# Underscore-prefixed working files in data/ (caches, sitemaps, .bak)
+data/_*
+
+# Throwaway inline helpers in _scripts/ (one-off backfills and validators)
+_scripts/_inline_*.py
+_scripts/_backfill_*.py
+_scripts/_validate_*.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+.parcel-cache/
+dist/

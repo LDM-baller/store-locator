@@ -1,0 +1,18 @@
+{
+  "_doc": "Per-store-name overrides for Lululemon year_opened. Applied AFTER the 10-K-rank estimator. Each entry overrides year_opened with a web-search-confirmed value. Keyed by (name, country). Edit by hand to add corrections.",
+
+  "_": [
+    {"name": "Battersea Power Station", "country": "GB", "year": 2025, "month": 12, "source": "Retail Gazette 2025/10 — Battersea opens Dec 5, 2025"},
+    {"name": "American Dream", "country": "US", "year": 2025, "month": 12, "source": "ROI-NJ 2025/12 — opened December 2025, Alo's 7th NJ store at East Rutherford (also Lulu present)"},
+    {"name": "Bridgewater Commons", "country": "US", "year": 2025, "month": 9, "source": "patch.com — Bridgewater NJ store opened September 2025"},
+    {"name": "Regent Mall", "country": "CA", "year": 2022, "month": 9, "source": "regentmall.ca — 'lululemon-opening-fall-2022' page slug; Fredericton store"},
+    {"name": "Manchester", "country": "GB", "year": 2025, "month": 11, "source": "Retail Gazette 2025/10 — Manchester opens Nov 21, 2025"},
+    {"name": "Westfield London", "country": "GB", "year": 2025, "month": 11, "source": "Retail Gazette 2025/10 — Westfield London opens Nov 28, 2025"}
+  ],
+
+  "_country_corrections": [
+    {"name": "Antwerp", "country": "GB", "fix_country": "BE", "fix_city": "Antwerp", "fix_state": null, "fix_lat": 51.2194, "fix_lng": 4.4025, "year": 2025, "source": "Lulu Dec 18, 2025 press release: Belgium is a recent franchise market. Original geocode of just 'Antwerp' returned a London street called 'Antwerp Way' instead of the actual city Antwerp, BE."},
+    {"name": "Cologne", "country": "FR", "fix_country": "DE", "fix_city": "Cologne", "fix_state": "North Rhine-Westphalia", "fix_lat": 50.9375, "fix_lng": 6.9603, "year": 2024, "source": "Cologne (Köln) is a city in Germany. Original geocode of 'Cologne' returned a building named 'Cologne' in Rungis, France. Lulu DE had 9 stores throughout FY2022-FY2025; Cologne is part of that fleet."},
+    {"name": "Zurich", "country": "DE", "fix_country": "CH", "fix_city": "Zurich", "fix_state": "Zurich", "fix_lat": 47.3769, "fix_lng": 8.5417, "year": 2017, "source": "Zurich is in Switzerland. Original geocode of 'Zurich' returned 'Zürich Strasse' in Frankfurt. Lulu CH has had 1 store throughout FY2019-FY2025; this is that store, debut estimated 2017 alongside DE."}
+  ]
+}

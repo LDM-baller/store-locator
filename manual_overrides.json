@@ -1,0 +1,53 @@
+{
+  "_doc": "Per-store-ID overrides for the scrapers. The scraper looks up each store ID here BEFORE geocoding. If an entry exists: (a) `geocode_query` (if set) replaces the auto-generated Nominatim query, (b) `lat`/`lng` (if set) skip geocoding entirely, (c) `store_type`/`status` (if set) override the auto-classification. Closed stores (status=closed) are dropped from the output entirely. Edit this file by hand when a store needs special handling — it persists across re-runs.",
+  "_decided_by_lindsay_2026_05_06": "Drop closed stores. Include pop-ups but label them. Include coming-soon but label them. Include outlets and concessions.",
+
+  "lululemon-60136": {
+    "geocode_query": "Bullring shopping centre, Birmingham, UK",
+    "store_type": "regular",
+    "status": "coming_soon",
+    "_note": "Auto-classify caught coming_soon from name. Geocode query needed because 'Bullring (coming soon)' isn't a place."
+  },
+  "lululemon-49174": {
+    "geocode_query": "Harajuku, Shibuya, Tokyo, Japan",
+    "store_type": "popup",
+    "status": "active",
+    "_note": "Pop-up location. Auto-classify catches popup from name; query needed because 'Harajuku Pop-up' isn't a place."
+  },
+  "lululemon-65190": {
+    "geocode_query": "Wertheim Village, Wertheim, Germany",
+    "store_type": "outlet",
+    "status": "active",
+    "_note": "Outlet at Wertheim Village (designer outlet near Frankfurt)."
+  },
+  "lululemon-50047": {
+    "geocode_query": "Moorabbin, Victoria, Australia",
+    "store_type": "outlet",
+    "status": "active",
+    "_note": "Direct Factory Outlet at Moorabbin (Melbourne suburb). The full street address didn't resolve in Nominatim — using the suburb centroid (city-level estimate is acceptable per Lindsay's 2026-05-06 decision)."
+  },
+  "lululemon-60203": {
+    "geocode_query": "Fenwick Department Store, Northumberland Street, Newcastle upon Tyne, UK",
+    "store_type": "concession",
+    "status": "active",
+    "_note": "Concession on the 1st Floor Womenswear at Fenwick Newcastle."
+  },
+  "lululemon-50596": {
+    "geocode_query": "Alexandria, Sydney, NSW, Australia",
+    "store_type": "outlet",
+    "status": "active",
+    "_note": "Lululemon Outlet in Alexandria, a Sydney suburb. Default geocode kept matching Alexandria, Italy."
+  },
+  "lululemon-60135": {
+    "geocode_query": "Trafford Centre, Manchester, UK",
+    "store_type": "regular",
+    "status": "active",
+    "_note": "Failed in last run due to a transient Nominatim DNS error — keeping an override entry so future runs always resolve cleanly."
+  },
+  "lululemon-72102": {
+    "geocode_query": "Milan, Italy",
+    "store_type": "regular",
+    "status": "active",
+    "_note": "Was geocoded to Lyon-area coordinates because the city-hint search center was Lyon (lululemon.fr). Force a clean Milan-Italy lookup."
+  }
+}
