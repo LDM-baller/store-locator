@@ -161,64 +161,82 @@ function rebuildMarkers(slug) {
   });
 }
 
-/* ===== Smart chips (region-aware in-view counts) ===== */
+/* ===== Smart chips (region-aware totals — independent of zoom level) =====
+ *
+ * The chips call out the current map's dominant country and show the TOTAL
+ * stores in that country for each retailer (not just the in-view subset).
+ * This way, zooming in on Manhattan still shows "476 US" for Lulu — not 5.
+ */
 
-function regionForView(slug) {
+function detectRegion() {
+  // Determine the dominant country across all active retailers' in-view stores.
   const bounds = map.getBounds();
-  const data = state.data[slug];
-  if (!data) return { count: 0, region: null, stores: [] };
-  const inView = data.stores.filter(s => {
-    if (!isVisible(s, state.year)) return false;
-    return bounds.contains([s.lat, s.lng]);
-  });
-  // Pick the dominant country in view (>=60% of in-view stores) as the label
   const counts = {};
-  inView.forEach(s => {
-    const c = s.country || '?';
-    counts[c] = (counts[c] || 0) + 1;
+  Object.values(state.data).forEach(d => {
+    if (!state.active[d._slug]) return;
+    d.stores.forEach(s => {
+      if (!isVisible(s, state.year)) return;
+      if (bounds.contains([s.lat, s.lng])) {
+        const c = s.country || '?';
+        counts[c] = (counts[c] || 0) + 1;
+      }
+    });
   });
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  let region = null;
-  if (sorted.length) {
-    const [topC, topN] = sorted[0];
-    if (inView.length > 0 && topN / inView.length >= 0.6) region = topC;
-  }
-  return { count: inView.length, region, stores: inView };
+  if (!sorted.length) return null;
+  const [topCountry, topCount] = sorted[0];
+  const total = sorted.reduce((sum, [, n]) => sum + n, 0);
+  // If the top country owns >=50% of in-view stores, call out that country.
+  // Otherwise the user is looking at a multi-country area — show worldwide.
+  return topCount / total >= 0.5 ? topCountry : null;
+}
+
+function storesInRegion(slug, region) {
+  const data = state.data[slug];
+  if (!data) return [];
+  return data.stores.filter(s => {
+    if (!isVisible(s, state.year)) return false;
+    if (!region) return true;          // worldwide
+    return s.country === region;
+  });
 }
 
 function updateChips() {
   const host = document.getElementById('chips');
   host.innerHTML = '';
+  const region = detectRegion();
+  const regionLabel = region ? (COUNTRY_NAMES[region] || region) : 'Worldwide';
+
   RETAILERS.forEach(r => {
     if (!state.data[r.slug] || !state.active[r.slug]) return;
-    const { count, region } = regionForView(r.slug);
-    if (count === 0) return;
-    const regionLabel = region ? COUNTRY_NAMES[region] || region : 'in view';
+    const stores = storesInRegion(r.slug, region);
+    if (stores.length === 0) return;
     const chip = document.createElement('button');
     chip.className = 'chip';
     chip.dataset.slug = r.slug;
     chip.innerHTML =
       `<span class="swatch" style="background:${r.color}"></span>` +
-      `<span class="count">${count.toLocaleString()}</span>` +
+      `<span class="count">${stores.length.toLocaleString()}</span>` +
       `<span class="region">${escapeHtml(r.name)} · ${escapeHtml(regionLabel)}</span>` +
       `<span class="arrow">›</span>`;
-    chip.addEventListener('click', () => openManifest(r.slug));
+    chip.addEventListener('click', () => openManifest(r.slug, region));
     host.appendChild(chip);
   });
 }
 
 /* ===== Manifest sheet ===== */
 
-function openManifest(slug) {
+function openManifest(slug, region) {
   state.manifestRetailer = slug;
   const data = state.data[slug];
-  const { count, region, stores } = regionForView(slug);
-  const regionLabel = region ? COUNTRY_NAMES[region] || region : 'in view';
+  if (region === undefined) region = detectRegion();
+  const stores = storesInRegion(slug, region);
+  const regionLabel = region ? (COUNTRY_NAMES[region] || region) : 'Worldwide';
 
   document.getElementById('manifest-title').textContent =
     `${data._name} · ${regionLabel}`;
   document.getElementById('manifest-sub').textContent =
-    `${count.toLocaleString()} ${count === 1 ? 'store' : 'stores'} as of ${state.year}`;
+    `${stores.length.toLocaleString()} ${stores.length === 1 ? 'store' : 'stores'} as of ${state.year}`;
 
   const list = document.getElementById('manifest-list');
   list.innerHTML = '';
