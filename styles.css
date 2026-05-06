@@ -60,10 +60,33 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   min-height: 46px;
 }
 .brand {
-  font-weight: 700; letter-spacing: 0.06em;
-  font-size: 12px;
+  display: inline-flex; align-items: center; gap: 7px;
+  text-decoration: none;
   color: var(--text);
   flex-shrink: 0;
+  padding-right: 4px;
+  border-right: 1px solid var(--border);
+  padding-left: 2px;
+  margin-left: -2px;
+}
+.logo-mark {
+  width: 24px; height: 24px;
+  display: block; flex-shrink: 0;
+}
+.wordmark {
+  display: none;     /* hidden on tight mobile by default; shown >=720px */
+  flex-direction: column;
+  font-family: ui-monospace, "JetBrains Mono", "SF Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.05;
+  font-size: 10.5px;
+}
+.wm-1 { color: var(--text); }
+.wm-2 { color: var(--text-dim); }
+@media (min-width: 380px) {
+  .wordmark { display: inline-flex; }
 }
 #retailers {
   display: flex; gap: 6px; flex: 1;
