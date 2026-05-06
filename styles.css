@@ -89,24 +89,28 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   .wordmark { display: inline-flex; }
 }
 #retailers {
-  display: flex; gap: 6px; flex: 1;
+  display: flex; gap: 5px; flex: 1; min-width: 0;
   overflow-x: auto; overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  padding-right: 4px;
+  padding-right: 14px;
+  /* Right-edge fade so the user knows there's more to scroll if it overflows */
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 14px), transparent);
+          mask-image: linear-gradient(to right, #000 calc(100% - 14px), transparent);
 }
 #retailers::-webkit-scrollbar { display: none; }
 .retailer-toggle {
-  display: inline-flex; align-items: center; gap: 7px;
-  padding: 6px 12px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 10px;
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.6);
   border-radius: 999px;
   color: var(--text-dim);
-  font-size: 13px;
+  font-size: 12px;
   white-space: nowrap;
+  flex-shrink: 0;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
-  min-height: 32px;
+  min-height: 30px;
 }
 .retailer-toggle.active {
   color: var(--text);

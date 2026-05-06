@@ -4,7 +4,7 @@
 const RETAILERS = [
   { slug: 'lululemon', name: 'Lululemon', file: 'data/lululemon.json',  color: '#E30613' },
   { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'data/alo-yoga.json',   color: '#1a1a1a' },
-  { slug: 'gucci',     name: 'Gucci',     file: 'data/gucci.json',      color: '#1F5230' },
+  { slug: 'gucci',     name: 'Gucci',     file: 'data/gucci.json',      color: '#1FA055' },
 ];
 
 const TYPE_STYLE = {
