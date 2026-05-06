@@ -5,7 +5,7 @@
   "platform": "custom-builder.io",
   "scope": "global",
   "scraped_at": "2026-05-06T03:18:57Z",
-  "store_count": 224,
+  "store_count": 225,
   "geocoded_count": 46,
   "geocoded_note": "Alo's CMS does not store coordinates for some entries (newer international markets, US mall locations, 'Coming Soon' stores). We extract coords from Google Maps URLs in the source where available; otherwise we geocode the full address via OSM Nominatim. Geocoded stores are flagged with coord_is_estimated=true and raw._coord_source='nominatim'. Geocode accuracy is typically ~50m for US/CA addresses with postal codes, looser for international entries with sparser source data.",
   "stores": [
@@ -8694,6 +8694,32 @@
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
       "year_opened_validation": "builder-createddate-only"
+    },
+    {
+      "id": "alo-yoga-hk-k11-musea",
+      "retailer": "Alo Yoga",
+      "name": "Hong Kong K11 Musea",
+      "address": "K11 Musea, Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui",
+      "city": "Hong Kong",
+      "state": null,
+      "country": "HK",
+      "postal_code": null,
+      "lat": 22.2949,
+      "lng": 114.1718,
+      "coord_is_estimated": false,
+      "store_type": "flagship",
+      "status": "active",
+      "phone": null,
+      "hours": null,
+      "url": null,
+      "year_opened": 2026,
+      "year_opened_validation": "press-confirmed",
+      "scraped_at": "2026-05-06T21:56:17Z",
+      "raw": {
+        "_coord_source": "manual-landmark-address",
+        "_data_source": "South China Morning Post, Feb 2026: 'Alo Yoga takes over waterfront store space in Hong Kong'",
+        "_note": "First Alo Yoga store in Hong Kong. 7,000 sq ft, two-storey waterfront space at K11 Musea (Tsim Sha Tsui)."
+      }
     }
   ],
   "year_opened_coverage": {
