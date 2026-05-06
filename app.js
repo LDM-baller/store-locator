@@ -169,8 +169,16 @@ function rebuildMarkers(slug) {
  */
 
 function detectRegion() {
-  // Determine the dominant country across all active retailers' in-view stores.
+  // 1) When zoomed out wide enough to be looking at multiple continents,
+  //    always treat as "Worldwide" so the chip doesn't flicker between
+  //    countries as the year slider scrubs (e.g., US share crossing 50%).
+  const zoom = map.getZoom();
   const bounds = map.getBounds();
+  const lngSpan = bounds.getEast() - bounds.getWest();
+  if (zoom <= 3 || lngSpan >= 180) return null;
+
+  // 2) Otherwise look at the dominant country among in-view stores.
+  //    A higher threshold (65%) avoids flipping on a borderline majority.
   const counts = {};
   Object.values(state.data).forEach(d => {
     if (!state.active[d._slug]) return;
@@ -186,9 +194,7 @@ function detectRegion() {
   if (!sorted.length) return null;
   const [topCountry, topCount] = sorted[0];
   const total = sorted.reduce((sum, [, n]) => sum + n, 0);
-  // If the top country owns >=50% of in-view stores, call out that country.
-  // Otherwise the user is looking at a multi-country area — show worldwide.
-  return topCount / total >= 0.5 ? topCountry : null;
+  return topCount / total >= 0.65 ? topCountry : null;
 }
 
 function storesInRegion(slug, region) {
