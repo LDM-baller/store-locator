@@ -20,15 +20,25 @@ const TYPE_STYLE = {
 };
 
 const COUNTRY_NAMES = {
-  US: 'US', CA: 'Canada', MX: 'Mexico', GB: 'UK', IE: 'Ireland', FR: 'France',
+  US: 'US', CA: 'Canada', MX: 'Mexico', BR: 'Brazil', AR: 'Argentina', CL: 'Chile',
+  GB: 'UK', IE: 'Ireland', FR: 'France',
   DE: 'Germany', ES: 'Spain', IT: 'Italy', NL: 'Netherlands', BE: 'Belgium',
   CH: 'Switzerland', SE: 'Sweden', NO: 'Norway', DK: 'Denmark', AT: 'Austria',
+  PT: 'Portugal', LU: 'Luxembourg', GR: 'Greece', CZ: 'Czechia', PL: 'Poland',
   AU: 'Australia', NZ: 'New Zealand',
   JP: 'Japan', KR: 'South Korea', CN: 'China', HK: 'Hong Kong', MO: 'Macau',
-  TW: 'Taiwan', SG: 'Singapore', MY: 'Malaysia', TH: 'Thailand',
+  TW: 'Taiwan', SG: 'Singapore', MY: 'Malaysia', TH: 'Thailand', VN: 'Vietnam', ID: 'Indonesia',
   AE: 'UAE', SA: 'Saudi Arabia', QA: 'Qatar', KW: 'Kuwait', BH: 'Bahrain',
   IL: 'Israel', TR: 'Turkey',
+  // Multi-country regions
+  EU: 'Europe',
 };
+
+const EUROPEAN_COUNTRIES = new Set([
+  'GB','IE','FR','DE','NL','BE','LU','CH','AT','ES','PT','IT','MT','GR','CY',
+  'NO','SE','DK','FI','IS','PL','CZ','SK','HU','SI','HR','BG','RO','EE','LV','LT',
+]);
+const EUROPE_BOUNDS = { south: 34, north: 72, west: -12, east: 42 };
 
 const state = {
   data: {},        // slug -> { stores, ... }
@@ -179,9 +189,29 @@ function detectRegion() {
   const bounds = map.getBounds();
   if (bounds.getEast() - bounds.getWest() >= 180) return null;
 
-  // Otherwise: country = country of the visible store nearest the map center.
-  // Simple, deterministic, and matches user intuition ("what am I looking at?").
   const center = map.getCenter();
+
+  // Multi-country region: "Europe" — triggered when map is centered in
+  // Europe AND at least 3 distinct European countries have a visible store
+  // in the current viewport. Falls back to single-country below.
+  const inEuropeBox = (
+    center.lat >= EUROPE_BOUNDS.south && center.lat <= EUROPE_BOUNDS.north &&
+    center.lng >= EUROPE_BOUNDS.west && center.lng <= EUROPE_BOUNDS.east
+  );
+  if (inEuropeBox) {
+    const euCountries = new Set();
+    Object.values(state.data).forEach(d => {
+      if (!state.active[d._slug]) return;
+      d.stores.forEach(s => {
+        if (!isVisible(s, state.year)) return;
+        if (!bounds.contains([s.lat, s.lng])) return;
+        if (EUROPEAN_COUNTRIES.has(s.country)) euCountries.add(s.country);
+      });
+    });
+    if (euCountries.size >= 3) return 'EU';
+  }
+
+  // Single country: pick the country of the visible store nearest the map center.
   let best = null, bestDsq = Infinity;
   Object.values(state.data).forEach(d => {
     if (!state.active[d._slug]) return;
@@ -201,7 +231,8 @@ function storesInRegion(slug, region) {
   if (!data) return [];
   return data.stores.filter(s => {
     if (!isVisible(s, state.year)) return false;
-    if (!region) return true;          // worldwide
+    if (!region) return true;                                     // worldwide
+    if (region === 'EU') return EUROPEAN_COUNTRIES.has(s.country);
     return s.country === region;
   });
 }
