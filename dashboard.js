@@ -128,43 +128,19 @@ function renderHeadline() {
   const allStores = active.flatMap(r => activeStoresAt(r.slug, state.yearMax));
   const total = allStores.length;
   const countries = new Set(allStores.map(s => s.country).filter(Boolean)).size;
-  const cities = new Set(allStores.map(s => `${s.country}|${s.city}`).filter(c => !c.endsWith('|null'))).size;
   const newestYear = state.yearMax;
   const newestThisYear = allStores.filter(s => s.year_opened === newestYear).length;
   const flagshipCount = allStores.filter(s => s.store_type === 'flagship').length;
 
-  // Latest opening: pick the most recent opening with a known year
-  let latest = null;
-  let latestRetailer = null;
-  active.forEach(r => {
-    activeStoresAt(r.slug, state.yearMax).forEach(s => {
-      if (s.year_opened == null) return;
-      if (!latest || s.year_opened > latest.year_opened) { latest = s; latestRetailer = r; }
-    });
-  });
-
   const stats = [
-    { num: total.toLocaleString(), lbl: 'Active stores', sub: active.map(r => r.name).join(' + ') },
-    { num: countries.toLocaleString(), lbl: 'Countries', sub: '' },
-    { num: '+' + newestThisYear, lbl: `Opened in ${newestYear}`, sub: '' },
-    { num: flagshipCount.toLocaleString(), lbl: 'Flagships', sub: '' },
+    { num: total.toLocaleString(),        lbl: 'Active stores', sub: active.map(r => r.name).join(' + ') },
+    { num: countries.toLocaleString(),    lbl: 'Countries',     sub: '' },
+    { num: '+' + newestThisYear,          lbl: `Opened in ${newestYear}`, sub: '' },
+    { num: flagshipCount.toLocaleString(),lbl: 'Flagships',     sub: '' },
   ];
   host.innerHTML = stats.map(st =>
     `<div class="stat"><div class="num">${st.num}</div><div class="lbl">${escapeHtml(st.lbl)}</div>${st.sub ? `<div class="sub">${escapeHtml(st.sub)}</div>` : ''}</div>`
   ).join('');
-
-  // Add a 5th sub-line below if latest opening exists
-  if (latest && latestRetailer) {
-    const sub = document.createElement('div');
-    sub.className = 'card-sub';
-    sub.style.marginTop = '12px';
-    sub.style.fontSize = '12px';
-    sub.style.color = 'var(--text-dim)';
-    sub.innerHTML = `Latest opening: <strong style="color:var(--text);font-weight:600">${escapeHtml(latest.name || '(unnamed)')}</strong> (${escapeHtml(latestRetailer.name)}, ${latest.year_opened})`;
-    host.parentElement.appendChild(sub);
-    // remove any prior latest line
-    while (sub.nextSibling) sub.parentElement.removeChild(sub.nextSibling);
-  }
 }
 
 /* ----- Fleet over time (cumulative line chart) ----- */
