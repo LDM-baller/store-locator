@@ -4,6 +4,7 @@
 const RETAILERS = [
   { slug: 'lululemon', name: 'Lululemon', file: 'data/lululemon.json',  color: '#E30613' },
   { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'data/alo-yoga.json',   color: '#1a1a1a' },
+  { slug: 'gucci',     name: 'Gucci',     file: 'data/gucci.json',      color: '#1F5230' },
 ];
 
 const TYPE_STYLE = {
@@ -126,7 +127,10 @@ function buildRetailerToggles() {
 function isVisible(s, year) {
   if (s.status === 'closed') return false;
   if (s.lat == null || s.lng == null) return false;
-  if (s.year_opened == null) return false;
+  // Stores without a known opening year (e.g., a fresh scrape with no
+  // year backfill yet) only show at the latest year — they're "currently
+  // operating" but their place in the temporal simulation is unknown.
+  if (s.year_opened == null) return year >= state.yearMax;
   return s.year_opened <= year;
 }
 
