@@ -8,8 +8,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Store Time Machine">
 <title>Analytics — Store Time Machine</title>
-<link rel="stylesheet" href="styles.css?v=18">
-<link rel="stylesheet" href="dashboard.css?v=18">
+<link rel="stylesheet" href="styles.css?v=20">
+<link rel="stylesheet" href="dashboard.css?v=20">
 </head>
 <body class="dash">
 
@@ -71,10 +71,14 @@
 
   <section class="card">
     <div class="card-title">Year snapshot</div>
-    <div class="card-sub">all retailers at a chosen year</div>
+    <div class="card-sub">all retailers at a chosen year and market</div>
     <div class="snapshot-controls">
       <input id="snap-year-slider" type="range" min="2000" max="2026" value="2026" step="1">
       <span id="snap-year-display" class="year-readout">2026</span>
+    </div>
+    <div class="snapshot-market">
+      <label for="snap-market">Market</label>
+      <select id="snap-market"></select>
     </div>
     <div id="snap-grid" class="snap-grid"></div>
   </section>
@@ -82,7 +86,7 @@
 
 <div id="loading">Loading…</div>
 
-<script src="dashboard.js?v=18"></script>
+<script src="dashboard.js?v=20"></script>
 <script>
   document.addEventListener('click', (e) => {
     const menu = document.getElementById('nav-menu');

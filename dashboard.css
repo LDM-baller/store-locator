@@ -196,6 +196,34 @@ body.dash {
   letter-spacing: -0.02em;
   min-width: 50px; text-align: right;
 }
+.snapshot-market {
+  display: flex; align-items: center; gap: 10px;
+  padding: 4px 0 14px;
+}
+.snapshot-market label {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-faint);
+  font-weight: 700;
+}
+.snapshot-market select {
+  flex: 1;
+  padding: 7px 10px;
+  font-size: 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.6);
+  color: var(--text);
+  font-family: inherit;
+  cursor: pointer;
+}
+.snapshot-market select:focus {
+  outline: none;
+  border-color: var(--border-strong);
+  background: var(--surface-solid);
+}
+
 .snap-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));

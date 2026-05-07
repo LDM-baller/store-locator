@@ -25,6 +25,7 @@ const state = {
   yearMin: 2000,
   yearMax: 2026,
   snapYear: 2026,
+  snapMarket: 'WW',   // 'WW' = worldwide, else 2-letter country code
 };
 
 async function init() {
@@ -93,6 +94,28 @@ function wireSnapshotSlider() {
     document.getElementById('snap-year-display').textContent = state.snapYear;
     renderSnapshot();
   });
+
+  // Market selector — populate from countries present in any retailer's data
+  const select = document.getElementById('snap-market');
+  if (!select) return;
+  const counts = {};
+  RETAILERS.forEach(r => {
+    const data = state.data[r.slug];
+    if (!data) return;
+    data.stores.forEach(s => {
+      if (!s.country) return;
+      counts[s.country] = (counts[s.country] || 0) + 1;
+    });
+  });
+  const sortedCountries = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([c]) => c);
+  select.innerHTML =
+    `<option value="WW">Worldwide</option>` +
+    sortedCountries.map(c => `<option value="${c}">${escapeHtml(COUNTRY_NAMES[c] || c)}</option>`).join('');
+  select.value = state.snapMarket;
+  select.addEventListener('change', e => {
+    state.snapMarket = e.target.value;
+    renderSnapshot();
+  });
 }
 
 function activeStoresAt(retailerSlug, year) {
@@ -128,15 +151,16 @@ function renderHeadline() {
   const allStores = active.flatMap(r => activeStoresAt(r.slug, state.yearMax));
   const total = allStores.length;
   const countries = new Set(allStores.map(s => s.country).filter(Boolean)).size;
-  const newestYear = state.yearMax;
-  const newestThisYear = allStores.filter(s => s.year_opened === newestYear).length;
+  // Use last full year (yearMax-1) for the "opened in" stat — current year is partial
+  const lastFullYear = state.yearMax - 1;
+  const openedLastYear = allStores.filter(s => s.year_opened === lastFullYear).length;
   const flagshipCount = allStores.filter(s => s.store_type === 'flagship').length;
 
   const stats = [
-    { num: total.toLocaleString(),        lbl: 'Active stores', sub: active.map(r => r.name).join(' + ') },
-    { num: countries.toLocaleString(),    lbl: 'Countries',     sub: '' },
-    { num: '+' + newestThisYear,          lbl: `Opened in ${newestYear}`, sub: '' },
-    { num: flagshipCount.toLocaleString(),lbl: 'Flagships',     sub: '' },
+    { num: total.toLocaleString(),         lbl: 'Active stores', sub: active.map(r => r.name).join(' + ') },
+    { num: countries.toLocaleString(),     lbl: 'Countries',     sub: '' },
+    { num: '+' + openedLastYear,           lbl: `Opened in ${lastFullYear}`, sub: '' },
+    { num: flagshipCount.toLocaleString(), lbl: 'Flagships',     sub: '' },
   ];
   host.innerHTML = stats.map(st =>
     `<div class="stat"><div class="num">${st.num}</div><div class="lbl">${escapeHtml(st.lbl)}</div>${st.sub ? `<div class="sub">${escapeHtml(st.sub)}</div>` : ''}</div>`
@@ -344,22 +368,30 @@ function renderTypeMix() {
 function renderSnapshot() {
   const host = document.getElementById('snap-grid');
   host.innerHTML = '';
+  const market = state.snapMarket || 'WW';
+  const isWW = market === 'WW';
+  const marketLabel = isWW ? 'Worldwide' : (COUNTRY_NAMES[market] || market);
+
   RETAILERS.forEach(r => {
     if (!state.data[r.slug]) return;
-    const stores = activeStoresAt(r.slug, state.snapYear);
-    const total = stores.length;
-    const countries = new Set(stores.map(s => s.country).filter(Boolean));
-    // Top market
+    // Filter active stores at year, optionally restricted to chosen market
+    const allActive = activeStoresAt(r.slug, state.snapYear);
+    const inMarket = isWW ? allActive : allActive.filter(s => s.country === market);
+    const total = inMarket.length;
+    // Stores opened during state.snapYear in this market
+    const openedThisYear = inMarket.filter(s => s.year_opened === state.snapYear).length;
+    // Top market only meaningful in worldwide view
     const cc = {};
-    stores.forEach(s => { cc[s.country || '?'] = (cc[s.country || '?'] || 0) + 1; });
-    const topMarket = Object.entries(cc).sort((a,b)=>b[1]-a[1])[0];
+    allActive.forEach(s => { cc[s.country || '?'] = (cc[s.country || '?'] || 0) + 1; });
+    const topMarket = Object.entries(cc).sort((a, b) => b[1] - a[1])[0];
 
     host.innerHTML += `
       <div class="snap-card">
         <div class="head"><span class="sw" style="background:${r.color}"></span>${escapeHtml(r.name)}</div>
-        <div class="row"><span class="k">Stores</span><span class="v">${total.toLocaleString()}</span></div>
-        <div class="row"><span class="k">Countries</span><span class="v">${countries.size}</span></div>
-        ${topMarket ? `<div class="top-mkt">Top market: <strong>${escapeHtml(COUNTRY_NAMES[topMarket[0]] || topMarket[0])}</strong> (${topMarket[1]})</div>` : ''}
+        <div class="row"><span class="k">${isWW ? 'Stores' : 'Stores in ' + escapeHtml(marketLabel)}</span><span class="v">${total.toLocaleString()}</span></div>
+        <div class="row"><span class="k">Opened in ${state.snapYear}</span><span class="v">+${openedThisYear}</span></div>
+        ${isWW ? `<div class="row"><span class="k">Countries</span><span class="v">${new Set(allActive.map(s => s.country).filter(Boolean)).size}</span></div>` : ''}
+        ${isWW && topMarket ? `<div class="top-mkt">Top market: <strong>${escapeHtml(COUNTRY_NAMES[topMarket[0]] || topMarket[0])}</strong> (${topMarket[1]})</div>` : ''}
       </div>`;
   });
 }
