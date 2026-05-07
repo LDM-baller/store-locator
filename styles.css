@@ -99,6 +99,20 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
           mask-image: linear-gradient(to right, #000 calc(100% - 14px), transparent);
 }
 #retailers::-webkit-scrollbar { display: none; }
+.nav-subtle {
+  display: inline-flex; align-items: center;
+  padding: 5px 8px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  text-decoration: none;
+  flex-shrink: 0;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+.nav-subtle:hover { color: var(--text-dim); }
+
 .retailer-toggle {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 6px 10px;
