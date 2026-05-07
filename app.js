@@ -40,6 +40,29 @@ const EUROPEAN_COUNTRIES = new Set([
 ]);
 const EUROPE_BOUNDS = { south: 34, north: 72, west: -12, east: 42 };
 
+const US_STATE_NAMES = {
+  AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California',
+  CO: 'Colorado', CT: 'Connecticut', DE: 'Delaware', FL: 'Florida', GA: 'Georgia',
+  HI: 'Hawaii', ID: 'Idaho', IL: 'Illinois', IN: 'Indiana', IA: 'Iowa',
+  KS: 'Kansas', KY: 'Kentucky', LA: 'Louisiana', ME: 'Maine', MD: 'Maryland',
+  MA: 'Massachusetts', MI: 'Michigan', MN: 'Minnesota', MS: 'Mississippi', MO: 'Missouri',
+  MT: 'Montana', NE: 'Nebraska', NV: 'Nevada', NH: 'New Hampshire', NJ: 'New Jersey',
+  NM: 'New Mexico', NY: 'New York', NC: 'North Carolina', ND: 'North Dakota', OH: 'Ohio',
+  OK: 'Oklahoma', OR: 'Oregon', PA: 'Pennsylvania', RI: 'Rhode Island', SC: 'South Carolina',
+  SD: 'South Dakota', TN: 'Tennessee', TX: 'Texas', UT: 'Utah', VT: 'Vermont',
+  VA: 'Virginia', WA: 'Washington', WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming',
+  DC: 'District of Columbia',
+};
+const US_STATE_NAME_TO_CODE = Object.fromEntries(
+  Object.entries(US_STATE_NAMES).map(([k, v]) => [v.toLowerCase(), k])
+);
+function usStateCode(state) {
+  if (!state) return null;
+  const s = String(state).trim();
+  if (s.length === 2 && US_STATE_NAMES[s.toUpperCase()]) return s.toUpperCase();
+  return US_STATE_NAME_TO_CODE[s.toLowerCase()] || null;
+}
+
 const state = {
   data: {},        // slug -> { stores, ... }
   active: {},      // slug -> bool
@@ -223,7 +246,26 @@ function detectRegion() {
       if (dsq < bestDsq) { bestDsq = dsq; best = s; }
     });
   });
-  return best ? (best.country || null) : null;
+  if (!best) return null;
+  // US state drill-down: at zoom >=5 over the US, find the nearest US store
+  // with a known state and use that state.
+  if (best.country === 'US' && zoom >= 5) {
+    let usBest = null, usBestDsq = Infinity;
+    Object.values(state.data).forEach(d => {
+      if (!state.active[d._slug]) return;
+      d.stores.forEach(s => {
+        if (!isVisible(s, state.year)) return;
+        if (s.country !== 'US') return;
+        if (!usStateCode(s.state)) return;
+        const dy = s.lat - center.lat;
+        const dx = s.lng - center.lng;
+        const dsq = dy * dy + dx * dx;
+        if (dsq < usBestDsq) { usBestDsq = dsq; usBest = s; }
+      });
+    });
+    if (usBest) return `US-${usStateCode(usBest.state)}`;
+  }
+  return best.country || null;
 }
 
 function storesInRegion(slug, region) {
@@ -233,15 +275,25 @@ function storesInRegion(slug, region) {
     if (!isVisible(s, state.year)) return false;
     if (!region) return true;                                     // worldwide
     if (region === 'EU') return EUROPEAN_COUNTRIES.has(s.country);
+    if (region.startsWith('US-')) {
+      if (s.country !== 'US') return false;
+      return usStateCode(s.state) === region.slice(3);
+    }
     return s.country === region;
   });
+}
+
+function regionDisplayName(region) {
+  if (!region) return 'Worldwide';
+  if (region.startsWith('US-')) return US_STATE_NAMES[region.slice(3)] || region.slice(3);
+  return COUNTRY_NAMES[region] || region;
 }
 
 function updateChips() {
   const host = document.getElementById('chips');
   host.innerHTML = '';
   const region = detectRegion();
-  const regionLabel = region ? (COUNTRY_NAMES[region] || region) : 'Worldwide';
+  const regionLabel = regionDisplayName(region);
 
   // Region label shown ONCE as a header pill instead of repeated in every
   // chip. Keeps all 3 retailer chips on one row even on narrow phones.
@@ -277,7 +329,7 @@ function openManifest(slug, region) {
   const data = state.data[slug];
   if (region === undefined) region = detectRegion();
   const stores = storesInRegion(slug, region);
-  const regionLabel = region ? (COUNTRY_NAMES[region] || region) : 'Worldwide';
+  const regionLabel = regionDisplayName(region);
 
   document.getElementById('manifest-title').textContent =
     `${data._name} · ${regionLabel}`;
