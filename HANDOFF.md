@@ -207,11 +207,16 @@ This worked for Lulu's 185 China stores (~30 stores PR-confirmed, rest tier-buck
 
 ### Smart chip region detection
 
-Final algorithm (in `app.js:detectRegion`):
+Final algorithm (in `app.js:detectRegion`), in priority order:
 
 1. If `zoom <= 3` or longitude span ≥ 180° → return `null` (Worldwide).
 2. If map center is in Europe bounding box AND ≥3 European countries have a visible store in viewport → return `'EU'`.
 3. Otherwise: country = country of the visible store **nearest the map center**.
+4. If country is `'US'` AND `zoom >= 5` → drill down to state. Find the nearest US store with a known state, return `'US-XX'` (e.g., `'US-CA'`).
+
+Region keys flow through `storesInRegion(slug, region)` which handles `null`, `'EU'`, `'US-XX'`, and bare country codes. `regionDisplayName(region)` resolves any key to its display label ("Worldwide", "Europe", "California", "Mexico", etc.).
+
+**State data**: Lulu uses 2-letter codes (`CA`), Alo uses full names (`California`), Gucci had `null` until 2026-05-07 — now backfilled from lat/lng via `_scripts/_backfill_gucci_us_state.py`. The viewer's `usStateCode()` accepts either format. Side-effect of the Gucci backfill: caught and corrected one mis-tagged store ("Gucci Porto Alegre", which the API returned as `country=US` despite being in Brazil).
 
 The "nearest store" approach is simpler and more deterministic than share-of-in-view-stores heuristics, which flickered as years scrubbed (e.g., US share crossing 50% between 2011 and 2012 caused chip count to "drop" from 146 worldwide to 89 US).
 
