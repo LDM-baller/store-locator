@@ -13,7 +13,12 @@
       "level": "founder",
       "joined": 2007,
       "history": [
-        {"company": "Color Image Apparel", "role": "Co-Founder", "from": 2007, "to": null}
+        {
+          "company": "Color Image Apparel",
+          "role": "Co-Founder",
+          "from": 2007,
+          "to": null
+        }
       ],
       "notes": "Co-founded Alo with Marco DeGeorge. Listed in Business of Fashion's BoF 500. Focus: strategic vision, partnerships, brand positioning."
     },
@@ -25,7 +30,12 @@
       "level": "founder",
       "joined": 2007,
       "history": [
-        {"company": "Color Image Apparel", "role": "Co-Founder", "from": 2007, "to": null}
+        {
+          "company": "Color Image Apparel",
+          "role": "Co-Founder",
+          "from": 2007,
+          "to": null
+        }
       ],
       "notes": "Co-founded Alo. Focus: product development, operations, internal systems."
     },
@@ -38,8 +48,18 @@
       "joined": null,
       "education": "JD/MBA, Santa Clara University",
       "history": [
-        {"company": "Gordon Rees Scully Mansukhani LLP", "role": "Associate", "from": null, "to": null},
-        {"company": "Thoits Law", "role": "Shareholder, IP Litigation", "from": null, "to": null}
+        {
+          "company": "Gordon Rees Scully Mansukhani LLP",
+          "role": "Associate",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Thoits Law",
+          "role": "Shareholder, IP Litigation",
+          "from": null,
+          "to": null
+        }
       ],
       "notes": "Cross-brand role; covers Alo Yoga and Bella+Canvas at parent level."
     },
@@ -54,26 +74,6 @@
       "notes": "Cross-brand CFO at parent (Color Image Apparel) level. Detailed bio not surfaced in public sources."
     },
     {
-      "id": "heidi-smith",
-      "name": "Heidi Smith",
-      "title": "Marketing (title unverified — aggregator data was stale)",
-      "function": "Marketing",
-      "level": "Other",
-      "joined": null,
-      "based_in": "Beverly Hills",
-      "education": "BASc Public Relations FIU; MS Digital Audience Strategy ASU Cronkite",
-      "history": [
-        {"company": "Lululemon", "role": "Marketing", "from": null, "to": null},
-        {"company": "David Yurman", "role": "Marketing", "from": null, "to": null},
-        {"company": "Sam Edelman", "role": "Marketing", "from": null, "to": null},
-        {"company": "Equity LifeStyle Properties", "role": "Marketing", "from": null, "to": null},
-        {"company": "ReadySetBlowBLUE", "role": "Marketing", "from": null, "to": null},
-        {"company": "Peekaboo Ice Cream", "role": "Marketing", "from": null, "to": null},
-        {"company": "Slate Milk", "role": "Marketing Associate", "from": null, "to": null}
-      ],
-      "notes": "Original CMO title from ZoomInfo/RocketReach aggregator scrapes - which are notoriously stale. Her actual LinkedIn does not show a Chief Marketing title. Removed from C-suite. Probable actual role is director or senior manager level. Verify directly with LinkedIn before relying."
-    },
-    {
       "id": "abby-gordon",
       "name": "Abby Gordon",
       "title": "Chief Design Merchandising Officer (CDMO)",
@@ -83,10 +83,30 @@
       "based_in": "Beverly Hills",
       "education": "San Diego State University",
       "history": [
-        {"company": "Alo Yoga", "role": "VP Sales & Marketing", "from": null, "to": null},
-        {"company": "Alo Yoga", "role": "VP Marketing", "from": null, "to": null},
-        {"company": "Alo Yoga", "role": "VP Design", "from": null, "to": null},
-        {"company": "Alo Yoga", "role": "EVP", "from": null, "to": null}
+        {
+          "company": "Alo Yoga",
+          "role": "VP Sales & Marketing",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Alo Yoga",
+          "role": "VP Marketing",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Alo Yoga",
+          "role": "VP Design",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Alo Yoga",
+          "role": "EVP",
+          "from": null,
+          "to": null
+        }
       ],
       "notes": "Long-tenured internal promotion: VP Sales & Marketing → VP Marketing → VP Design → EVP → CDMO. Public face of Alo Atelier (luxury line) and American Ballet Theatre collab."
     },
@@ -100,12 +120,42 @@
       "based_in": "Beverly Hills",
       "education": "MBA, University of Chicago",
       "history": [
-        {"company": "Petco Animal Supplies", "role": "Planning", "from": null, "to": null},
-        {"company": "thesportsauthority.com", "role": "Planning", "from": null, "to": null},
-        {"company": "Toys\"R\"Us", "role": "Planning", "from": null, "to": null},
-        {"company": "Aeropostale", "role": "Planning", "from": null, "to": null},
-        {"company": "DICK'S Sporting Goods", "role": "Planning", "from": null, "to": null},
-        {"company": "Five Below", "role": "SVP Planning & Allocation", "from": null, "to": null}
+        {
+          "company": "Petco Animal Supplies",
+          "role": "Planning",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "thesportsauthority.com",
+          "role": "Planning",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Toys\"R\"Us",
+          "role": "Planning",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Aeropostale",
+          "role": "Planning",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "DICK'S Sporting Goods",
+          "role": "Planning",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Five Below",
+          "role": "SVP Planning & Allocation",
+          "from": null,
+          "to": null
+        }
       ],
       "notes": "Championed Alo's invent.ai AI-driven inventory transformation; publicly quoted in press releases."
     },
@@ -119,12 +169,42 @@
       "joined_month": 6,
       "based_in": "Los Angeles",
       "history": [
-        {"company": "Oracle", "role": "Engineering Manager", "from": null, "to": null},
-        {"company": "Walmart eCommerce", "role": "Established e-commerce business", "from": null, "to": null},
-        {"company": "Sephora", "role": "VP Engineering", "from": 2011, "to": 2012},
-        {"company": "Sephora", "role": "Chief Technology Officer", "from": 2012, "to": 2013},
-        {"company": "Sephora", "role": "Chief Information Officer (built 800+ engineer org)", "from": 2013, "to": 2019},
-        {"company": "Capital One", "role": "CIO Commercial Bank Technology ($65B portfolio, 1,200+ engineers)", "from": 2019, "to": 2022}
+        {
+          "company": "Oracle",
+          "role": "Engineering Manager",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Walmart eCommerce",
+          "role": "Established e-commerce business",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Sephora",
+          "role": "VP Engineering",
+          "from": 2011,
+          "to": 2012
+        },
+        {
+          "company": "Sephora",
+          "role": "Chief Technology Officer",
+          "from": 2012,
+          "to": 2013
+        },
+        {
+          "company": "Sephora",
+          "role": "Chief Information Officer (built 800+ engineer org)",
+          "from": 2013,
+          "to": 2019
+        },
+        {
+          "company": "Capital One",
+          "role": "CIO Commercial Bank Technology ($65B portfolio, 1,200+ engineers)",
+          "from": 2019,
+          "to": 2022
+        }
       ],
       "notes": "Cross-brand role covering Alo Yoga and Bella+Canvas. Brought Sephora-trained tech leaders with him (Murthy, Findley)."
     },
@@ -137,10 +217,30 @@
       "joined": 2024,
       "joined_month": 10,
       "history": [
-        {"company": "American Eagle Outfitters", "role": "Senior Leadership", "from": null, "to": null},
-        {"company": "VF Corp.", "role": "Senior Leadership", "from": null, "to": null},
-        {"company": "Nautica", "role": "Senior Leadership", "from": null, "to": null},
-        {"company": "CorePower Yoga", "role": "Senior Leadership", "from": null, "to": 2024}
+        {
+          "company": "American Eagle Outfitters",
+          "role": "Senior Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "VF Corp.",
+          "role": "Senior Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Nautica",
+          "role": "Senior Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "CorePower Yoga",
+          "role": "Senior Leadership",
+          "from": null,
+          "to": 2024
+        }
       ],
       "notes": "Leads retail, DTC, and wholesale."
     },
@@ -153,22 +253,20 @@
       "joined": 2025,
       "joined_month": 4,
       "history": [
-        {"company": "L Brands", "role": "Finance Leadership", "from": null, "to": null},
-        {"company": "Victoria's Secret & Co.", "role": "Finance Leadership", "from": null, "to": 2025}
+        {
+          "company": "L Brands",
+          "role": "Finance Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Victoria's Secret & Co.",
+          "role": "Finance Leadership",
+          "from": null,
+          "to": 2025
+        }
       ],
       "notes": "20+ years in retail finance leadership."
-    },
-    {
-      "id": "beau-swenson",
-      "name": "Beau Swenson",
-      "title": "Former EVP Finance (no longer at Alo)",
-      "function": "Finance",
-      "level": "Former",
-      "joined": 2023,
-      "joined_month": 8,
-      "departed": true,
-      "history": [],
-      "notes": "Joined as EVP Finance Aug 2023. Confirmed no longer at Alo (Lindsay verified 2026-05-07). Likely succeeded by Scott Miller (joined as EVP Finance/CFO Apr 2025)."
     },
     {
       "id": "benedetta-petruzzo",
@@ -179,8 +277,18 @@
       "joined": 2026,
       "joined_month": 1,
       "history": [
-        {"company": "Miu Miu", "role": "CEO", "from": null, "to": 2026},
-        {"company": "Christian Dior Couture", "role": "Managing Director", "from": null, "to": null}
+        {
+          "company": "Miu Miu",
+          "role": "CEO",
+          "from": null,
+          "to": 2026
+        },
+        {
+          "company": "Christian Dior Couture",
+          "role": "Managing Director",
+          "from": null,
+          "to": null
+        }
       ],
       "notes": "Mandate: drive global expansion + transition to multi-category luxury wellness. Grew Miu Miu past €1B retail threshold."
     },
@@ -207,8 +315,18 @@
       "based_in": "Los Angeles",
       "education": "Kenyon College",
       "history": [
-        {"company": "Urban Outfitters", "role": "Director of Talent Acquisition / Executive Search Consultant", "from": null, "to": 2018},
-        {"company": "Crowd Of Stars", "role": "Founder", "from": 2018, "to": 2021}
+        {
+          "company": "Urban Outfitters",
+          "role": "Director of Talent Acquisition / Executive Search Consultant",
+          "from": null,
+          "to": 2018
+        },
+        {
+          "company": "Crowd Of Stars",
+          "role": "Founder",
+          "from": 2018,
+          "to": 2021
+        }
       ],
       "notes": "Joined Alo as VP People in Jan 2021; promoted to EVP later."
     },
@@ -222,9 +340,24 @@
       "based_in": "Penngrove",
       "education": "University of San Francisco",
       "history": [
-        {"company": "Limenes Consulting", "role": "Consultant", "from": null, "to": null},
-        {"company": "CreateMe Technologies LLC", "role": "Operations", "from": null, "to": null},
-        {"company": "Athleta", "role": "Operations", "from": null, "to": null}
+        {
+          "company": "Limenes Consulting",
+          "role": "Consultant",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "CreateMe Technologies LLC",
+          "role": "Operations",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Athleta",
+          "role": "Operations",
+          "from": null,
+          "to": null
+        }
       ]
     },
     {
@@ -235,8 +368,18 @@
       "level": "SVP",
       "joined": null,
       "history": [
-        {"company": "Nike EMEA", "role": "Design", "from": null, "to": null},
-        {"company": "Nike", "role": "Design", "from": null, "to": null}
+        {
+          "company": "Nike EMEA",
+          "role": "Design",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Nike",
+          "role": "Design",
+          "from": null,
+          "to": null
+        }
       ]
     },
     {
@@ -249,12 +392,42 @@
       "joined_month": 8,
       "based_in": "New York City",
       "history": [
-        {"company": "The Carter Center", "role": "Assistant Director", "from": null, "to": null},
-        {"company": "Marriott International", "role": "Sr Global Marketing Director (W Hotels) / Associate Brand Director (Le Meridien)", "from": null, "to": null},
-        {"company": "King Of Clubs", "role": "Owner / Marketing Consulting", "from": null, "to": null},
-        {"company": "Equinox", "role": "VP Marketing", "from": null, "to": null},
-        {"company": "XWELL", "role": "Chief Marketing Officer", "from": 2022, "to": 2024},
-        {"company": "Spherical", "role": "President + CMO", "from": 2024, "to": 2025}
+        {
+          "company": "The Carter Center",
+          "role": "Assistant Director",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Marriott International",
+          "role": "Sr Global Marketing Director (W Hotels) / Associate Brand Director (Le Meridien)",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "King Of Clubs",
+          "role": "Owner / Marketing Consulting",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Equinox",
+          "role": "VP Marketing",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "XWELL",
+          "role": "Chief Marketing Officer",
+          "from": 2022,
+          "to": 2024
+        },
+        {
+          "company": "Spherical",
+          "role": "President + CMO",
+          "from": 2024,
+          "to": 2025
+        }
       ],
       "notes": "Hospitality + wellness-club background — strong signal Alo is building physical wellness clubs as a new business line."
     },
@@ -268,25 +441,19 @@
       "joined_month": 9,
       "based_in": "Beverly Hills",
       "history": [
-        {"company": "Sephora", "role": "Sr Director Retail Operations / Director Business Operations & Workflow Optimization", "from": 2016, "to": 2020},
-        {"company": "Harbor Freight Tools", "role": "Sr Director Retail Operations", "from": 2020, "to": 2022}
+        {
+          "company": "Sephora",
+          "role": "Sr Director Retail Operations / Director Business Operations & Workflow Optimization",
+          "from": 2016,
+          "to": 2020
+        },
+        {
+          "company": "Harbor Freight Tools",
+          "role": "Sr Director Retail Operations",
+          "from": 2020,
+          "to": 2022
+        }
       ]
-    },
-    {
-      "id": "ken-seidl",
-      "name": "Ken Seidl",
-      "title": "VP, Global Operations (Alo + Bella+Canvas)",
-      "function": "Operations",
-      "level": "VP",
-      "joined": 2023,
-      "based_in": "Melbourne Beach, FL",
-      "verification": "aggregator-only — direct LinkedIn search did not surface; flag for verification",
-      "history": [
-        {"company": "Fruit of the Loom", "role": "Vice President of Sales", "from": null, "to": null},
-        {"company": "Alphabroder", "role": "SVP Strategic Sales", "from": null, "to": null},
-        {"company": "Johns Hopkins University", "role": "Faculty", "from": null, "to": null}
-      ],
-      "notes": "Title and tenure consistent across multiple aggregators (RocketReach, ContactOut, theorg, Adapt.io, Datanyze) - all show VP Global Ops at Alo + Bella+Canvas. Lindsay flagged that he doesn't surface in LinkedIn search; could be aggregator-stale (like Heidi Smith case). Verify directly before relying."
     },
     {
       "id": "marie-sailer",
@@ -297,9 +464,24 @@
       "joined": null,
       "based_in": "El Segundo",
       "history": [
-        {"company": "VF Corporation", "role": "Logistics", "from": null, "to": null},
-        {"company": "JustFab", "role": "Logistics", "from": null, "to": null},
-        {"company": "TechStyle Fashion Group", "role": "Sr Director, Global Logistics Operations", "from": null, "to": null}
+        {
+          "company": "VF Corporation",
+          "role": "Logistics",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "JustFab",
+          "role": "Logistics",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "TechStyle Fashion Group",
+          "role": "Sr Director, Global Logistics Operations",
+          "from": null,
+          "to": null
+        }
       ],
       "notes": "25+ years in global logistics, transportation, trade compliance."
     },
@@ -312,9 +494,24 @@
       "joined": 2024,
       "joined_month": 4,
       "history": [
-        {"company": "Sears Holdings Corporation", "role": "Quality Management", "from": null, "to": null},
-        {"company": "VF Corporation", "role": "Quality Management", "from": null, "to": null},
-        {"company": "Converse", "role": "Quality Management", "from": null, "to": 2024}
+        {
+          "company": "Sears Holdings Corporation",
+          "role": "Quality Management",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "VF Corporation",
+          "role": "Quality Management",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Converse",
+          "role": "Quality Management",
+          "from": null,
+          "to": 2024
+        }
       ]
     },
     {
@@ -326,9 +523,24 @@
       "joined": 2024,
       "joined_month": 1,
       "history": [
-        {"company": "Gap Inc.", "role": "Product Development", "from": null, "to": null},
-        {"company": "Worth New York", "role": "Product Development", "from": null, "to": null},
-        {"company": "Athleta", "role": "Product Development", "from": null, "to": 2024}
+        {
+          "company": "Gap Inc.",
+          "role": "Product Development",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Worth New York",
+          "role": "Product Development",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Athleta",
+          "role": "Product Development",
+          "from": null,
+          "to": 2024
+        }
       ]
     },
     {
@@ -342,10 +554,30 @@
       "joined_month": 6,
       "education": "Pursuing Masters Computer Engineering, Dartmouth",
       "history": [
-        {"company": "Walmart.com", "role": "Engineering Leadership", "from": null, "to": null},
-        {"company": "Benefit Cosmetics", "role": "Engineering Leadership", "from": null, "to": null},
-        {"company": "Seal Commerce", "role": "Engineering Leadership", "from": null, "to": null},
-        {"company": "TransUnion", "role": "Engineering Leadership", "from": null, "to": 2023}
+        {
+          "company": "Walmart.com",
+          "role": "Engineering Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Benefit Cosmetics",
+          "role": "Engineering Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Seal Commerce",
+          "role": "Engineering Leadership",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "TransUnion",
+          "role": "Engineering Leadership",
+          "from": null,
+          "to": 2023
+        }
       ],
       "notes": "Walmart.com overlap with Savio Thattil's eCommerce era — likely a Savio recruit."
     },
@@ -359,8 +591,18 @@
       "joined": 2023,
       "joined_month": 4,
       "history": [
-        {"company": "bebe stores", "role": "Network/Security Engineering", "from": null, "to": null},
-        {"company": "Sephora USA", "role": "Network/System/Security Engineering and Architecture", "from": null, "to": 2023}
+        {
+          "company": "bebe stores",
+          "role": "Network/Security Engineering",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Sephora USA",
+          "role": "Network/System/Security Engineering and Architecture",
+          "from": null,
+          "to": 2023
+        }
       ],
       "notes": "Sephora overlap with Savio Thattil's CIO era — likely a Savio recruit."
     },
@@ -373,9 +615,24 @@
       "reports_to": "savio-thattil",
       "based_in": "San Ramon, CA",
       "history": [
-        {"company": "Deem, Inc.", "role": "Engineering", "from": null, "to": null},
-        {"company": "Klinche, Inc.", "role": "Engineering", "from": null, "to": null},
-        {"company": "Gap Inc.", "role": "Engineering", "from": null, "to": null}
+        {
+          "company": "Deem, Inc.",
+          "role": "Engineering",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Klinche, Inc.",
+          "role": "Engineering",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Gap Inc.",
+          "role": "Engineering",
+          "from": null,
+          "to": null
+        }
       ]
     },
     {
@@ -408,21 +665,6 @@
       "notes": "15+ years digital marketing, social media, community engagement. Specifically Alo Moves (the wellness/fitness app subsidiary), not the apparel brand directly."
     },
     {
-      "id": "roxanne-pavee",
-      "name": "Roxanne Pavée",
-      "title": "Former Sr Director, Brand Partnerships & Experiential (likely departed)",
-      "function": "Marketing",
-      "level": "Former",
-      "joined": null,
-      "departed": true,
-      "history": [
-        {"company": "Rhode", "role": "Social", "from": null, "to": null},
-        {"company": "Alo Yoga", "role": "Social", "from": null, "to": null},
-        {"company": "Alo Yoga", "role": "Sr Director, Brand Partnerships & Experiential", "from": null, "to": null}
-      ],
-      "notes": "Recent LinkedIn signal indicates she has moved on: 'recently joined Natural as Head of Marketing'. Was Sr Director, Brand Partnerships & Experiential at Alo. Demoted to Former status pending direct verification."
-    },
-    {
       "id": "richard-sass",
       "name": "Richard Sass",
       "title": "HRBP, West Coast",
@@ -431,8 +673,18 @@
       "joined": null,
       "based_in": "Pasadena, CA",
       "history": [
-        {"company": "UNIQLO", "role": "HR", "from": null, "to": null},
-        {"company": "Glossier, Inc.", "role": "HR", "from": null, "to": null}
+        {
+          "company": "UNIQLO",
+          "role": "HR",
+          "from": null,
+          "to": null
+        },
+        {
+          "company": "Glossier, Inc.",
+          "role": "HR",
+          "from": null,
+          "to": null
+        }
       ]
     }
   ]
