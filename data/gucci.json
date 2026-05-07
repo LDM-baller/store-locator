@@ -4,7 +4,7 @@
   "source_url": "https://www.gucci.com/us/en/store",
   "platform": "sap-hybris-solr-storefinder",
   "endpoint": "https://www.gucci.com/us/en/store/all",
-  "scraped_at": "2026-05-06T21:05:14Z",
+  "scraped_at": "2026-05-07T12:39:48Z",
   "store_count": 598,
   "stores": [
     {
@@ -620,7 +620,7 @@
       "name": "Chicago Flagship",
       "address": "900 North Michigan Avenue",
       "city": "Chicago",
-      "state": null,
+      "state": "IL",
       "country": "US",
       "postal_code": "60611",
       "lat": 41.8998,
@@ -687,7 +687,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199290872"
+        "pk": "8796199290872",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -772,7 +773,7 @@
       "name": "New York Fifth Avenue Flagship",
       "address": "725 Fifth Avenue",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "10022",
       "lat": 40.76234,
@@ -840,7 +841,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199716856"
+        "pk": "8796199716856",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -849,7 +851,7 @@
       "name": "Wooster",
       "address": "63 Wooster Street",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "10012",
       "lat": 40.7233558,
@@ -916,7 +918,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8799664769016"
+        "pk": "8799664769016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -997,7 +1000,7 @@
       "name": "San Francisco Flagship",
       "address": "240 Stockton Street",
       "city": "San Francisco",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "94108",
       "lat": 37.78819,
@@ -1064,7 +1067,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198733816"
+        "pk": "8796198733816",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -1148,7 +1152,7 @@
       "name": "The Forum Shops at Caesars",
       "address": "3500 Las Vegas Boulevard South The Forum Shops at Caesars, Suite G09A",
       "city": "Las Vegas",
-      "state": null,
+      "state": "NV",
       "country": "US",
       "postal_code": "89109",
       "lat": 36.11885,
@@ -1214,7 +1218,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199553016"
+        "pk": "8796199553016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -1223,7 +1228,7 @@
       "name": "The Shops at Crystals",
       "address": "3720 South Las Vegas Blvd The Shops at Crystals, Suite 125B",
       "city": "Las Vegas",
-      "state": null,
+      "state": "NV",
       "country": "US",
       "postal_code": "89158",
       "lat": 36.107175,
@@ -1290,7 +1295,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796200306680"
+        "pk": "8796200306680",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -1760,7 +1766,7 @@
       "name": "Beverly Hills Flagship",
       "address": "347 North Rodeo Drive",
       "city": "Beverly Hills",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "90210",
       "lat": 34.06846,
@@ -1828,7 +1834,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198569976"
+        "pk": "8796198569976",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -1985,7 +1992,7 @@
       "name": "South Coast Plaza",
       "address": "3333 Bristol Street South Coast Plaza, Suite 2218",
       "city": "Costa Mesa",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "92626",
       "lat": 33.69078,
@@ -2051,7 +2058,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198635512"
+        "pk": "8796198635512",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -2135,7 +2143,7 @@
       "name": "Houston Galleria I",
       "address": "5015 Westheimer Road The Galleria, Suite A2422",
       "city": "Houston",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "77056",
       "lat": 29.74056,
@@ -2202,7 +2210,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8801106561016"
+        "pk": "8801106561016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -2211,7 +2220,7 @@
       "name": "Bal Harbour Shops",
       "address": "9700 Collins Avenue Bal Harbour Shops, Suite 172",
       "city": "Bal Harbour",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33154",
       "lat": 25.88857,
@@ -2278,7 +2287,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198963192"
+        "pk": "8796198963192",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -2514,7 +2524,7 @@
       "name": "Ala Moana",
       "address": "1450 Ala Moana Boulevard Ala Moana Center, Suite 2085",
       "city": "Honolulu",
-      "state": null,
+      "state": "HI",
       "country": "US",
       "postal_code": "96814",
       "lat": 21.29181,
@@ -2582,7 +2592,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199225336"
+        "pk": "8796199225336",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -2591,7 +2602,7 @@
       "name": "Gucci Waikiki",
       "address": "2118 Kalakaua Avenue",
       "city": "Honolulu",
-      "state": null,
+      "state": "HI",
       "country": "US",
       "postal_code": "96815",
       "lat": 21.28148,
@@ -2658,7 +2669,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199323640"
+        "pk": "8796199323640",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -8010,7 +8022,7 @@
       "name": "The Shops at The Bravern",
       "address": "700 110th Avenue Northeast Suite 170",
       "city": "Bellevue",
-      "state": null,
+      "state": "WA",
       "country": "US",
       "postal_code": "98004",
       "lat": 47.6166,
@@ -8076,7 +8088,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796206761976"
+        "pk": "8796206761976",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -8085,7 +8098,7 @@
       "name": "Nordstrom Downtown Seattle",
       "address": "500 Pine Street Nordstrom",
       "city": "Seattle",
-      "state": null,
+      "state": "WA",
       "country": "US",
       "postal_code": "98101",
       "lat": 47.6122937,
@@ -8147,7 +8160,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8802679490552"
+        "pk": "8802679490552",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -8729,7 +8743,7 @@
       "name": "Gucci Portland Pioneer Place",
       "address": "700 Southwest Fifth Avenue Pioneer Place, Space 1032",
       "city": "Portland",
-      "state": null,
+      "state": "OR",
       "country": "US",
       "postal_code": "97204",
       "lat": 45.518627,
@@ -8792,7 +8806,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8807594625016"
+        "pk": "8807594625016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -9789,7 +9804,7 @@
       "name": "Gucci Southdale Minneapolis",
       "address": "10 Southdale Center, Space #2690",
       "city": "Edina",
-      "state": null,
+      "state": "MN",
       "country": "US",
       "postal_code": "55435",
       "lat": 44.8808535,
@@ -9849,7 +9864,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8815262337016"
+        "pk": "8815262337016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11340,7 +11356,7 @@
       "name": "Troy Somerset Collection",
       "address": "2801 W Big Beaver Road Somerset Collection, Space E-144",
       "city": "Troy",
-      "state": null,
+      "state": "MI",
       "country": "US",
       "postal_code": "48084",
       "lat": 42.56114,
@@ -11404,7 +11420,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199487480"
+        "pk": "8796199487480",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11483,7 +11500,7 @@
       "name": "Detroit Library Street",
       "address": "1274 Library Street",
       "city": "Detroit",
-      "state": null,
+      "state": "MI",
       "country": "US",
       "postal_code": "48226",
       "lat": 42.3347073,
@@ -11549,7 +11566,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8811952769016"
+        "pk": "8811952769016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11558,7 +11576,7 @@
       "name": "Saks Boston Prudential Center - Handbags",
       "address": "800 Boylston Street Saks Fifth Avenue Prudential Center",
       "city": "Boston",
-      "state": null,
+      "state": "MA",
       "country": "US",
       "postal_code": "02199",
       "lat": 42.347991,
@@ -11619,7 +11637,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891213304"
+        "pk": "8805891213304",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11628,7 +11647,7 @@
       "name": "Boston Copley Place",
       "address": "100 Huntington  Avenue Copley Place Boston, Space A019",
       "city": "Boston",
-      "state": null,
+      "state": "MA",
       "country": "US",
       "postal_code": "02116",
       "lat": 42.347342,
@@ -11694,7 +11713,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8800942721016"
+        "pk": "8800942721016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11703,7 +11723,7 @@
       "name": "Fashion Outlets of Chicago",
       "address": "5220 Fashion Outlets Way Suite 2095",
       "city": "Rosemont",
-      "state": null,
+      "state": "IL",
       "country": "US",
       "postal_code": "60018",
       "lat": 41.9891,
@@ -11766,7 +11786,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796205877240"
+        "pk": "8796205877240",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11926,7 +11947,7 @@
       "name": "Nordstrom Chicago",
       "address": "55 East Grand Avenue Nordstrom The Shops at North Bridge",
       "city": "Chicago",
-      "state": null,
+      "state": "IL",
       "country": "US",
       "postal_code": "60611",
       "lat": 41.891454,
@@ -11983,7 +12004,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8810216065016"
+        "pk": "8810216065016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -11992,7 +12014,7 @@
       "name": "Gucci Oakbrook",
       "address": "295 Oakbrook Center",
       "city": "Oak Brook",
-      "state": null,
+      "state": "IL",
       "country": "US",
       "postal_code": "60523",
       "lat": 41.8488826,
@@ -12055,7 +12077,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8810019457016"
+        "pk": "8810019457016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -12274,7 +12297,7 @@
       "name": "Woodbury Common Premium Outlets",
       "address": "302 Red Apple Court, Route 32 Woodbury Commons Premium Outlets",
       "city": "Central Valley",
-      "state": null,
+      "state": "NJ",
       "country": "US",
       "postal_code": "10917",
       "lat": 41.31666,
@@ -12337,7 +12360,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796199847928"
+        "pk": "8796199847928",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -12417,7 +12441,7 @@
       "name": "The Westchester",
       "address": "125 Westchester Avenue The Westchester, Space 1220A-2",
       "city": "White Plains",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "10601",
       "lat": 41.030847,
@@ -12481,7 +12505,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199749624"
+        "pk": "8796199749624",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -12633,7 +12658,7 @@
       "name": "Paramus Garden State Plaza",
       "address": "1 Garden State Plaza Space 1120",
       "city": "Paramus",
-      "state": null,
+      "state": "NJ",
       "country": "US",
       "postal_code": "07652",
       "lat": 40.91812,
@@ -12697,7 +12722,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199684088"
+        "pk": "8796199684088",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -12841,7 +12867,7 @@
       "name": "American Dream",
       "address": "1 American Dream Way American Dream, E154",
       "city": "East Rutherford",
-      "state": null,
+      "state": "NJ",
       "country": "US",
       "postal_code": "07073",
       "lat": 40.80962479,
@@ -12904,7 +12930,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8814672513016"
+        "pk": "8814672513016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -12913,7 +12940,7 @@
       "name": "Americana Manhasset",
       "address": "2124 Northern Boulevard Americana",
       "city": "Manhasset",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "11030",
       "lat": 40.79666,
@@ -12980,7 +13007,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199815160"
+        "pk": "8796199815160",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -13130,7 +13158,7 @@
       "name": "Bloomingdale's New York 59th Street",
       "address": "1000 Third Avenue Bloomingdale's",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "10022",
       "lat": 40.7619851,
@@ -13190,7 +13218,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891606520"
+        "pk": "8805891606520",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -13199,7 +13228,7 @@
       "name": "New York - Saks",
       "address": "611 Fifth Avenue Saks Fifth Avenue, 1st Floor",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "10022",
       "lat": 40.75813,
@@ -13258,7 +13287,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805857921016"
+        "pk": "8805857921016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -13267,7 +13297,7 @@
       "name": "The Mall at Short Hills",
       "address": "1200 Morris Turnpike The Mall at Short Hills, Suite C224",
       "city": "Short Hills",
-      "state": null,
+      "state": "NJ",
       "country": "US",
       "postal_code": "07078",
       "lat": 40.7401603325834,
@@ -13333,7 +13363,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199520248"
+        "pk": "8796199520248",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -13342,7 +13373,7 @@
       "name": "New York Meatpacking",
       "address": "400 W 14th Street",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "10014",
       "lat": 40.74083,
@@ -13408,7 +13439,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813263489016"
+        "pk": "8813263489016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -13417,7 +13449,7 @@
       "name": "Bloomingdale's Roosevelt Field",
       "address": "630 Old Country Road Bloomingdales",
       "city": "Garden City",
-      "state": null,
+      "state": "NY",
       "country": "US",
       "postal_code": "11530",
       "lat": 40.7379665,
@@ -13476,7 +13508,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891639288"
+        "pk": "8805891639288",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -13701,7 +13734,7 @@
       "name": "Pittsburgh Ross Park",
       "address": "1000 Ross Park Mall Drive Space C02F",
       "city": "Pittsburgh",
-      "state": null,
+      "state": "WV",
       "country": "US",
       "postal_code": "15237",
       "lat": 40.54313,
@@ -13762,7 +13795,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813034113016"
+        "pk": "8813034113016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14210,7 +14244,7 @@
       "name": "Columbus Easton",
       "address": "4120 The Strand East Space 328",
       "city": "Columbus",
-      "state": null,
+      "state": "OH",
       "country": "US",
       "postal_code": "43219",
       "lat": 40.05322,
@@ -14273,7 +14307,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8811821697016"
+        "pk": "8811821697016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14347,7 +14382,7 @@
       "name": "King of Prussia Mall",
       "address": "350 Mall Boulevard King of Prussia Mall, Space 3002",
       "city": "King of Prussia",
-      "state": null,
+      "state": "NJ",
       "country": "US",
       "postal_code": "19406",
       "lat": 40.0857,
@@ -14412,7 +14447,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796200142840"
+        "pk": "8796200142840",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14495,7 +14531,7 @@
       "name": "Indianapolis Keystone",
       "address": "8702 Keystone Crossing Space 07A",
       "city": "Indianapolis",
-      "state": null,
+      "state": "IN",
       "country": "US",
       "postal_code": "46240",
       "lat": 39.91436,
@@ -14558,7 +14594,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8811625089016"
+        "pk": "8811625089016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14567,7 +14604,7 @@
       "name": "Denver Cherry Creek",
       "address": "Suite 249 3000 East 1st Avenue",
       "city": "Denver",
-      "state": null,
+      "state": "CO",
       "country": "US",
       "postal_code": "80206",
       "lat": 39.717056,
@@ -14632,7 +14669,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8812771969016"
+        "pk": "8812771969016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14774,7 +14812,7 @@
       "name": "Gucci Aspen",
       "address": "204 South Galena Street",
       "city": "Aspen",
-      "state": null,
+      "state": "CO",
       "country": "US",
       "postal_code": "81611",
       "lat": 39.18936178,
@@ -14841,7 +14879,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8810773121016"
+        "pk": "8810773121016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14917,7 +14956,7 @@
       "name": "Cincinnati Kenwood",
       "address": "7875 Montgomery Road Unit 64",
       "city": "Cincinnati",
-      "state": null,
+      "state": "OH",
       "country": "US",
       "postal_code": "45236",
       "lat": 39.20055,
@@ -14975,7 +15014,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8812903073784"
+        "pk": "8812903073784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -14984,7 +15024,7 @@
       "name": "Westfield Galleria at Roseville",
       "address": "1151 Galleria Boulevard Suite 1067",
       "city": "Roseville",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "95678",
       "lat": 38.773442,
@@ -15050,7 +15090,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8811362945016"
+        "pk": "8811362945016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -15668,7 +15709,7 @@
       "name": "Tysons Galleria",
       "address": "1785M International Drive Tysons Galleria, Space 2224",
       "city": "McLean",
-      "state": null,
+      "state": "MD",
       "country": "US",
       "postal_code": "22102",
       "lat": 38.92463,
@@ -15734,7 +15775,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796200044536"
+        "pk": "8796200044536",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -15743,7 +15785,7 @@
       "name": "Bloomingdale’s Tyson’s Corner",
       "address": "8100 Tysons Corner Center Bloomingdales",
       "city": "McLean",
-      "state": null,
+      "state": "MD",
       "country": "US",
       "postal_code": "22102",
       "lat": 38.9158402,
@@ -15802,7 +15844,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891770360"
+        "pk": "8805891770360",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -15811,7 +15854,7 @@
       "name": "City Center DC Washington",
       "address": "1000 I Street NW City Center DC",
       "city": "Washington",
-      "state": null,
+      "state": "DC",
       "country": "US",
       "postal_code": "20001",
       "lat": 38.900654,
@@ -15875,7 +15918,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796322465784"
+        "pk": "8796322465784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -15884,7 +15928,7 @@
       "name": "St Louis - Plaza Frontenac",
       "address": "1701 S Lindbergh Boulevard Space 035",
       "city": "St. Louis",
-      "state": null,
+      "state": "IL",
       "country": "US",
       "postal_code": "63131",
       "lat": 38.63009,
@@ -15950,7 +15994,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813132417016"
+        "pk": "8813132417016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -16528,7 +16573,7 @@
       "name": "Gucci Sawgrass Outlet",
       "address": "1700 Sawgrass Mills Circle Suite 3601",
       "city": "Sunrise",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33323",
       "lat": 26.1485482,
@@ -16591,7 +16636,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8797010724856"
+        "pk": "8797010724856",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -16739,7 +16785,7 @@
       "name": "SFO Airport Terminal G",
       "address": "San Francisco International Airport, Concourse G, Gate 91, Courtyard 4",
       "city": "San Francisco",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "94128",
       "lat": 37.62129,
@@ -16796,7 +16842,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796208072696"
+        "pk": "8796208072696",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -16805,7 +16852,7 @@
       "name": "SFO Airport Terminal A",
       "address": "San Francisco International Airport, Boarding Area A",
       "city": "San Francisco",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "94128",
       "lat": 37.6209,
@@ -16862,7 +16909,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796208138232"
+        "pk": "8796208138232",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -16941,7 +16989,7 @@
       "name": "Gucci Valley Fair",
       "address": "2855 Stevens Creek Boulevard Westfield Valley Fair, Suite 1663",
       "city": "Santa Clara",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "95050",
       "lat": 37.323598,
@@ -17004,7 +17052,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8806742657016"
+        "pk": "8806742657016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -20098,7 +20147,7 @@
       "name": "Las Vegas Wynn",
       "address": "3131 Las Vegas Boulevard South Wynn Esplanade, Space D2",
       "city": "Las Vegas",
-      "state": null,
+      "state": "NV",
       "country": "US",
       "postal_code": "89109",
       "lat": 36.1271,
@@ -20164,7 +20213,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8812673665016"
+        "pk": "8812673665016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -20173,7 +20223,7 @@
       "name": "The Shops at Via Bellagio",
       "address": "3600 Las Vegas Boulevard South Space 1113",
       "city": "Las Vegas",
-      "state": null,
+      "state": "NV",
       "country": "US",
       "postal_code": "89109",
       "lat": 36.11421,
@@ -20238,7 +20288,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199585784"
+        "pk": "8796199585784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -20528,7 +20579,7 @@
       "name": "Gucci Nashville",
       "address": "2126 Abbott Martin Road The Mall at Green Hills, Suite 265",
       "city": "Nashville",
-      "state": null,
+      "state": "TN",
       "country": "US",
       "postal_code": "37215",
       "lat": 36.1072983,
@@ -20593,7 +20644,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8803957409784"
+        "pk": "8803957409784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -21103,7 +21155,7 @@
       "name": "Charlotte SouthPark",
       "address": "4400 Sharon Road Southpark Mall, Space M19",
       "city": "Charlotte",
-      "state": null,
+      "state": "NC",
       "country": "US",
       "postal_code": "28211",
       "lat": 35.1521816,
@@ -21160,7 +21212,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8807299713016"
+        "pk": "8807299713016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -23204,7 +23257,7 @@
       "name": "Westfield Topanga Gucci",
       "address": "6600 Topanga Canyon Boulevard Suite 15",
       "city": "Los Angeles",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "91303",
       "lat": 34.1912,
@@ -23270,7 +23323,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796207384568"
+        "pk": "8796207384568",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -23425,7 +23479,7 @@
       "name": "Glendale - The Americana at Brand",
       "address": "702 Americana Way Space E-01",
       "city": "Glendale",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "91210",
       "lat": 34.14417,
@@ -23479,7 +23533,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813132449784"
+        "pk": "8813132449784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -23554,7 +23609,7 @@
       "name": "Beverly Center",
       "address": "8500 Beverly Boulevard Beverly Center, Suite 743",
       "city": "Los Angeles",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "90048",
       "lat": 34.07594,
@@ -23619,7 +23674,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198471672"
+        "pk": "8796198471672",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -23628,7 +23684,7 @@
       "name": "Los Angeles - The Grove",
       "address": "189 The Grove Drive G-10",
       "city": "Los Angeles",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "90036",
       "lat": 34.07238,
@@ -23692,7 +23748,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8814574241784"
+        "pk": "8814574241784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -23764,7 +23821,7 @@
       "name": "Saks Beverly Hills - Handbags",
       "address": "9570 Wilshire Boulevard Saks Fifth Avenue",
       "city": "Beverly Hills",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "90212",
       "lat": 34.0667,
@@ -23822,7 +23879,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805890689016"
+        "pk": "8805890689016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -23831,7 +23889,7 @@
       "name": "Bloomingdale's Century City",
       "address": "10250 Santa Monica Boulevard Bloomingdales Westfield Century City",
       "city": "Los Angeles",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "90067",
       "lat": 34.0595234,
@@ -23892,7 +23950,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891835896"
+        "pk": "8805891835896",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -24047,7 +24106,7 @@
       "name": "LA Airport",
       "address": "380 Los Angeles International Airport, Tom Bradley International Terminal, World Way",
       "city": "Los Angeles",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "90045",
       "lat": 33.94123,
@@ -24105,7 +24164,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796208105464"
+        "pk": "8796208105464",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -24462,7 +24522,7 @@
       "name": "GUCCI CABAZON OUTLET",
       "address": "48650 Seminole Drive Desert Hills Premium Outlet, Suite 228",
       "city": "Cabazon",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "92230",
       "lat": 33.93068,
@@ -24526,7 +24586,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796198766584"
+        "pk": "8796198766584",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -24535,7 +24596,7 @@
       "name": "Gucci Cabazon Kids Outlet",
       "address": "48650 Seminole Drive Desert Hills Premium Outlet, Suite 1206",
       "city": "Cabazon",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "92230",
       "lat": 33.9306504,
@@ -24589,7 +24650,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8797010626552"
+        "pk": "8797010626552",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -25239,7 +25301,7 @@
       "name": "Garden at El Paseo",
       "address": "73-585 El Paseo The Shops on El Paseo, Suite 1112",
       "city": "Palm Desert",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "92260",
       "lat": 33.71957,
@@ -25304,7 +25366,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796355954680"
+        "pk": "8796355954680",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -25313,7 +25376,7 @@
       "name": "Costa Mesa - South Coast Plaza Bloomingdale's",
       "address": "3333 South Bristol Street Bloomingdales South Coast Plaza",
       "city": "Costa Mesa",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "92626",
       "lat": 33.7011055,
@@ -25372,7 +25435,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891803128"
+        "pk": "8805891803128",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -25381,7 +25445,7 @@
       "name": "Phipps Plaza",
       "address": "3500 Peachtree Road, Northeast Suite D-3, 1F",
       "city": "Atlanta",
-      "state": null,
+      "state": "GA",
       "country": "US",
       "postal_code": "30326",
       "lat": 33.85255,
@@ -25447,7 +25511,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199192568"
+        "pk": "8796199192568",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -25456,7 +25521,7 @@
       "name": "Gucci Atlanta Lenox",
       "address": "3393 Peachtree Road NE Lenox Square Mall, Suite 3033B, 3F",
       "city": "Atlanta",
-      "state": null,
+      "state": "GA",
       "country": "US",
       "postal_code": "30326",
       "lat": 33.8466829,
@@ -25522,7 +25587,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8811297409016"
+        "pk": "8811297409016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -25674,7 +25740,7 @@
       "name": "Scottsdale Fashion Square",
       "address": "7014 East Camelback Road Fashion Square, Space 1049",
       "city": "Scottsdale",
-      "state": null,
+      "state": "AZ",
       "country": "US",
       "postal_code": "85251",
       "lat": 33.50385,
@@ -25739,7 +25805,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198537208"
+        "pk": "8796198537208",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -27470,7 +27537,7 @@
       "name": "Legacy West",
       "address": "7801 Windrose Avenue Legacy West, Suite H120",
       "city": "Plano",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "75024",
       "lat": 33.019844,
@@ -27532,7 +27599,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8808381057016"
+        "pk": "8808381057016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -27541,7 +27609,7 @@
       "name": "Dallas Galleria",
       "address": "13350 Dallas Parkway Galleria, Suite 1355",
       "city": "Dallas",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "75240",
       "lat": 32.92849,
@@ -27605,7 +27673,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796203452408"
+        "pk": "8796203452408",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -27614,7 +27683,7 @@
       "name": "Northpark Center",
       "address": "8687 North Central Expressway NorthPark Center, Suite 526",
       "city": "Dallas",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "75225",
       "lat": 32.8716,
@@ -27682,7 +27751,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199913464"
+        "pk": "8796199913464",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -27691,7 +27761,7 @@
       "name": "Fashion Valley San Diego",
       "address": "7007 Friars Road Fashion Valley, Space 324A",
       "city": "San Diego",
-      "state": null,
+      "state": "CA",
       "country": "US",
       "postal_code": "92108",
       "lat": 32.76754,
@@ -27759,7 +27829,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198602744"
+        "pk": "8796198602744",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -27841,7 +27912,7 @@
       "name": "Fort Worth Clearfork",
       "address": "5174 Monahans Avenue Space E120B",
       "city": "Fort Worth",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "76109",
       "lat": 32.71033,
@@ -27901,7 +27972,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8812280514552"
+        "pk": "8812280514552",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -27910,7 +27982,7 @@
       "name": "Charleston Place",
       "address": "242 King Street",
       "city": "Charleston",
-      "state": null,
+      "state": "SC",
       "country": "US",
       "postal_code": "29401",
       "lat": 32.781454,
@@ -27975,7 +28047,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199880696"
+        "pk": "8796199880696",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -28764,7 +28837,7 @@
       "name": "Austin - The Domain",
       "address": "11601 Century Oaks Terrace The Domain Mall, Suite 105",
       "city": "Austin",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "78758",
       "lat": 30.402686,
@@ -28826,7 +28899,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8811002497016"
+        "pk": "8811002497016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -28978,7 +29052,7 @@
       "name": "Jacksonville",
       "address": "4813 River City Drive Suite 143",
       "city": "Jacksonville",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "32246",
       "lat": 30.253762,
@@ -29042,7 +29116,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813263521784"
+        "pk": "8813263521784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -29051,7 +29126,7 @@
       "name": "The Woodlands",
       "address": "9595 Six Pines Drive Suite 607",
       "city": "The Woodlands",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "77380",
       "lat": 30.163849,
@@ -29112,7 +29187,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813034145784"
+        "pk": "8813034145784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -30084,7 +30160,7 @@
       "name": "Gucci San Marcos Premium Outlets",
       "address": "3939 IH-35 S San Marcos Premium Outlets, Space 955B",
       "city": "San Marcos",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "78666",
       "lat": 29.83067986137781,
@@ -30147,7 +30223,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8796199946232"
+        "pk": "8796199946232",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -30228,7 +30305,7 @@
       "name": "Saks Houston - Handbags",
       "address": "5175 Westheimer Road Saks Fifth Avenue",
       "city": "Houston",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "77056",
       "lat": 29.73933,
@@ -30286,7 +30363,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891115000"
+        "pk": "8805891115000",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -30433,7 +30511,7 @@
       "name": "San Antonio La Cantera",
       "address": "15900 La Cantera Parkway Space 4467",
       "city": "San Antonio",
-      "state": null,
+      "state": "TX",
       "country": "US",
       "postal_code": "78256",
       "lat": 29.5933384,
@@ -30496,7 +30574,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8812903041016"
+        "pk": "8812903041016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -31956,7 +32035,7 @@
       "name": "The Mall at Millenia",
       "address": "4200 Conroy Road The Mall at Millenia, Suite  P281",
       "city": "Orlando",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "32839",
       "lat": 28.48555,
@@ -32021,7 +32100,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199028728"
+        "pk": "8796199028728",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32030,7 +32110,7 @@
       "name": "Orlando Outlet",
       "address": "8200 Vineland Avenue Premium Outlets, Suite 101",
       "city": "Orlando",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "32821",
       "lat": 28.38826512,
@@ -32095,7 +32175,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8804678338552"
+        "pk": "8804678338552",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32104,7 +32185,7 @@
       "name": "International Plaza and Bay Street",
       "address": "2223 North West Shore Boulevard International Plaza, Space 268",
       "city": "Tampa",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33607",
       "lat": 27.96681,
@@ -32171,7 +32252,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199094264"
+        "pk": "8796199094264",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32385,7 +32467,7 @@
       "name": "The Gardens Mall",
       "address": "3101 PGA Boulevard The Gardens Mall, Space J217",
       "city": "Palm Beach",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33410",
       "lat": 26.8483,
@@ -32447,7 +32529,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199061496"
+        "pk": "8796199061496",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32456,7 +32539,7 @@
       "name": "225 Worth Avenue",
       "address": "225 Worth Avenue Suite C",
       "city": "Palm Beach",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33480",
       "lat": 26.69941111789187,
@@ -32522,7 +32605,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199159800"
+        "pk": "8796199159800",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32531,7 +32615,7 @@
       "name": "Gucci Store Town Center at Boca Raton",
       "address": "6000 Glades Road The Town Center at Boca Raton, Suite 1146",
       "city": "Boca Raton",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33431",
       "lat": 26.3659037,
@@ -32595,7 +32679,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796387969016"
+        "pk": "8796387969016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32604,7 +32689,7 @@
       "name": "Boca Raton - Saks",
       "address": "5800 Glades Road Saks Fifth Avenue",
       "city": "Boca Raton",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33431",
       "lat": 26.3645127,
@@ -32664,7 +32749,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8805891049464"
+        "pk": "8805891049464",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32673,7 +32759,7 @@
       "name": "Waterside Shops",
       "address": "5435 Tamiami Trail North Waterside Shops, Suite 17",
       "city": "Naples",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "34108",
       "lat": 26.21295,
@@ -32736,7 +32822,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198995960"
+        "pk": "8796198995960",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32745,7 +32832,7 @@
       "name": "Aventura",
       "address": "19575 Biscayne Boulevard Aventura Mall, Space 3",
       "city": "Aventura",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33180",
       "lat": 25.9569112,
@@ -32812,7 +32899,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796977793016"
+        "pk": "8796977793016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32821,7 +32909,7 @@
       "name": "Miami - Design District Men's",
       "address": "89 NE 41st Street",
       "city": "Miami",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33137",
       "lat": 25.81433,
@@ -32882,7 +32970,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8813984385016"
+        "pk": "8813984385016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -32891,7 +32980,7 @@
       "name": "Design District",
       "address": "139 NE 41st Street",
       "city": "Miami",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33137",
       "lat": 25.8142436,
@@ -32958,7 +33047,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8798812801016"
+        "pk": "8798812801016",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -33040,7 +33130,7 @@
       "name": "Village of Merrick Park",
       "address": "342 San Lorenzo Avenue Village of Merrick Park",
       "city": "Coral Gables",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33146",
       "lat": 25.7316,
@@ -33105,7 +33195,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796198930424"
+        "pk": "8796198930424",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -33114,7 +33205,7 @@
       "name": "Miami- Dadeland",
       "address": "7535 North Kendall Drive Suite 2390A",
       "city": "Miami",
-      "state": null,
+      "state": "FL",
       "country": "US",
       "postal_code": "33156",
       "lat": 25.6893306085445,
@@ -33176,7 +33267,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8814443169784"
+        "pk": "8814443169784",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -37107,7 +37199,7 @@
       "name": "The Shops at Wailea",
       "address": "3750 Wailea Alanui Drive Suite EW9",
       "city": "Wailea",
-      "state": null,
+      "state": "HI",
       "country": "US",
       "postal_code": "96753",
       "lat": 20.68674,
@@ -37172,7 +37264,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": true,
         "stockQuantity": 0,
-        "pk": "8796199258104"
+        "pk": "8796199258104",
+        "_state_source": "lat-lng-bbox-derived"
       }
     },
     {
@@ -41441,7 +41534,7 @@
       "address": "Iguatemi Porto Alegre, Av. João Wallig, 1800",
       "city": "PORTO ALEGRE",
       "state": null,
-      "country": "US",
+      "country": "BR",
       "postal_code": "91349-900",
       "lat": -30.02524,
       "lng": -51.16248,
@@ -41499,7 +41592,8 @@
         "lowStockAvailable": false,
         "bookAnAppointmentAvailable": false,
         "stockQuantity": 0,
-        "pk": "8813951617016"
+        "pk": "8813951617016",
+        "_country_correction": "API returned US; actually BR (Iguatemi Porto Alegre, Brazil)"
       }
     },
     {
