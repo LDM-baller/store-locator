@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f4f5f7">
 <title>Notes — Store Time Machine</title>
-<link rel="stylesheet" href="styles.css?v=17">
+<link rel="stylesheet" href="styles.css?v=18">
 <style>
   body.notes { overflow-y: auto; background: #eef0f3; }
   #notes-main {
@@ -88,8 +88,22 @@
     <span class="wordmark"><span class="wm-1">Time</span><span class="wm-2">Machine</span></span>
   </a>
   <div style="flex:1"></div>
-  <a class="nav-toggle" href="index.html">Map</a>
+  <details class="nav-menu" id="nav-menu">
+    <summary aria-label="Menu">⋯</summary>
+    <ul>
+      <li><a href="index.html">Map</a></li>
+      <li><a href="dashboard.html">Stats</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="notes.html" class="current">Notes</a></li>
+    </ul>
+  </details>
 </header>
+<script>
+  document.addEventListener('click', (e) => {
+    const menu = document.getElementById('nav-menu');
+    if (menu && !menu.contains(e.target) && menu.open) menu.open = false;
+  });
+</script>
 
 <main id="notes-main">
   <h1>Alo Yoga — Blog voice analysis</h1>

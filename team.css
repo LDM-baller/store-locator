@@ -1,0 +1,135 @@
+/* Team page — leadership roster + filters */
+
+body.team { overflow-y: auto; background: #eef0f3; }
+
+#team-main {
+  padding: calc(78px + var(--safe-top)) 12px calc(40px + var(--safe-bottom));
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.team-header h1 { font-size: 22px; line-height: 1.2; margin: 0 0 4px; font-weight: 700; }
+.team-header .lede { color: var(--text-dim); font-size: 13px; margin: 0 0 18px; line-height: 1.5; }
+
+.team-filters {
+  display: grid;
+  gap: 12px;
+  background: var(--surface-solid);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+.filter-group label {
+  display: block;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-faint);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.chips {
+  display: flex; flex-wrap: wrap; gap: 5px;
+}
+.chip-filter {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.6);
+  border-radius: 999px;
+  color: var(--text-dim);
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.chip-filter.active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+.chip-filter .n { font-variant-numeric: tabular-nums; opacity: 0.6; font-size: 10px; }
+
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+}
+.person-card {
+  background: var(--surface-solid);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s, border-color 0.1s;
+  text-align: left;
+}
+.person-card:active { transform: scale(0.99); }
+.person-card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-soft); }
+.person-card .lvl {
+  font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--text-faint); font-weight: 700;
+  margin-bottom: 4px;
+}
+.person-card .name { font-size: 15px; font-weight: 700; line-height: 1.2; margin-bottom: 4px; }
+.person-card .title { font-size: 12px; color: var(--text-dim); line-height: 1.35; min-height: 32px; }
+.person-card .meta {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin-top: 10px;
+  font-size: 11px; color: var(--text-faint);
+}
+.person-card .meta .badge {
+  background: rgba(15,17,23,0.04);
+  padding: 2px 7px;
+  border-radius: 6px;
+  color: var(--text-dim);
+}
+.person-card .meta .joined { font-family: ui-monospace, monospace; }
+.person-card .prior {
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--text-faint);
+  line-height: 1.45;
+}
+.person-card .prior strong { color: var(--text-dim); font-weight: 600; }
+
+/* Detail sheet */
+#person-detail .sheet-title { font-size: 17px; }
+#person-body {
+  padding: 14px 18px calc(22px + var(--safe-bottom));
+  overflow-y: auto;
+  flex: 1;
+}
+.detail-section { margin-bottom: 18px; }
+.detail-section h3 {
+  font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--text-faint); font-weight: 700;
+  margin: 0 0 6px;
+}
+.detail-meta-line { font-size: 12px; color: var(--text-dim); line-height: 1.5; }
+.detail-history-row {
+  display: grid; grid-template-columns: 70px 1fr; gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+}
+.detail-history-row:last-child { border-bottom: 0; }
+.detail-history-row .when {
+  color: var(--text-faint);
+  font-family: ui-monospace, monospace;
+  font-size: 11px;
+}
+.detail-history-row .what .co { font-weight: 700; color: var(--text); }
+.detail-history-row .what .role { color: var(--text-dim); display: block; margin-top: 1px; }
+.detail-notes {
+  font-size: 12px; line-height: 1.55; color: var(--text-dim);
+  background: rgba(15,17,23,0.03);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+@media (min-width: 600px) {
+  .team-filters {
+    grid-template-columns: 1fr;
+  }
+}

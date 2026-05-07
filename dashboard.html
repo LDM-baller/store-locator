@@ -8,8 +8,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Store Time Machine">
 <title>Analytics — Store Time Machine</title>
-<link rel="stylesheet" href="styles.css?v=17">
-<link rel="stylesheet" href="dashboard.css?v=17">
+<link rel="stylesheet" href="styles.css?v=18">
+<link rel="stylesheet" href="dashboard.css?v=18">
 </head>
 <body class="dash">
 
@@ -28,8 +28,15 @@
     <span class="wordmark"><span class="wm-1">Time</span><span class="wm-2">Machine</span></span>
   </a>
   <div id="retailers" role="tablist" aria-label="Retailers"></div>
-  <a class="nav-toggle" href="index.html" aria-label="View map">Map</a>
-  <a class="nav-subtle" href="notes.html" aria-label="Notes" title="Brand voice notes">Notes</a>
+  <details class="nav-menu" id="nav-menu">
+    <summary aria-label="Menu">⋯</summary>
+    <ul>
+      <li><a href="index.html">Map</a></li>
+      <li><a href="dashboard.html" class="current">Stats</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="notes.html">Notes</a></li>
+    </ul>
+  </details>
 </header>
 
 <main id="dash-main">
@@ -75,6 +82,12 @@
 
 <div id="loading">Loading…</div>
 
-<script src="dashboard.js?v=17"></script>
+<script src="dashboard.js?v=18"></script>
+<script>
+  document.addEventListener('click', (e) => {
+    const menu = document.getElementById('nav-menu');
+    if (menu && !menu.contains(e.target) && menu.open) menu.open = false;
+  });
+</script>
 </body>
 </html>
