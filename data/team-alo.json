@@ -56,9 +56,9 @@
     {
       "id": "heidi-smith",
       "name": "Heidi Smith",
-      "title": "Chief Marketing Officer",
+      "title": "Marketing (title unverified — aggregator data was stale)",
       "function": "Marketing",
-      "level": "C-suite",
+      "level": "Other",
       "joined": null,
       "based_in": "Beverly Hills",
       "education": "BASc Public Relations FIU; MS Digital Audience Strategy ASU Cronkite",
@@ -70,7 +70,8 @@
         {"company": "ReadySetBlowBLUE", "role": "Marketing", "from": null, "to": null},
         {"company": "Peekaboo Ice Cream", "role": "Marketing", "from": null, "to": null},
         {"company": "Slate Milk", "role": "Marketing Associate", "from": null, "to": null}
-      ]
+      ],
+      "notes": "Original CMO title from ZoomInfo/RocketReach aggregator scrapes - which are notoriously stale. Her actual LinkedIn does not show a Chief Marketing title. Removed from C-suite. Probable actual role is director or senior manager level. Verify directly with LinkedIn before relying."
     },
     {
       "id": "abby-gordon",
