@@ -119,11 +119,16 @@ function wireSnapshotSlider() {
 }
 
 function activeStoresAt(retailerSlug, year) {
+  // Stores whose opening date <= year, OR null-year stores (which we include
+  // at all years to avoid them collapsing from a retailer's count when the
+  // slider rolls back — Gucci has 598 null-year stores). Caveat: at very
+  // early years this slightly inflates the count, but that's better than
+  // a Gucci=0 cliff in the snapshot.
   const data = state.data[retailerSlug];
   if (!data) return [];
   return data.stores.filter(s => {
     if (s.status === 'closed') return false;
-    if (s.year_opened == null) return year >= state.yearMax;
+    if (s.year_opened == null) return true;
     return s.year_opened <= year;
   });
 }
