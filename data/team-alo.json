@@ -161,13 +161,14 @@
     {
       "id": "beau-swenson",
       "name": "Beau Swenson",
-      "title": "EVP Finance",
+      "title": "Former EVP Finance (no longer at Alo)",
       "function": "Finance",
-      "level": "EVP",
+      "level": "Former",
       "joined": 2023,
       "joined_month": 8,
+      "departed": true,
       "history": [],
-      "notes": "Status post-Scott Miller's April 2025 hire is unclear from public sources."
+      "notes": "Joined as EVP Finance Aug 2023. Confirmed no longer at Alo (Lindsay verified 2026-05-07). Likely succeeded by Scott Miller (joined as EVP Finance/CFO Apr 2025)."
     },
     {
       "id": "benedetta-petruzzo",
@@ -274,12 +275,18 @@
     {
       "id": "ken-seidl",
       "name": "Ken Seidl",
-      "title": "VP, Global Operations",
+      "title": "VP, Global Operations (Alo + Bella+Canvas)",
       "function": "Operations",
       "level": "VP",
-      "joined": null,
+      "joined": 2023,
       "based_in": "Melbourne Beach, FL",
-      "history": []
+      "verification": "aggregator-only — direct LinkedIn search did not surface; flag for verification",
+      "history": [
+        {"company": "Fruit of the Loom", "role": "Vice President of Sales", "from": null, "to": null},
+        {"company": "Alphabroder", "role": "SVP Strategic Sales", "from": null, "to": null},
+        {"company": "Johns Hopkins University", "role": "Faculty", "from": null, "to": null}
+      ],
+      "notes": "Title and tenure consistent across multiple aggregators (RocketReach, ContactOut, theorg, Adapt.io, Datanyze) - all show VP Global Ops at Alo + Bella+Canvas. Lindsay flagged that he doesn't surface in LinkedIn search; could be aggregator-stale (like Heidi Smith case). Verify directly before relying."
     },
     {
       "id": "marie-sailer",
@@ -289,7 +296,11 @@
       "level": "VP",
       "joined": null,
       "based_in": "El Segundo",
-      "history": [],
+      "history": [
+        {"company": "VF Corporation", "role": "Logistics", "from": null, "to": null},
+        {"company": "JustFab", "role": "Logistics", "from": null, "to": null},
+        {"company": "TechStyle Fashion Group", "role": "Sr Director, Global Logistics Operations", "from": null, "to": null}
+      ],
       "notes": "25+ years in global logistics, transportation, trade compliance."
     },
     {
@@ -388,30 +399,41 @@
     {
       "id": "aimee-white",
       "name": "Aimee White",
-      "title": "Head of Social Media",
+      "title": "Head of Social Media (Alo Moves)",
       "function": "Marketing",
       "level": "Head",
       "joined": null,
+      "based_in": "Los Angeles",
       "history": [],
-      "notes": "15+ years in digital marketing, social media, community engagement."
+      "notes": "15+ years digital marketing, social media, community engagement. Specifically Alo Moves (the wellness/fitness app subsidiary), not the apparel brand directly."
     },
     {
       "id": "roxanne-pavee",
       "name": "Roxanne Pavée",
-      "title": "(role not surfaced)",
-      "function": "Other",
-      "level": "Other",
+      "title": "Former Sr Director, Brand Partnerships & Experiential (likely departed)",
+      "function": "Marketing",
+      "level": "Former",
       "joined": null,
-      "history": []
+      "departed": true,
+      "history": [
+        {"company": "Rhode", "role": "Social", "from": null, "to": null},
+        {"company": "Alo Yoga", "role": "Social", "from": null, "to": null},
+        {"company": "Alo Yoga", "role": "Sr Director, Brand Partnerships & Experiential", "from": null, "to": null}
+      ],
+      "notes": "Recent LinkedIn signal indicates she has moved on: 'recently joined Natural as Head of Marketing'. Was Sr Director, Brand Partnerships & Experiential at Alo. Demoted to Former status pending direct verification."
     },
     {
       "id": "richard-sass",
       "name": "Richard Sass",
-      "title": "(role not surfaced)",
-      "function": "Other",
-      "level": "Other",
+      "title": "HRBP, West Coast",
+      "function": "People",
+      "level": "Director",
       "joined": null,
-      "history": []
+      "based_in": "Pasadena, CA",
+      "history": [
+        {"company": "UNIQLO", "role": "HR", "from": null, "to": null},
+        {"company": "Glossier, Inc.", "role": "HR", "from": null, "to": null}
+      ]
     }
   ]
 }
