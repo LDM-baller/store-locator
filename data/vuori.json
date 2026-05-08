@@ -3,7 +3,7 @@
   "slug": "vuori",
   "source_url": "https://vuoriclothing.com/apps/store-locator",
   "platform": "custom-nextjs-ssr",
-  "scraped_at": "2026-05-08T13:36:10Z",
+  "scraped_at": "2026-05-08T13:38:52Z",
   "store_count": 123,
   "stores": [
     {
@@ -23,13 +23,14 @@
       "phone": "(562) 735-8646",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2018,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/x9rxqtbtfr3wc3v6fj87jq/2ndPCH03292.jpg?format=jpg&crop=4378%2C2917%2Cx547%2Cy365",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -49,13 +50,14 @@
       "phone": "(424) 525-7554",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2g9x4ggghqsrrbvpsg5wggbh/20260321-VUORI-VENICE-036.jpg?format=jpg&crop=3200%2C2135%2Cx484%2Cy207",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -75,13 +77,14 @@
       "phone": "(970) 236-2067",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2019,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/fn9kjjxxx8h52qtpg559pwsw/ASPEN_CO_2025_45.jpg?format=jpg&crop=4000%2C2665%2Cx840%2Cy435",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -101,13 +104,14 @@
       "phone": "(786) 964-2722",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/xpmnxzhjw48gnmwr77fkngqb/AventuraMall12_2023_NSO.jpg?format=jpg&crop=3840%2C2499%2Cx480%2Cy312",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -127,13 +131,14 @@
       "phone": null,
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2q2k3tphx72v53r44xm5c9b/BEIJING_SANLITUN_NSO_2025_28.jpg?format=jpg&crop=5265%2C2982%2Cx347%2Cy113",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -153,13 +158,14 @@
       "phone": null,
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2m77tftbjtggg34ztm8h5jfm/BEIJING_SKP_CHINA__NSO_2026_1.jpg?format=jpg&crop=6554%2C4373%2Cx711%2Cy517",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -179,13 +185,14 @@
       "phone": "(425) 920-2661",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/x7nftpfx5tckpkjftgxkj5/BELLEVUE_WASHINGTON_2024_6.jpg?format=jpg&crop=819%2C546%2Cx180%2Cy74",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -205,13 +212,14 @@
       "phone": "(341) 234-3126",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2020,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/59jchcbxht3z35f4nq894tg/Berkeley_Store.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -231,13 +239,14 @@
       "phone": "(240) 534-1290",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/smh37phs8sc47tm6pnhpmtpb/BETHESDA_ROW_NSO_VUORI__54.png?format=png&crop=2611%2C1958%2Cx326%2Cy245",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -257,13 +266,14 @@
       "phone": "(561) 892-1391",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/h3kkq879v76hg3h5thmgb38/Vuori_-__1004.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -283,13 +293,14 @@
       "phone": "(720) 986-7686",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2021,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/9qmk9s2xfvx7rhbs8xstnx5/Boulder-Storefront-New.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -309,13 +320,14 @@
       "phone": "(645) 215-6620",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/mgc7w83j5pwmqm4njmcpt65/BRICKELLCITYCENTRE_MIAMI_FL_2025_43.jpg?format=jpg&crop=6462%2C4312%2Cx808%2Cy539",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -335,13 +347,14 @@
       "phone": "(971) 626-1195",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/6wxkbgxjxr4jxtvhx8tf7q27/TIGARD_BRIDGEPORT_2024_92.jpg?format=jpg&crop=1600%2C1066%2Cx359%2Cy159",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -361,13 +374,14 @@
       "phone": "(925) 546-2984",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/c375tfhwbmf34wcmsvk3wrmt/BROADWAYPLAZA_WALNUTCREEK_CA_2025_9.jpg?format=jpg&crop=2594%2C1726%2Cx366%2Cy401",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -387,13 +401,14 @@
       "phone": "(943) 230-4636",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/tn53m6g3mxfrchv7p5m83b/Atlanta2024_07_25_vuori_interior-6168.jpg?format=jpg&crop=5847%2C3896%2Cx731%2Cy487",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -413,13 +428,14 @@
       "phone": "(951) 612-7600",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/q4m85fgspqmqkhsgf3tmsqj/CABAZON_RELO_JAN2025.jpeg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -439,13 +455,14 @@
       "phone": "8215881234",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": null,
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -465,13 +482,14 @@
       "phone": "(424) 599-4752",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/t6qhwnfzsqfs8nmqqp2w473w/DSCF0852.jpg?format=jpg&crop=4980%2C3318%2Cx699%2Cy468",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -491,13 +509,14 @@
       "phone": "(602) 753-2611",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/gk3ks7ms83h6f6cvb65v9h8/CHANDLER_AZ_2025_37.jpg?format=jpg&crop=1638%2C1092%2Cx144%2Cy159",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -517,13 +536,14 @@
       "phone": "(720) 973-6303",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2021,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/xfgsknfpxh5ck7jm4454vnb/DSC03265.jpg?format=jpg&crop=6110%2C4077%2Cx552%2Cy502",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -543,13 +563,14 @@
       "phone": "(213) 654-3490",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/p34cpttv3whfbrwz983mh4f9/CITADELOUTLETS_LOSANGELES_CA_2025_2.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -569,13 +590,14 @@
       "phone": "(385) 518-0329",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/rqj33gp9jvrknjc5xcn4w97/Vuori-City-Creek.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -595,13 +617,14 @@
       "phone": "(628) 877-0470",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/3j3zwxmq49qbvn67pskxnrp/Vuori_Corte_Madera.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -621,13 +644,14 @@
       "phone": "44 20 4568 3648",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "press-confirmed",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/t7wtwc7vg3tf9jgms9hqb/RL20220901_VUORI_080.jpg?format=jpg&crop=3200%2C2132%2Cx400%2Cy267",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "press-confirmed: locked at 2022"
       }
     },
     {
@@ -647,13 +671,14 @@
       "phone": "(310) 974-4391",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/6prwxgqv6vrscgfq6sc6cr7m/DELAMO_TORRANCE_CA_2025_45.jpg?format=jpg&crop=3200%2C2135%2Cx389%2Cy268",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -673,13 +698,14 @@
       "phone": "(858) 290-6997",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/398z5j7k394vs88n635cqq/DELMAR_RELO_CA_2025_34.jpg?format=jpg&crop=5085%2C3393%2Cx752%2Cy432",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -699,13 +725,14 @@
       "phone": "(781) 630-6679",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/kvp99sw7njsz2h86xx34/Derby-Street-exterior.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -725,13 +752,14 @@
       "phone": "(346) 818-3856",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2020,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/j84j7sw75t6k5btwrn9gvqm/Austin_Exterior.png?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -751,13 +779,14 @@
       "phone": "(380) 324-5604",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/p6rx4g8786r6hbgnb4v38n94/EASTON_COLUMBUS_OH_2025_3.jpg?format=jpg&crop=3527%2C4662%2Cx70%2Cy802",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -777,13 +806,14 @@
       "phone": "(760) 516-8411",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2016,
+      "year_opened_validation": "press-confirmed",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/99wv94z2qsgsgj7vmhmx82z/DSC08797_815de1fa-7d5f-4f7e-8ab3-f550e57ef10a.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "press-confirmed: locked at 2016"
       }
     },
     {
@@ -803,13 +833,14 @@
       "phone": "(440) 561-0827",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/mhmtcjhx4pp7ntq94pwj6s9r/Eton_5.jpg?format=jpg&crop=4000%2C2665%2Cx499%2Cy606",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -829,13 +860,14 @@
       "phone": "(949) 867-2651",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2019,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/4j3ccj49vvkkh8svn8kkcsv/FASHIONISLAND_RELOCATION_2025_108.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -855,13 +887,14 @@
       "phone": "(224) 985-6921",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/ps7qm8htnp9nhkwx99f33fh/Vuori_FashionOutlets_Chicago_0628242.jpg?format=jpg&crop=640%2C443%2Cx80%2Cy55",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -881,13 +914,14 @@
       "phone": "(385) 580-0167",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/fzvkvpj7kf9xwt9n3rm59nsb/FASHIONPLACE_MURRAY_UT_2025_226.jpg?format=jpg&crop=3600%2C2399%2Cx410%2Cy513",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -907,13 +941,14 @@
       "phone": "(858) 667-6759",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2021,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/f5krb35kq3gx6m7msmhwq8b/Vuori_Retail_FashionValleyStore_NSO_023.jpg?format=jpg&crop=4608%2C3071%2Cx576%2Cy384",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -933,13 +968,14 @@
       "phone": "(646) 914-8474",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/hjrvjbsq9jsrx9r78rw62b5b/Vuori5thAve_CLeandroJusten_034.jpg?format=jpg&crop=4901%2C2834%2Cx613%2Cy354",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -959,13 +995,14 @@
       "phone": "(702) 901-5440",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/cz2p5c8fsq7kqh6q5mwjj7jg/Vegas_Storefront.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -985,13 +1022,14 @@
       "phone": "(858) 667-5725",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2017,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/tbvszh5vt7zxrbwpb38kprn/Carlsbad_NSO_Imagery_27.jpg?format=jpg&crop=4406%2C2936%2Cx621%2Cy224",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1011,13 +1049,14 @@
       "phone": "(279) 277-6453",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2021,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/fsg96jhkgwgnkgn3vtn7wwg/Vuori-RosevilleStore-109.jpg?format=jpg&crop=3795%2C2529%2Cx496%2Cy359",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1037,13 +1076,14 @@
       "phone": null,
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2vb6mp389mrrh3j3qzq8x9p/Vuori_Clothing_Korea_Pop_up_Retail_Opening_10.png?format=png&crop=997%2C765%2Cx245%2Cy74",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1063,13 +1103,14 @@
       "phone": "(201) 740-1232",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/47c7pwrq8x23mv9q7xrh5fnx/GARDENSTATEPLAZA_PARAMUS_NJ_2025_51.jpg?format=jpg&crop=3268%2C2249%2Cx188%2Cy511",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1089,13 +1130,14 @@
       "phone": "(771) 999-7554",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/33c4g5tp9f78npnxmqfm3pww/VuoriGTOWN_EXT-5.jpg?format=jpg&crop=1600%2C1066%2Cx216%2Cy133",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1115,13 +1157,14 @@
       "phone": null,
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/wmgcr5p9tv9h8v8w5jh45hz/SHANGHAI_GRANDGATEWAY_2024_7.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "press-confirmed: locked at 2024"
       }
     },
     {
@@ -1141,13 +1184,14 @@
       "phone": "(475) 335-9098",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/nrpspwss85jgbs3b6vf34hgj/GREENWICH_CONNECTICUT_2024_10.jpg?format=jpg&crop=1638%2C1092%2Cx309%2Cy139",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1167,13 +1211,14 @@
       "phone": "031-8072-8208",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/sh2qhvv6n47gctkwhtj2rfh/HANAM_SEOUL_SOUTHKOREA_2025_3.jpg?format=jpg&crop=4289%2C2862%2Cx536%2Cy358",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1193,13 +1238,14 @@
       "phone": null,
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/7g6spw2qx3qh2qnnfptf9v6/HANGZHOU_CHINA__NSO_2026_10.jpg?format=jpg&crop=4800%2C3133%2Cx382%2Cy345",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1219,13 +1265,14 @@
       "phone": "(346) 659-5765",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2hqnf5mr7575jmgv95rh2bgf/HEIGHTSMERCANTILE_HOUSTON_TX_2025_122.jpg?format=jpg&crop=5944%2C3961%2Cx764%2Cy170",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1245,13 +1292,14 @@
       "phone": "(346) 693-8128",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/r3hkqtqswmf2v87rpk87kc7/HOUSTONGALLERIA_TEXAS_NSO_2026_23.jpg?format=jpg&crop=544%2C363%2Cx43%2Cy17",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1271,13 +1319,14 @@
       "phone": "(346) 796-0057",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/fqfctm4wnj56tjrq73c753gx/HOUSTON_PREMIUM_OUTLET_NSO.pdf?format=png&crop=1760%2C1360%2Cx220%2Cy170",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1297,13 +1346,14 @@
       "phone": null,
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/mxpxb9385bwrj8gz8psz7cxh/IAPM_SHANGHAI_CHINA_2025_13.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1323,13 +1373,14 @@
       "phone": "(949) 792-7807",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/fpx4nx9btkbz6t6q4hn33/Vuori-Irvine.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1349,13 +1400,14 @@
       "phone": "(513) 992-9736",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/h4kp89qxs755kt9mh9ncktj8/KENWOOD_CINCINNATI_OH_2025_124.jpg?format=jpg&crop=6554%2C4373%2Cx890%2Cy206",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1375,13 +1427,14 @@
       "phone": "(463) 333-8297",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/53fxhw9nm6s4tg423hxx6h/INDY_KEYSTONE_2024_9.jpg?format=jpg&crop=6518%2C4344%2Cx504%2Cy548",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1401,13 +1454,14 @@
       "phone": "(480) 879-2650",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/5b89crr4vsfpxtx7vt9q7b/image-20221118-232748.png?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1427,13 +1481,14 @@
       "phone": "(484) 396-2163",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/khgntgpn6q76m5z3zfqhq8v/PHILLY_KINGOFPRUSSIA_2024_39.jpg?format=jpg&crop=819%2C546%2Cx143%2Cy46",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1453,13 +1508,14 @@
       "phone": "(854) 260-2451",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/3nqjg4f3pjqvb453g4t9ckf/KINGST_CHARLESTON_SC_2025_8.jpg?format=jpg&crop=4678%2C3112%2Cx655%2Cy778&pad=0%2C0%2C1%2C0",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1479,13 +1535,14 @@
       "phone": "44 20 7000 9130",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/nf6vv5vf5zgp4j7w97xzsh/KINGSROAD_LONDON_UK_2025_6.jpg?format=jpg&crop=3200%2C2132%2Cx753%2Cy139",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1505,13 +1562,14 @@
       "phone": "(520) 675-7290",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/rqm2hvzsm4xpvmzs99s84rc/vuori-tucson-9037.jpg?format=jpg&crop=3994%2C2662%2Cx499%2Cy333",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1531,13 +1589,14 @@
       "phone": "(858) 396-0436",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2017,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/p865kc36v6qrt3h2zb9knrc/La_Jolla_Store.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1557,13 +1616,14 @@
       "phone": "(504) 385-9737",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/v5hqgq6p39x9bcvsx3pbqb/LAKESIDE_METAIRIE_LA_2025_115.jpg?format=jpg&crop=4800%2C3199%2Cx264%2Cy268",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1583,13 +1643,14 @@
       "phone": "(725) 910-0307",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/jt9s8fkwrwfx6qbr3nnpb8z/LASVEGASPREMIUMOUTLETS_2025_2.jpeg?format=jpeg&crop=3226%2C2418%2Cx601%2Cy317",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1609,13 +1670,14 @@
       "phone": "(781) 809-2321",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/7cpfxvsrk4ssjnp3tm8kn6qn/01-25-Legacy-Place-2.jpg?format=jpg&crop=4766%2C3180%2Cx551%2Cy451",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1635,13 +1697,14 @@
       "phone": "(945) 732-4916",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/8tjmr4vctmh5nhww34fhk5v/12-14-Vuori_Legacy_West-Exterior-4.jpg?format=jpg&crop=6722%2C4479%2Cx1667%2Cy1102",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1661,13 +1724,14 @@
       "phone": "(781) 463-5166",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/bb5k2gjwbs5ppp7rtmm3kbns/LYNNFIELDMARKETSTREET_MA_2024_6.jpg?format=jpg&crop=4146%2C2522%2Cx518%2Cy351",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1687,13 +1751,14 @@
       "phone": "(747) 599-2917",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/q5jwshgs7256vqgfbxqcvn8/Malibu_Exterior.png?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1713,13 +1778,14 @@
       "phone": "(689) 337-1151",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/srrbr3mjs94ckjcbsxqgr6bh/MALLATMILLENIA_ORLANDO_FL_2025_47.jpg?format=jpg&crop=10692%2C6211%2Cx925%2Cy1129",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1739,13 +1805,14 @@
       "phone": "(612) 540-4904",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/crt598b5gk2867szq4cn3x2p/MoA_exterior.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1765,13 +1832,14 @@
       "phone": "(363) 213-0750",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/gwmjq4bg5nq5ttjgk7m4rf6/Manhasset_NSO_Imagery.png?format=png&crop=2611%2C1541%2Cx326%2Cy193",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1791,13 +1859,14 @@
       "phone": "(424) 866-0899",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2018,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/nnnxh5n9nvbrx8wp5qvqbpj/MB-Store.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1817,13 +1886,14 @@
       "phone": "(629) 899-7111",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/p3cwhnwgghqmpjgk24fsnmh3/MCEWENNORTHSIDE_FRANKLIN_TN_2025_72.jpg?format=jpg&crop=7603%2C5066%2Cx774%2Cy726",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1843,13 +1913,14 @@
       "phone": "(645) 202-8882",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/6c9n5bhn7tsv25jmtjbmf7/CORALGABLES_MERRICKPARK_2024_97.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1869,13 +1940,14 @@
       "phone": "(707) 755-7872",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/z362jk5nqjp2j3m4hvsxbn3/MONTGOMERYVILLAGE_SANTAROSA_CA_2025_3.jpg?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1895,13 +1967,14 @@
       "phone": "(615) 795-0767",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/kfrr9s4zws68f98rjx5xb4th/Nashville_exterior.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1921,13 +1994,14 @@
       "phone": "(857) 416-2009",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2020,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/jbgm67f7ncwhv8jzrn7xfn8/Vuori-Boston.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1947,13 +2021,14 @@
       "phone": "(945) 303-8997",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/sjtz6rr7g7t55fvm8tskn884/Vuori_Dallas_-62-1001x667-1aefa07.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1973,13 +2048,14 @@
       "phone": "(331) 299-6554",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/pmtj4r5wmpp69shfjmxgrn/IMG_0715.jpg?format=jpg&crop=1639%2C1229%2Cx279%2Cy147",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -1999,13 +2075,14 @@
       "phone": "(224) 496-5208",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/vzkg2h7rnc3vcph5rjrxwjxc/IMG_2655.jpg?format=jpg&crop=3226%2C2418%2Cx681%2Cy252",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2025,13 +2102,14 @@
       "phone": "(983) 999-8278",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/z2mnj7tj96pr9bx9p9hfztk/CASTLEROCK_OUTLETS_CO_2025.jpeg?format=jpeg&crop=4570%2C3426%2Cx1044%2Cy94",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2051,13 +2129,14 @@
       "phone": "(442) 397-9196",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/vnjn5g3g6zgwgjp6fv5mgxz/SHOPSONELPASEO_PALMDESERT_CA_2025_1.jpg?format=jpg&crop=6554%2C4373%2Cx20%2Cy547",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2077,13 +2156,14 @@
       "phone": "(435) 513-8474",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/3h936vk4pfs75gq6kc8rnf8/Vuori_PC2025_0016.jpg?format=jpg&crop=3600%2C2399%2Cx449%2Cy503",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2103,13 +2183,14 @@
       "phone": "(720) 973-6327",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/jrtpj9ckgbrrtxb8ktp7m/Park_Medows.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2129,13 +2210,14 @@
       "phone": "(747) 317-4449",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2019,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/q4np5zf37kxm6g78fg9fh4m/PASADENA_STORE_OPENING_VUORI_NSO_DSCF0822.jpg?format=jpg&crop=4992%2C3326%2Cx624%2Cy416",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2155,13 +2237,14 @@
       "phone": "(314) 946-6770",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/pp893zvw3gj6mvxq7w4t5rr/STLOUIS_PLAZAFRONTENAC_2024_48.jpg?format=jpg&crop=1638%2C1093%2Cx210%2Cy80",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2181,13 +2264,14 @@
       "phone": "44 20 8050 7650",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/jm7n78b5vmpchbfmt4svjx6/RL20241029_VUORI_RegentStreet_OPENING_0080_1F.jpg?format=jpg&crop=3200%2C2132%2Cx408%2Cy252",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2207,13 +2291,14 @@
       "phone": "(346) 659-5684",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/qv5gp3k7jw9mw6jzbn2zv7sq/Vuori-Houston.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2233,13 +2318,14 @@
       "phone": "(872) 345-3959",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/f74kx98qfs8g33ffph73ks/Chicago_Interior.png?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2259,13 +2345,14 @@
       "phone": "(949) 998-6417",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/pgtw5rhxtt6hjr4m3pg4nprk/Image_1.jpeg?format=jpeg&crop=3226%2C2418%2Cx586%2Cy217",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2285,13 +2372,14 @@
       "phone": "(628) 287-1806",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2021,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/jvpw7frgwhhsmwqsf6ck3rq/SF_Storefront.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2311,13 +2399,14 @@
       "phone": "(925) 800-7003",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/46tk6ggwvwzbgg45pbk8j/051724_SFPremiumOutlet_NSO.jpeg?format=jpeg&crop=806%2C605%2Cx114%2Cy45",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2337,13 +2426,14 @@
       "phone": "(820) 223-9653",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/kjcx4bwstx63b6r2wp5cm/SANTABARBARA_RELO_2024_6.jpg?format=jpg&crop=4813%2C3211%2Cx193%2Cy130",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2363,13 +2453,14 @@
       "phone": "(669) 667-4656",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/sktzh3nt5qq5fbnwjm24s59p/SANTANAROW_RELO_CA_2025_4.jpg?format=jpg&crop=2594%2C1726%2Cx215%2Cy427",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2389,13 +2480,14 @@
       "phone": "(602) 898-5901",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/pg7mn9hv3fh7n4x3tx399jfb/Vuori-02.jpg?format=jpg&crop=1638%2C1092%2Cx199%2Cy135",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2415,13 +2507,14 @@
       "phone": "(360) 548-6716",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": null,
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2441,13 +2534,14 @@
       "phone": "1 (660) 189-1928",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/5q9fgpw5sh8f94r3srwj5bwv/2024_Shanghai_6.jpg?format=jpg&crop=4281%2C2853%2Cx517%2Cy172",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2467,13 +2561,14 @@
       "phone": "(862) 901-6818",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/h84zfgj2vct5h9cc6v56f3n/SHORT-HILL-VUORI-NSO-KYFI-STUDIO-01.jpg?format=jpg&crop=5606%2C3736%2Cx701%2Cy467",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2493,13 +2588,14 @@
       "phone": "(332) 895-6310",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "press-confirmed",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/3skp8mptm3b4ckqq2jrqpkq/Vuori_NYC.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "press-confirmed: locked at 2022"
       }
     },
     {
@@ -2519,13 +2615,14 @@
       "phone": "(947) 243-2372",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/kgbbjqbjk3tpz74f9gsg6p3/Somerset.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2545,13 +2642,14 @@
       "phone": "(737) 977-6489",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2020,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/bh7292943ss2zqp9sx8ggjn/VUORI-37.jpg?format=jpg&crop=4825%2C3211%2Cx405%2Cy675",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2571,13 +2669,14 @@
       "phone": "(612) 540-4741",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/79h6tz4w5zfg8fj9zm6trfm/SOUTHDALE_EDINA_MN_2025_1.jpg?format=jpg&crop=2304%2C1535%2Cx297%2Cy368",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2597,13 +2696,14 @@
       "phone": "(682) 349-5613",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/hqt57t7gb4kq7qkpr6v9cprn/Southlake_NSO_Imagery.jpg?format=jpg&crop=2153%2C1193%2Cx136%2Cy0&pad=18%2C0%2C0%2C0",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2623,13 +2723,14 @@
       "phone": "(980) 748-4696",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/454ff73rptghcwtzhg5thg29/CHARLOTTE_SOUTHPARK_2024_14.jpg?format=jpg&crop=3162%2C2107%2Cx420%2Cy263",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2649,13 +2750,14 @@
       "phone": "(984) 336-0549",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/fzqbx6pfgtc5882j4pqz5jkz/SOUTHPOINT_DURHAM_NC_2025_43.jpg?format=jpg&crop=1280%2C852%2Cx129%2Cy1",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2675,13 +2777,14 @@
       "phone": "(872) 345-4230",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/7g2g74xz4vxbjnmm54kbfb3b/2023_Southport_NSO1.png?format=png&crop=1613%2C1209%2Cx202%2Cy151",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2701,13 +2804,14 @@
       "phone": "(650) 774-0222",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2021,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/6scpwfjgpg25cgvfvzct8c/Vuori-Palo-Alto.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2727,13 +2831,14 @@
       "phone": "(385) 874-2295",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/bv49kj87xt653hm5v6338rnt/Vuori_Utah_0037.jpg?format=jpg&crop=4000%2C2665%2Cx539%2Cy544",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2753,13 +2858,14 @@
       "phone": "(747) 350-2143 ",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/nb6scrp5cj76hjrzfmcn8ttt/Studio_City_Exterior.png?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2779,13 +2885,14 @@
       "phone": "(702) 603-9121",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/4kjp7r7srjkrrh56kb79jvz/SUMMERLIN_LASVEGAS_NV_2025_4.jpg?format=jpg&crop=3665%2C2866%2Cx13%2Cy1429",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2805,13 +2912,14 @@
       "phone": "(659) 272-4951",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/8nbsjbhs9ssqsvwcfncf9s/Vuori__280_Real_estate_-03.jpg?format=jpg&crop=3660%2C2456%2Cx0%2Cy372&pad=0%2C0%2C0%2C26",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2831,13 +2939,14 @@
       "phone": "(728) 221-8778",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/9m8v5bx73x5rstwrfzv5j879/Vuori_The_Gardens_-1024.jpg?format=jpg&crop=4697%2C3057%2Cx1038%2Cy474",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2857,13 +2966,14 @@
       "phone": "(346) 220-4835",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2mfw5sncbgx5jcrtvg8bkv8/WOODLANDS_TX_2025_193.jpg?format=jpg&crop=5567%2C3710%2Cx586%2Cy362",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2883,13 +2993,14 @@
       "phone": "(332) 895-4537",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/rtrzbgqpbmpnrb45snhf8754/04022026_VuoriUESLeandroJusten_004.jpg?format=jpg&crop=1638%2C1043%2Cx245%2Cy159",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2909,13 +3020,14 @@
       "phone": "(820) 223-8827",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/bhxp6prwz8jt8gkm6rjch/TOPANGA_CANOGAPARK_CA_2025_9.jpg?format=jpg&crop=3200%2C2135%2Cx148%2Cy208",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2935,13 +3047,14 @@
       "phone": "(571) 992-1426",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/5sqhxhp7mx4pvbg75jbspt/FAIRFAX_TYSONSCORNER_EXT_2024_7.jpg?format=jpg&crop=1280%2C854%2Cx152%2Cy106",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2961,13 +3074,14 @@
       "phone": "(425) 947-8321",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2024,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/h7q8knbf8c6nsw769crmts/Seattle-Interior.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -2987,13 +3101,14 @@
       "phone": "(332) 895-6604",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "press-confirmed",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/3cqt3w6w4pk8rrtn8jj6qv/_Vuori_UpperEastSideStore_042.jpg?format=jpg&crop=4540%2C3073%2Cx1224%2Cy377&pad=0%2C71%2C0%2C0",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "press-confirmed: locked at 2023"
       }
     },
     {
@@ -3013,13 +3128,14 @@
       "phone": "(332) 900-2676",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/j4g3mhzmp9fgh4nmc245p7/UPPERWESTSIDE_NEWYORK_NY_2025_76.jpg?format=jpg&crop=4838%2C3220%2Cx1149%2Cy587",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3039,13 +3155,14 @@
       "phone": "(941) 867-9070",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/wppsm2h7pgb77t8ghtf6wxh/SARASORA_FL_2025_7.jpg?format=jpg&crop=4501%2C2999%2Cx629%2Cy258",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3065,13 +3182,14 @@
       "phone": "(445) 269-3018",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2023,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/pzmfghxckn53mkvrq58fx6s/VuoriPhilly2024-79.jpg?format=jpg&crop=2876%2C3809%2Cx533%2Cy471",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3091,13 +3209,14 @@
       "phone": "(623) 999-1209",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2025,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/t6qqvzb3q8f4q88mjbq3kn/WESTGATE_OUTLET_VUORI_STORE.png?format=png&crop=2054%2C1918%2Cx255%2Cy58",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3117,13 +3236,14 @@
       "phone": "(805) 506-4447",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/vpwsmh9b99w96vqzs3v9xqk/Westlake.jpg?auto=webp&format=jpg",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3143,13 +3263,14 @@
       "phone": "(475) 471-6186",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/v56t69mcnw3t8fhst65zjh/westport_interior.png?auto=webp&format=png",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3169,13 +3290,14 @@
       "phone": "(332) 777-5520",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2022,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/wnvrq34sgpmjwr57nckmm7x/WILLIAMSBURG_BROOKLYN_NY_NSO_2026_45.jpg?format=jpg&crop=2028%2C1498%2Cx6%2Cy819",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     },
     {
@@ -3195,13 +3317,14 @@
       "phone": "(774) 847-2022",
       "hours": null,
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
-      "scraped_at": "2026-05-08T13:36:10Z",
+      "year_opened": 2026,
+      "year_opened_validation": "expansion-wave-bucket-estimated",
+      "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Next.js __NEXT_DATA__.props.pageProps.vuoriStores from /apps/store-locator",
         "image": "https://cdn.bfldr.com/JUZN72U0/at/2x59qvbcsps33t94pc75np/WRENTHAMVILLAGE_OUTLETS_MA_2025_2.jpg?format=jpg&crop=800%2C600%2Cx95%2Cy104",
-        "isVuori": true
+        "isVuori": true,
+        "_year_opened_method": "Bucketed to year by city tier (SoCal originals -> early US -> tier-1 metros -> tier-2 metros -> international). Cumulative anchors from Wikipedia (1 in 2016, 40 in 2023) and Modern Retail (~25 new/year 2023-2024)."
       }
     }
   ]

@@ -23,8 +23,8 @@
       "phone": "+33 1 83 65 61 00",
       "hours": "Monday - Sunday: 10AM - 9PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -32,7 +32,8 @@
           "Stores"
         ],
         "stockist_id": 119715462,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-confirmed: Galeries Lafayette Champs-Elysées shop-in-shop opened Sept 2024 (WWD)"
       }
     },
     {
@@ -52,8 +53,8 @@
       "phone": null,
       "hours": "Monday - Sunday: 11AM - 9PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2026,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -61,7 +62,8 @@
           "Stores"
         ],
         "stockist_id": 94747546,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-plan: SKIMS ARTZ Mexico City — 2026 international expansion (Mexico/London/Dubai per Nov 2025 funding announcement)"
       }
     },
     {
@@ -81,8 +83,8 @@
       "phone": null,
       "hours": "Monday - Saturday: 10AM - 8PM | Sunday: 12PM - 7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -91,7 +93,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 49003784,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-plan: Atlanta end of 2024 (WWD plan)"
       }
     },
     {
@@ -111,8 +114,8 @@
       "phone": null,
       "hours": "Monday – Saturday: 10AM – 8PM | Sunday: 12PM – 6PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -121,7 +124,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 37549479,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-plan: Austin Domain Northside late 2024 (third store per Chain Store Age)"
       }
     },
     {
@@ -141,8 +145,8 @@
       "phone": null,
       "hours": "Monday - Saturday 10AM - 9:30PM | Sunday 11AM - 8PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -151,7 +155,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 42676078,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-confirmed: Aventura Mall (Miami) opened June/July 2024 — second store (Miami New Times Jul 1, 2024)"
       }
     },
     {
@@ -171,8 +176,8 @@
       "phone": null,
       "hours": "Monday - Thursday: 10AM - 8PM | Friday: 10AM - 9PM | Sunday: 11AM - 7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -181,7 +186,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 81528769,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -201,8 +207,8 @@
       "phone": null,
       "hours": "Monday – Thursday: 10am-8pm | Friday - Saturday: 10am - 9pm | Sunday: 11am-6pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -211,7 +217,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 121115566,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -231,8 +238,8 @@
       "phone": null,
       "hours": "Store Hours: Monday – Saturday: 10am-8pm | Sunday: 10am-7pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -241,7 +248,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 118841561,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -261,8 +269,8 @@
       "phone": null,
       "hours": "Monday - Saturday: 10AM-9PM | Sunday 10AM-8PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -271,7 +279,8 @@
           "Outlet"
         ],
         "stockist_id": 67752320,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -291,8 +300,8 @@
       "phone": null,
       "hours": "Monday – Saturday: 10am-9pm | Sunday: 12pm-6pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -301,7 +310,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 107858500,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-confirmed: Easton Town Center (Columbus, OH) opened late November 2025 (NBC4) — first Skims in Ohio"
       }
     },
     {
@@ -321,8 +331,8 @@
       "phone": null,
       "hours": "Sunday - Thursday: 10AM - 9PM | Friday - Saturday: 10AM - 10PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -331,7 +341,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 96504958,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -351,8 +362,8 @@
       "phone": null,
       "hours": "Monday - Thursday 11AM - 9PM | Friday - Saturday 10AM - 9:30PM | Sunday - Closed",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -361,7 +372,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 55233883,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -381,8 +393,8 @@
       "phone": null,
       "hours": "Monday – Saturday: 10AM – 8PM | Sunday: 11AM – 7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -391,7 +403,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 41495256,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-confirmed: SKIMS Georgetown opened June 13, 2024 — first permanent store"
       }
     },
     {
@@ -411,8 +424,8 @@
       "phone": null,
       "hours": "Monday - Thursday: 10AM - 8PM | Friday - Saturday: 10AM - 9PM | Sunday: 12PM - 7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -421,7 +434,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 50045188,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-plan: Houston end of 2024 (WWD plan)"
       }
     },
     {
@@ -441,8 +455,8 @@
       "phone": null,
       "hours": "Monday - Saturday: 10AM-7PM | Sunday 11AM-6PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -450,7 +464,8 @@
           "Stores"
         ],
         "stockist_id": 130405389,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -470,8 +485,8 @@
       "phone": "",
       "hours": "Monday – Saturday: 10AM – 8PM | Sunday: 11AM – 7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -480,7 +495,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 70297750,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -500,8 +516,8 @@
       "phone": null,
       "hours": "Monday - Saturday: 10AM-9PM | Sunday 11AM-7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -510,7 +526,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 100860075,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -530,8 +547,8 @@
       "phone": null,
       "hours": "Monday – Saturday: 10am-8pm | Sunday: 12pm-6pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -540,7 +557,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 102048854,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -560,8 +578,8 @@
       "phone": null,
       "hours": "Monday-Saturday 10AM - 8PM | Sunday: 11AM - 7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2024,
+      "year_opened_validation": "press-confirmed",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -570,7 +588,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 56646420,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "press-confirmed: NYC Fifth Avenue Flagship opened Dec 11, 2024 — 6th and largest store (Hypebeast/Dezeen/BoF)"
       }
     },
     {
@@ -590,8 +609,8 @@
       "phone": null,
       "hours": "Monday - Thursday: 10AM-8PM | Friday - Saturday: 10AM- 9PM | Sunday 11AM-6PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -600,7 +619,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 103162482,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -620,8 +640,8 @@
       "phone": null,
       "hours": "Monday - Saturday: 10AM-9PM | Sunday 11AM-8PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -629,7 +649,8 @@
           "Outlet"
         ],
         "stockist_id": 107858576,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -649,8 +670,8 @@
       "phone": null,
       "hours": "Monday - Thursday: 10AM-8PM | Friday - Saturday: 10AM-9PM | Sunday 11AM-7PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -659,7 +680,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 105527640,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -679,8 +701,8 @@
       "phone": null,
       "hours": "Monday - Saturday: 10AM - 7PM | Sunday: 11AM - 6PM",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -689,7 +711,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 99327494,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -709,8 +732,8 @@
       "phone": null,
       "hours": "Monday – Saturday: 10am-9pm | Sunday: 11am-8pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -719,7 +742,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 112492426,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -739,8 +763,8 @@
       "phone": null,
       "hours": "Monday – Saturday: 10am-9pm | Sunday: 11am-7pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -749,7 +773,8 @@
           "NikeSKIMS"
         ],
         "stockist_id": 98634330,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     },
     {
@@ -769,8 +794,8 @@
       "phone": null,
       "hours": "Monday – Sunday: 10am-9pm",
       "url": null,
-      "year_opened": null,
-      "year_opened_validation": "pending",
+      "year_opened": 2025,
+      "year_opened_validation": "press-anchored-bucket-estimated",
       "scraped_at": "2026-05-08T13:38:52Z",
       "raw": {
         "_data_source": "Stockist u22232 (https://stockist.co/api/v1/u22232/locations/all)",
@@ -779,7 +804,8 @@
           "Outlet"
         ],
         "stockist_id": 87858393,
-        "image_url": null
+        "image_url": null,
+        "_year_opened_method": "Bucketed to 2025: Skims's 2025 plan announced 16 new US stores. Stores not in the 2024 cohort or known 2026 international openings default here."
       }
     }
   ]
