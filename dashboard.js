@@ -5,8 +5,8 @@ const RETAILERS = [
   { slug: 'lululemon', name: 'Lululemon', file: 'data/lululemon.json',  color: '#E30613' },
   { slug: 'alo-yoga',  name: 'Alo Yoga',  file: 'data/alo-yoga.json',   color: '#1a1a1a' },
   { slug: 'gucci',     name: 'Gucci',     file: 'data/gucci.json',      color: '#1FA055' },
-  { slug: 'skims',     name: 'Skims',     file: 'data/skims.json',      color: '#B89478' },
-  { slug: 'vuori',     name: 'Vuori',     file: 'data/vuori.json',      color: '#2E4A6B' },
+  { slug: 'skims',     name: 'Skims',     file: 'data/skims.json',      color: '#EC4899' },
+  { slug: 'vuori',     name: 'Vuori',     file: 'data/vuori.json',      color: '#7C3AED' },
 ];
 
 const COUNTRY_NAMES = {
