@@ -183,8 +183,10 @@ function renderFleetOverTime() {
   for (let y = state.yearMin; y <= state.yearMax; y++) years.push(y);
 
   const series = active.map(r => {
+    const data = state.data[r.slug];
+    const hasYearData = (data.stores || []).some(s => typeof s.year_opened === 'number');
     const counts = years.map(y => activeStoresAt(r.slug, y).length);
-    return { name: r.name, color: r.color, slug: r.slug, counts };
+    return { name: r.name, color: r.color, slug: r.slug, counts, hasYearData };
   });
 
   const w = 600, h = 220, pad = { l: 36, r: 12, t: 10, b: 26 };
@@ -210,17 +212,28 @@ function renderFleetOverTime() {
     const xx = xFor(years.indexOf(y));
     svg += `<text class="axis-text" x="${xx}" y="${h - 8}" text-anchor="middle">${y}</text>`;
   });
-  // lines
+  // series — line + end-dot for retailers with year data;
+  //          single hollow ring at final year for retailers without (Gucci)
   series.forEach(s => {
-    const path = s.counts.map((c, i) => `${i === 0 ? 'M' : 'L'}${xFor(i).toFixed(1)},${yFor(c).toFixed(1)}`).join(' ');
-    svg += `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
-    // last-point dot
     const last = s.counts.length - 1;
-    svg += `<circle cx="${xFor(last)}" cy="${yFor(s.counts[last])}" r="3" fill="${s.color}"/>`;
+    if (s.hasYearData) {
+      const path = s.counts.map((c, i) => `${i === 0 ? 'M' : 'L'}${xFor(i).toFixed(1)},${yFor(c).toFixed(1)}`).join(' ');
+      svg += `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+      svg += `<circle cx="${xFor(last)}" cy="${yFor(s.counts[last])}" r="3" fill="${s.color}"/>`;
+    } else {
+      // Just a single, slightly-larger dot at the latest year — no
+      // misleading historical line. Halo ring makes it stand out.
+      svg += `<circle cx="${xFor(last)}" cy="${yFor(s.counts[last])}" r="9" fill="${s.color}" opacity="0.18"/>`;
+      svg += `<circle cx="${xFor(last)}" cy="${yFor(s.counts[last])}" r="5" fill="${s.color}"/>`;
+    }
   });
   svg += `</svg>`;
 
-  host.innerHTML = svg + renderLegend(series.map(s => ({ color: s.color, name: s.name, val: s.counts[s.counts.length - 1].toLocaleString() })));
+  host.innerHTML = svg + renderLegend(series.map(s => ({
+    color: s.color,
+    name: s.name + (s.hasYearData ? '' : ' · today only'),
+    val: s.counts[s.counts.length - 1].toLocaleString()
+  })));
 }
 
 /* ----- Annual openings (stacked bar by retailer) ----- */
