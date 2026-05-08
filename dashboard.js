@@ -385,6 +385,8 @@ function renderSnapshot() {
     const total = inMarket.length;
     // Stores opened during state.snapYear in this market
     const openedThisYear = inMarket.filter(s => s.year_opened === state.snapYear).length;
+    // Whether this retailer has ANY known opening dates at all
+    const hasYearData = (state.data[r.slug].stores || []).some(s => typeof s.year_opened === 'number');
     // Top market only meaningful in worldwide view
     const cc = {};
     allActive.forEach(s => { cc[s.country || '?'] = (cc[s.country || '?'] || 0) + 1; });
@@ -394,7 +396,7 @@ function renderSnapshot() {
       <div class="snap-card">
         <div class="head"><span class="sw" style="background:${r.color}"></span>${escapeHtml(r.name)}</div>
         <div class="row"><span class="k">${isWW ? 'Stores' : 'Stores in ' + escapeHtml(marketLabel)}</span><span class="v">${total.toLocaleString()}</span></div>
-        <div class="row"><span class="k">Opened in ${state.snapYear}</span><span class="v">+${openedThisYear}</span></div>
+        ${hasYearData ? `<div class="row"><span class="k">Opened in ${state.snapYear}</span><span class="v">+${openedThisYear}</span></div>` : ''}
         ${isWW ? `<div class="row"><span class="k">Countries</span><span class="v">${new Set(allActive.map(s => s.country).filter(Boolean)).size}</span></div>` : ''}
         ${isWW && topMarket ? `<div class="top-mkt">Top market: <strong>${escapeHtml(COUNTRY_NAMES[topMarket[0]] || topMarket[0])}</strong> (${topMarket[1]})</div>` : ''}
       </div>`;
