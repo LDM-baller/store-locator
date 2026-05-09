@@ -126,6 +126,7 @@ async function loadRetailer(r) {
     const resp = await fetch(r.file, { cache: 'no-cache' });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const json = await resp.json();
+    json.stores = json.stores.filter(s => !s.concession);
     json._color = r.color;
     json._slug = r.slug;
     json._name = r.name;

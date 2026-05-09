@@ -5,46 +5,10 @@
   "platform": "custom-builder.io",
   "scope": "global",
   "scraped_at": "2026-05-06T03:18:57Z",
-  "store_count": 225,
+  "store_count": 205,
   "geocoded_count": 46,
   "geocoded_note": "Alo's CMS does not store coordinates for some entries (newer international markets, US mall locations, 'Coming Soon' stores). We extract coords from Google Maps URLs in the source where available; otherwise we geocode the full address via OSM Nominatim. Geocoded stores are flagged with coord_is_estimated=true and raw._coord_source='nominatim'. Geocode accuracy is typically ~50m for US/CA addresses with postal codes, looser for international entries with sparser source data.",
   "stores": [
-    {
-      "id": "alo-yoga-australia-chatswood-chase-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Chatswood Chase - Coming Soon",
-      "address": "345 Victoria Avenue #G-021,",
-      "city": "Chatswood",
-      "state": null,
-      "country": "AU",
-      "postal_code": null,
-      "lat": -33.7944135,
-      "lng": 151.1833274,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": "Monday-Tuesday: 10am-6pmWednesday: 10am-7pmThursday: 10am-9pmFriday: 10am-7pmSaturday: 9am-7pmSunday: 10am-7pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "Australia",
-        "_group_state": null,
-        "_coord_source": "embedded",
-        "location": "<p><a href=\"https://www.google.com/maps/place/g+021%2F345+Victoria+Ave,+Chatswood+NSW+2067,+Australia/@-33.7944135,151.1833274,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12a8d63a0ec0bb:0xce90f0d1a661f2f1!8m2!3d-33.794418!4d151.1859023?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">345 Victoria Avenue #G-021,</a></p><p><a href=\"https://www.google.com/maps/place/g+021%2F345+Victoria+Ave,+Chatswood+NSW+2067,+Australia/@-33.7944135,151.1833274,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12a8d63a0ec0bb:0xce90f0d1a661f2f1!8m2!3d-33.794418!4d151.1859023?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Chatswood NSW 2067, Australia</a></p>",
-        "city": "Chatswood, AU",
-        "name": "Chatswood Chase - Coming Soon",
-        "aloStudioAvailability": false,
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "hours": "<p style=\"text-align: center;\">Monday-Tuesday: 10am-6pm</p><p style=\"text-align: center;\">Wednesday: 10am-7pm</p><p style=\"text-align: center;\">Thursday: 10am-9pm</p><p style=\"text-align: center;\">Friday: 10am-7pm</p><p style=\"text-align: center;\">Saturday: 9am-7pm</p><p style=\"text-align: center;\">Sunday: 10am-7pm</p><p><br></p>",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771613302860
-        },
-        "_year_opened_citation": "Inside Retail Australia 2026/02 + Ragtrader — Australia debut 2026 alongside Bondi"
-      },
-      "year_opened_validation": "web-search-confirmed"
-    },
     {
       "id": "alo-yoga-bahrain-marassi-galleria",
       "retailer": "Alo Yoga",
@@ -80,7 +44,8 @@
         },
         "_year_opened_citation": "platinumlist.net — Bahrain debut 2025 at Marassi Galleria"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-brazil-jk-iguatemi",
@@ -116,7 +81,8 @@
         },
         "_year_opened_citation": "WWD + modaes.com — Brazil debut Q1 2025 (first South America)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-brazil-diamond-mall",
@@ -154,7 +120,8 @@
         },
         "_year_opened_citation": "modaes.com — 2025 Latam expansion (after JK Iguatemi São Paulo earlier in 2025)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-colombia-andino-mall",
@@ -192,7 +159,8 @@
         },
         "_year_opened_citation": "FashionNetwork CO + larepublica.co — Colombia debut 2025 at Centro Comercial Andino, Bogotá"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-dominican-republic-blue-mall",
@@ -229,7 +197,8 @@
         },
         "_year_opened_citation": "listindiario.com 2025/05/09 — Dominican Republic debut May 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-united-states-the-summit-birmingham",
@@ -650,7 +619,8 @@
         },
         "_year_opened_citation": "whatsnewindonesia.com — Indonesia debut March 29 2024"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-indonesia-plaza-indonesia",
@@ -715,7 +685,8 @@
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
-      "year_opened_validation": "builder-createddate-only"
+      "year_opened_validation": "builder-createddate-only",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-indonesia-beachwalk-shopping-center",
@@ -751,7 +722,8 @@
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
-      "year_opened_validation": "builder-createddate-only"
+      "year_opened_validation": "builder-createddate-only",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-canada-cf-pacific-centre",
@@ -790,49 +762,6 @@
         "_year_opened_citation": "retail-insider.com 2023/05 — Vancouver debut spring 2023"
       },
       "year_opened_validation": "web-search-confirmed"
-    },
-    {
-      "id": "alo-yoga-canada-oakridge-park-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Oakridge Park - Coming Soon",
-      "address": "Unit #3331 Oakridge Centre, 650 W 41st Ave",
-      "city": "Vancouver",
-      "state": "British Columbia",
-      "country": "CA",
-      "postal_code": null,
-      "lat": 49.2320729,
-      "lng": -123.1198502,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": "Monday-Saturday: 10am-8pmSunday: 11am-6pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "Canada",
-        "_group_state": "British Columbia",
-        "_coord_source": "embedded",
-        "location": "<p><a href=\"https://www.google.com/maps/search/Unit+%233331+Oakridge+Centre,+650+W+41st+Ave+Level+01,+Vancouver,+BC+V5Z+2M9/@49.2320729,-123.1198502,616m/data=!3m2!1e3!4b1?entry=ttu&amp;g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Unit #3331 Oakridge Centre, 650 W 41st Ave</a></p><p><a href=\"https://www.google.com/maps/search/Unit+%233331+Oakridge+Centre,+650+W+41st+Ave+Level+01,+Vancouver,+BC+V5Z+2M9/@49.2320729,-123.1198502,616m/data=!3m2!1e3!4b1?entry=ttu&amp;g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Level 01, Vancouver, BC V5Z 0N8</a></p><p><br></p>",
-        "name": "Oakridge Park - Coming Soon ",
-        "city": "Vancouver, BC",
-        "hours": "<p>Monday-Saturday: 10am-8pm</p><p>Sunday: 11am-6pm</p>",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "aloStudioAvailability": false,
-        "_year_opened_source": "web-search-correction",
-        "_year_opened_signals": {
-          "builder_created_year": 2025,
-          "builder_created_ms": 1766516052434
-        },
-        "_year_opened_citation": "globenewswire.com 2025/10/09 + retail-insider.com 2025/10 — Oakridge Park Vancouver new tenants debut Spring 2026. Builder.io createdDate had Oakridge as 2025; actual opening is 2026.",
-        "_year_opened_correction": {
-          "previous_year": 2025,
-          "corrected_year": 2026,
-          "month": null,
-          "source": "globenewswire.com 2025/10/09 + retail-insider.com 2025/10 — Oakridge Park Vancouver new tenants debut Spring 2026. Builder.io createdDate had Oakridge as 2025; actual opening is 2026.",
-          "validated_via": "manual web search 2026-05-06"
-        }
-      },
-      "year_opened_validation": "web-search-corrected"
     },
     {
       "id": "alo-yoga-united-states-beverly-hills-flagship",
@@ -2778,115 +2707,6 @@
       "year_opened_validation": "builder-createddate-only"
     },
     {
-      "id": "alo-yoga-united-states-collins-avenue-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Collins Avenue - Coming Soon",
-      "address": "100 Lincoln Rd",
-      "city": "Miami Beach",
-      "state": "Florida",
-      "country": "US",
-      "postal_code": null,
-      "lat": 25.7904439,
-      "lng": -80.1322694,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Florida",
-        "_coord_source": "embedded",
-        "city": "Miami Beach, FL",
-        "aloStudioAvailability": false,
-        "name": "Collins Avenue - Coming Soon",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/Decoplage,+100+Lincoln+Rd,+Miami+Beach,+FL+33139/@25.7904439,-80.1322694,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b49af8de9fdd:0x8d6f173b6ec7ea25!8m2!3d25.7904391!4d-80.1296945!16s%2Fg%2F11bw3xn0k5!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">100 Lincoln Rd</a></p><p><a href=\"https://www.google.com/maps/place/Decoplage,+100+Lincoln+Rd,+Miami+Beach,+FL+33139/@25.7904439,-80.1322694,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b49af8de9fdd:0x8d6f173b6ec7ea25!8m2!3d25.7904391!4d-80.1296945!16s%2Fg%2F11bw3xn0k5!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Miami Beach, FL 33139</a></p>",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771874852417
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-france-la-croisette-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "La Croisette - Coming Soon",
-      "address": "62 Bd de la Croisette,",
-      "city": "Cannes",
-      "state": null,
-      "country": "FR",
-      "postal_code": null,
-      "lat": 43.5468494,
-      "lng": 7.0326327,
-      "coord_is_estimated": true,
-      "phone": null,
-      "hours": "Sunday-Saturday: 10am - 8pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "France",
-        "_group_state": null,
-        "_coord_source": "nominatim",
-        "aloStudioAvailability": false,
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "name": "La Croisette - Coming Soon",
-        "city": "Cannes, France",
-        "location": "<p><a href=\"https://www.google.com/maps?safe=active&amp;sca_esv=6e5276631c46225b&amp;output=search&amp;q=62+Bd+de+la+Croisette,+06400+Cannes,+France&amp;source=lnms&amp;fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1U4Z6Yq0xAU8tFlmuJvKXCt2iug6axOV8fORMUDyzql5eftAvM01BCoXXxgyfHuMr08R_zgjVxH4CQZdDurYzk8g2kIloAzjYJGPMjE5IePtB3EQJOsB6SP5hgVr7SAvNRADKfBNicsmmIFXLUOx7Bup9_HU7EiUZ-o_OXLRiUJPg25HGA&amp;entry=mc&amp;ved=1t:200715&amp;ictx=111\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">62 Bd de la Croisette,</a></p><p><a href=\"https://www.google.com/maps?safe=active&amp;sca_esv=6e5276631c46225b&amp;output=search&amp;q=62+Bd+de+la+Croisette,+06400+Cannes,+France&amp;source=lnms&amp;fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1U4Z6Yq0xAU8tFlmuJvKXCt2iug6axOV8fORMUDyzql5eftAvM01BCoXXxgyfHuMr08R_zgjVxH4CQZdDurYzk8g2kIloAzjYJGPMjE5IePtB3EQJOsB6SP5hgVr7SAvNRADKfBNicsmmIFXLUOx7Bup9_HU7EiUZ-o_OXLRiUJPg25HGA&amp;entry=mc&amp;ved=1t:200715&amp;ictx=111\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">06400 Cannes, France</a></p>",
-        "hours": "<p><span style=\"font-size: 12px;\">Sunday-Saturday: 10am - 8pm</span></p>",
-        "_geocode_query": "La Croisette, Cannes, France",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1775155657748
-        },
-        "_year_opened_citation": "FashionNetwork — 2026 French expansion (alongside Champs-Élysées Paris flagship)"
-      },
-      "year_opened_validation": "web-search-confirmed"
-    },
-    {
-      "id": "alo-yoga-france-rue-gambetta-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Rue Gambetta - Coming Soon",
-      "address": null,
-      "city": "Saint Tropez",
-      "state": null,
-      "country": "FR",
-      "postal_code": null,
-      "lat": 43.2711916,
-      "lng": 6.6406078,
-      "coord_is_estimated": true,
-      "phone": null,
-      "hours": "Sunday-Saturday: 10am - 8pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "France",
-        "_group_state": null,
-        "_coord_source": "nominatim",
-        "location": "<p>45 Rue Gambetta,</p><p>83990 Saint-Tropez, France</p>",
-        "city": "Saint Tropez, France",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "hours": "<p><span style=\"font-size: 12px;\">Sunday-Saturday: 10am - 8pm</span></p>",
-        "name": "Rue Gambetta - Coming Soon",
-        "aloStudioAvailability": false,
-        "_geocode_query": "Rue Gambetta, Saint Tropez, France",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1775156211780
-        },
-        "_year_opened_citation": "FashionNetwork — 2026 French expansion (Saint Tropez)"
-      },
-      "year_opened_validation": "web-search-confirmed"
-    },
-    {
       "id": "alo-yoga-united-states-lenox-square",
       "retailer": "Alo Yoga",
       "name": "Lenox Square",
@@ -2925,41 +2745,6 @@
       "year_opened_validation": "web-search-confirmed"
     },
     {
-      "id": "alo-yoga-united-states-avalon-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Avalon - Coming Soon",
-      "address": "8170 Avalon Blvd,",
-      "city": "Alpharetta",
-      "state": "Georgia",
-      "country": "US",
-      "postal_code": null,
-      "lat": 34.0706108,
-      "lng": -84.2764863,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Georgia",
-        "_coord_source": "embedded",
-        "city": "Alpharetta, GA",
-        "aloStudioAvailability": false,
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "name": "Avalon - Coming Soon",
-        "location": "<p><a href=\"https://www.google.com/maps/place/8170+Avalon+Blvd,+Alpharetta,+GA+30009/@34.0706108,-84.2764863,17z/data=!3m1!4b1!4m6!3m5!1s0x88f57586c9e92783:0xfc6df9d14439c0c5!8m2!3d34.0706108!4d-84.2739114!16s%2Fg%2F11nnkrh091?entry=ttu&amp;g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">8170 Avalon Blvd,</a></p><p><a href=\"https://www.google.com/maps/place/8170+Avalon+Blvd,+Alpharetta,+GA+30009/@34.0706108,-84.2764863,17z/data=!3m1!4b1!4m6!3m5!1s0x88f57586c9e92783:0xfc6df9d14439c0c5!8m2!3d34.0706108!4d-84.2739114!16s%2Fg%2F11nnkrh091?entry=ttu&amp;g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Alpharetta GA 30009</a></p>",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771874943870
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
       "id": "alo-yoga-united-states-ala-moana",
       "retailer": "Alo Yoga",
       "name": "Ala Moana",
@@ -2992,41 +2777,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2023,
           "builder_created_ms": 1697475244623
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-center-of-waikiki-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Center of Waikiki - Coming Soon",
-      "address": "2284 Kalākaua Avenue C-130",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "country": "US",
-      "postal_code": null,
-      "lat": 21.278371,
-      "lng": -157.8303123,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Hawaii",
-        "_coord_source": "embedded",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/2284+Kal%C4%81kaua+Ave+Space+C-130,+Honolulu,+HI+96815/@21.278371,-157.8303123,17z/data=!3m1!4b1!4m6!3m5!1s0x7c007275dd78ea43:0x7127bef896c3e8d9!8m2!3d21.278366!4d-157.8277374!16s%2Fg%2F11xs_q_ckc!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">2284 Kalākaua Avenue C-130</a></p><p><a href=\"https://www.google.com/maps/place/2284+Kal%C4%81kaua+Ave+Space+C-130,+Honolulu,+HI+96815/@21.278371,-157.8303123,17z/data=!3m1!4b1!4m6!3m5!1s0x7c007275dd78ea43:0x7127bef896c3e8d9!8m2!3d21.278366!4d-157.8277374!16s%2Fg%2F11xs_q_ckc!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Honolulu, HI 96815</a></p>",
-        "name": " Center of Waikiki - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "Honolulu, HI",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771874318247
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
@@ -3262,41 +3012,6 @@
       "year_opened_validation": "builder-createddate-only"
     },
     {
-      "id": "alo-yoga-united-states-jordan-creek-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Jordan Creek - Coming Soon",
-      "address": null,
-      "city": "Des Moines",
-      "state": "Iowa",
-      "country": "US",
-      "postal_code": null,
-      "lat": 41.559695,
-      "lng": -93.7294323,
-      "coord_is_estimated": true,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Iowa",
-        "_coord_source": "nominatim",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "aloStudioAvailability": false,
-        "name": "Jordan Creek - Coming Soon",
-        "city": "Des Moines, IA",
-        "_geocode_query": "Jordan Creek, Des Moines, United States",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771875152711
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
       "id": "alo-yoga-ireland-grafton-street",
       "retailer": "Alo Yoga",
       "name": "Grafton Street",
@@ -3369,7 +3084,8 @@
         },
         "_year_opened_citation": "Globes — Israel debut April 2023"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-israel-dizengoff-square",
@@ -3407,7 +3123,8 @@
         },
         "_year_opened_citation": "Globes — Israel debut April 2023"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-israel-ramat-aviv-mall",
@@ -3445,7 +3162,8 @@
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
-      "year_opened_validation": "builder-createddate-only"
+      "year_opened_validation": "builder-createddate-only",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-israel-azrieli-mall-hayam",
@@ -3481,7 +3199,8 @@
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
-      "year_opened_validation": "builder-createddate-only"
+      "year_opened_validation": "builder-createddate-only",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-israel-glilot",
@@ -3518,7 +3237,8 @@
         },
         "_year_opened_citation": "No specific opening-date coverage found in basic search. Builder.io createdDate=2025; not contradicted but not corroborated."
       },
-      "year_opened_validation": "web-search-attempted-not-found"
+      "year_opened_validation": "web-search-attempted-not-found",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-italy-via-del-babuino",
@@ -3676,7 +3396,8 @@
         },
         "_year_opened_citation": "alshaya.com 'Alshaya Group introduces alo to Kuwait' — Alo Yoga debuted in Kuwait at The Avenues in 2022"
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-kuwait-360-mall",
@@ -3713,7 +3434,8 @@
         },
         "_year_opened_citation": "Luma event listing confirms it as Alo's 2nd Kuwait store; specific opening date not in basic search. Builder.io createdDate=2025; consistent with Kuwait expansion timeline."
       },
-      "year_opened_validation": "web-search-attempted-not-found"
+      "year_opened_validation": "web-search-attempted-not-found",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-lebanon-beirut-souk",
@@ -3750,7 +3472,8 @@
         },
         "_year_opened_citation": "Wikipedia + beirut.com — Lebanon debut March 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-united-states-lakeside-shopping-center",
@@ -3826,7 +3549,8 @@
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
-      "year_opened_validation": "builder-createddate-only"
+      "year_opened_validation": "builder-createddate-only",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-united-states-harbor-east",
@@ -3862,42 +3586,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2024,
           "builder_created_ms": 1727820807395
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-bethesda-row-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Bethesda Row - Coming Soon",
-      "address": "7236 Woodmont Ave, Unit 45",
-      "city": "Bethesda",
-      "state": "Maryland",
-      "country": "US",
-      "postal_code": null,
-      "lat": 38.9814389,
-      "lng": -77.0987486,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": "Monday-Saturday:10am-8pmSunday: 11am-6pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Maryland",
-        "_coord_source": "embedded",
-        "name": "Bethesda Row - Coming Soon",
-        "city": "Bethesda, MD",
-        "location": "<p><a href=\"https://www.google.com/maps/place/7236+Woodmont+Ave,+Bethesda,+MD+20814/@38.9814389,-77.0987486,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7c97b8e6f2407:0x9849fd2d0caec74c!8m2!3d38.9814348!4d-77.0961737!16s%2Fg%2F11bw3yvnsr?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">7236 Woodmont Ave, Unit 45</a></p><p><a href=\"https://www.google.com/maps/place/7236+Woodmont+Ave,+Bethesda,+MD+20814/@38.9814389,-77.0987486,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7c97b8e6f2407:0x9849fd2d0caec74c!8m2!3d38.9814348!4d-77.0961737!16s%2Fg%2F11bw3yvnsr?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Bethesda, Maryland 20814</a></p>",
-        "hours": "<p style=\"text-align: center;\">Monday-Saturday:10am-8pm</p><p style=\"text-align: center;\">Sunday: 11am-6pm</p>",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "aloStudioAvailability": false,
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771613477044
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
@@ -4136,7 +3824,8 @@
         },
         "_year_opened_citation": "estilodf.tv — Mexico debut May 4 2023"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-antara",
@@ -4175,7 +3864,8 @@
         },
         "_year_opened_citation": "estilodf.tv — Mexico City Sept 2023"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-punto-valle",
@@ -4216,7 +3906,8 @@
         },
         "_year_opened_citation": "FashionNetwork MX — Monterrey 2024 (interior Mexico debut)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-antea",
@@ -4253,7 +3944,8 @@
         },
         "_year_opened_citation": "FashionNetwork MX — Querétaro July 2024"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-andares",
@@ -4290,7 +3982,8 @@
         },
         "_year_opened_citation": "playersoflife.com — Guadalajara August 29 2024 (5th Mexico store)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-angelopolis",
@@ -4335,7 +4028,8 @@
         },
         "_year_opened_citation": "FashionNetwork México 1729833 — May 2025 article: 'Alo Yoga prepara la apertura de su sexta tienda en México' at Angelópolis (Puebla), opening date pending but in 2025."
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-anima",
@@ -4376,7 +4070,8 @@
         },
         "_year_opened_citation": "Wayback Machine — earliest snapshot 20190331131511"
       },
-      "year_opened_validation": "wayback-store-page"
+      "year_opened_validation": "wayback-store-page",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-mitikah",
@@ -4421,7 +4116,8 @@
         },
         "_year_opened_citation": "modaenlaciudad.com 2025/12 — 'Alo Yoga ya están en Mítikah' published Dec 2025, store opened November 2025 at Mitikah Mexico City. Builder.io entry was created in 2026 but the actual store predates that."
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-satelite",
@@ -4466,7 +4162,8 @@
         },
         "_year_opened_citation": "FashionNetwork México — May 2025 article noted Plaza Satelite as future opening planned for summer 2025. Late-2025 Mexico City expansion."
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-mexico-santa-fe",
@@ -4511,7 +4208,8 @@
         },
         "_year_opened_citation": "via-santafe.com + centrosantafe.com.mx — Alo Yoga store at Vía Santa Fe Mexico City, operational by 2025. Among Alo's late-2025 Mexico City expansions (Mitikah/Satelite/Santa Fe/Angelopolis cluster)."
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-united-states-galleria-edina",
@@ -4705,42 +4403,6 @@
       "year_opened_validation": "builder-createddate-only"
     },
     {
-      "id": "alo-yoga-united-states-village-at-rochester-hills-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Village at Rochester Hills - Coming Soon",
-      "address": "240 North Adams Rd Space E240",
-      "city": "Rochester Hills",
-      "state": "Michigan",
-      "country": "US",
-      "postal_code": null,
-      "lat": 42.6832897,
-      "lng": -83.1954846,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Michigan",
-        "_coord_source": "embedded",
-        "location": "<p><a href=\"https://www.google.com/maps/place/240+N+Adams+Rd+%23E240,+Rochester+Hills,+MI+48309/@42.6832897,-83.1954846,17z/data=!3m1!4b1!4m6!3m5!1s0x8824ea4236687045:0xd7db08f3e2fbc715!8m2!3d42.6832858!4d-83.1929097!16s%2Fg%2F11pvcvk07w!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">240 North Adams Rd Space E240</a></p><p><a href=\"https://www.google.com/maps/place/240+N+Adams+Rd+%23E240,+Rochester+Hills,+MI+48309/@42.6832897,-83.1954846,17z/data=!3m1!4b1!4m6!3m5!1s0x8824ea4236687045:0xd7db08f3e2fbc715!8m2!3d42.6832858!4d-83.1929097!16s%2Fg%2F11pvcvk07w!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Rochester Hills, MI 48309</a></p>",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "name": "Village at Rochester Hills - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "Rochester Hills, MI",
-        "hours": "<p><br></p>",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771875704571
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
       "id": "alo-yoga-netherlands-wolvenstraat-9-streets",
       "retailer": "Alo Yoga",
       "name": "Wolvenstraat 9 Streets",
@@ -4848,42 +4510,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2023,
           "builder_created_ms": 1691763844135
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-country-club-plaza-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Country Club Plaza - Coming Soon",
-      "address": "4706 Broadway Blvd Space J-42",
-      "city": "Kansas City",
-      "state": "Missouri",
-      "country": "US",
-      "postal_code": null,
-      "lat": 39.0420005,
-      "lng": -94.5947345,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": "Monday-Saturday:10am-7pmSunday: 12pm-6pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Missouri",
-        "_coord_source": "embedded",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "aloStudioAvailability": false,
-        "name": "Country Club Plaza - Coming Soon",
-        "city": " Kansas City, MO",
-        "location": "<p><a href=\"https://www.google.com/maps/place/4706+Broadway+Blvd+Space+J-42,+Kansas+City,+MO+64112/@39.0420005,-94.5947345,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0efb838ed749d:0x31648033fbc4e2a1!8m2!3d39.0419964!4d-94.5921596?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">4706 Broadway Blvd Space J-42</a></p><p><a href=\"https://www.google.com/maps/place/4706+Broadway+Blvd+Space+J-42,+Kansas+City,+MO+64112/@39.0420005,-94.5947345,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0efb838ed749d:0x31648033fbc4e2a1!8m2!3d39.0419964!4d-94.5921596?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\"> Kansas City, MO 64112</a></p>",
-        "hours": "<p style=\"text-align: center;\">Monday-Saturday:10am-7pm</p><p style=\"text-align: center;\">Sunday: 12pm-6pm</p><p><br></p>",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771613619743
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
@@ -5187,41 +4813,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2025,
           "builder_created_ms": 1766515836666
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-abq-uptown-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "ABQ Uptown - Coming Soon",
-      "address": "2241 Q St NE, Space 07B",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "country": "US",
-      "postal_code": null,
-      "lat": 35.1029264,
-      "lng": -106.5701141,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "New Mexico",
-        "_coord_source": "embedded",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/2241+Q+St+NE+Space+07B,+Albuquerque,+NM+87110/@35.1029264,-106.5701141,17z/data=!3m1!4b1!4m5!3m4!1s0x87220acfa141f98d:0x3c41ec9bcfbcf1aa!8m2!3d35.102922!4d-106.5675392!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">2241 Q St NE, Space 07B</a></p><p><a href=\"https://www.google.com/maps/place/2241+Q+St+NE+Space+07B,+Albuquerque,+NM+87110/@35.1029264,-106.5701141,17z/data=!3m1!4b1!4m5!3m4!1s0x87220acfa141f98d:0x3c41ec9bcfbcf1aa!8m2!3d35.102922!4d-106.5675392!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Albuquerque, NM 87110</a></p>",
-        "name": " ABQ Uptown - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "Albuquerque, NM",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771873991301
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
@@ -5665,111 +5256,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2025,
           "builder_created_ms": 1759501675813
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-brookfield-place-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Brookfield Place - Coming Soon",
-      "address": "200 Vesey Street #114,",
-      "city": "New York",
-      "state": "New York",
-      "country": "US",
-      "postal_code": null,
-      "lat": 40.7134496,
-      "lng": -74.0177603,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "New York",
-        "_coord_source": "embedded",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/200+Vesey+St+%23114,+New+York,+NY+10281/@40.7134496,-74.0177603,17z/data=!3m2!4b1!5s0x89c25a1bab74c9d3:0x6a0104717e8cd000!4m6!3m5!1s0x89c25a1ba7c1b5a7:0xd092feccf44c320b!8m2!3d40.7134456!4d-74.0151854!16s%2Fg%2F11bytnx933?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">200 Vesey Street #114,</a></p><p><a href=\"https://www.google.com/maps/place/200+Vesey+St+%23114,+New+York,+NY+10281/@40.7134496,-74.0177603,17z/data=!3m2!4b1!5s0x89c25a1bab74c9d3:0x6a0104717e8cd000!4m6!3m5!1s0x89c25a1ba7c1b5a7:0xd092feccf44c320b!8m2!3d40.7134456!4d-74.0151854!16s%2Fg%2F11bytnx933?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">New York, NY 10281</a></p>",
-        "name": "Brookfield Place - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "New York, NY",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771873638562
-        },
-        "_year_opened_citation": "Job postings confirm imminent opening. No public grand-opening date in basic search. Builder.io createdDate=2026; consistent with active 'coming soon' status."
-      },
-      "year_opened_validation": "web-search-attempted-not-found"
-    },
-    {
-      "id": "alo-yoga-united-states-the-gate-at-manhasset-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "The Gate at Manhasset - Coming Soon",
-      "address": "1950 Northern Blvd Suite B4,",
-      "city": "Manhasset",
-      "state": "New York",
-      "country": "US",
-      "postal_code": null,
-      "lat": 40.7953584,
-      "lng": -73.6774419,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "New York",
-        "_coord_source": "embedded",
-        "location": "<p><a href=\"https://www.google.com/maps/place/1950+Northern+Blvd+Suite+B4,+Manhasset,+NY+11030/@40.7953584,-73.6774419,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2888c85400001:0x986cbdef4c6f1754!8m2!3d40.7953544!4d-73.674867!16s%2Fg%2F11tjz17_f3!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">1950 Northern Blvd Suite B4,</a></p><p><a href=\"https://www.google.com/maps/place/1950+Northern+Blvd+Suite+B4,+Manhasset,+NY+11030/@40.7953584,-73.6774419,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2888c85400001:0x986cbdef4c6f1754!8m2!3d40.7953544!4d-73.674867!16s%2Fg%2F11tjz17_f3!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Manhasset, NY 11030</a></p>",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "name": "The Gate at Manhasset - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "Manhasset, NY",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771874141243
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-211-columbus-ave-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "211 Columbus Ave - Coming Soon",
-      "address": "211 Columbus Avenue,",
-      "city": "New York",
-      "state": "New York",
-      "country": "US",
-      "postal_code": null,
-      "lat": 40.7757669,
-      "lng": -73.9822288,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "New York",
-        "_coord_source": "embedded",
-        "name": "211 Columbus Ave - Coming Soon",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/Space+NK+Columbus,+211+Columbus+Ave,+New+York,+NY+10023/@40.7757669,-73.9822288,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2588b18d78eb3:0x39719e771b88604b!8m2!3d40.7757629!4d-73.9796539!16s%2Fg%2F11c168f3v2!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">211 Columbus Avenue,</a></p><p><a href=\"https://www.google.com/maps/place/Space+NK+Columbus,+211+Columbus+Ave,+New+York,+NY+10023/@40.7757669,-73.9822288,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2588b18d78eb3:0x39719e771b88604b!8m2!3d40.7757629!4d-73.9796539!16s%2Fg%2F11c168f3v2!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">New York, NY 10023</a></p>",
-        "city": "New York, NY",
-        "aloStudioAvailability": false,
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771876235571
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
@@ -6292,7 +5778,8 @@
         },
         "_year_opened_citation": "modaes.com — 2025 Latam expansion (Brazil/Colombia/Peru/Panama batch)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-united-states-king-of-prussia",
@@ -6482,7 +5969,8 @@
         },
         "_year_opened_citation": "peru-retail.com — Peru debut 2025 (Bogotá opened ~1 week later)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-philippines-greenbelt-mall",
@@ -6518,7 +6006,8 @@
         },
         "_year_opened_citation": "retailnews.asia + rappler.com — Philippines debut May 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-qatar-doha-festival-city",
@@ -6555,7 +6044,8 @@
         },
         "_year_opened_citation": "alshaya.com + qatarprnetwork — Qatar debut June 8 2024"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-canada-cf-carrefour-laval",
@@ -6714,7 +6204,8 @@
         },
         "_year_opened_citation": "whatsonsaudiarabia.com 2021/12 — 'Alo Yoga makes Saudi debut at Riyadh's Kingdom Centre'; Alo's first international store, opened December 2021"
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-saudi-arabia-solitaire-mall",
@@ -6751,7 +6242,8 @@
         },
         "_year_opened_citation": "alshaya.com — Solitaire Mall Riyadh, February 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-singapore-marina-bay-sands",
@@ -6789,42 +6281,6 @@
         "_year_opened_citation": "ELLE Singapore + jingdaily — Singapore debut fall 2025"
       },
       "year_opened_validation": "web-search-confirmed"
-    },
-    {
-      "id": "alo-yoga-united-states-king-street-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "King Street - Coming Soon",
-      "address": "245 King St",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "country": "US",
-      "postal_code": null,
-      "lat": 32.7814939,
-      "lng": -79.9361936,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": "Monday-Saturday:10am-7pmSunday: 11am-5pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "South Carolina",
-        "_coord_source": "embedded",
-        "aloStudioAvailability": false,
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/245+King+St,+Charleston,+SC+29401/@32.7814939,-79.9361936,17z/data=!3m1!4b1!4m6!3m5!1s0x88fe7a13b69e7049:0xb92594727a4b26a0!8m2!3d32.7814894!4d-79.9336187!16s%2Fg%2F11nnkrk285?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">245 King St</a></p><p><a href=\"https://www.google.com/maps/place/245+King+St,+Charleston,+SC+29401/@32.7814939,-79.9361936,17z/data=!3m1!4b1!4m6!3m5!1s0x88fe7a13b69e7049:0xb92594727a4b26a0!8m2!3d32.7814894!4d-79.9336187!16s%2Fg%2F11nnkrk285?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Charleston, SC 29401</a></p>",
-        "name": "King Street - Coming Soon",
-        "city": "Charleston, SC",
-        "hours": "<p style=\"text-align: center;\">Monday-Saturday:10am-7pm</p><p style=\"text-align: center;\">Sunday: 11am-5pm</p><p><br></p>",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771613099555
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
     },
     {
       "id": "alo-yoga-south-korea-dosan",
@@ -6937,7 +6393,8 @@
         },
         "_year_opened_citation": "Seoul Economy Daily — The Hyundai Seoul, September 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "concession": true
     },
     {
       "id": "alo-yoga-south-korea-lotte-main",
@@ -6974,7 +6431,8 @@
         },
         "_year_opened_citation": "Seoul Economy Daily — Lotte Department Store main, August 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "concession": true
     },
     {
       "id": "alo-yoga-south-korea-lotte-jamsil",
@@ -7011,7 +6469,8 @@
         },
         "_year_opened_citation": "Seoul Economy Daily — Lotte Department Store, 2025 Korea expansion"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "concession": true
     },
     {
       "id": "alo-yoga-united-states-mall-at-green-hills",
@@ -7092,8 +6551,8 @@
     {
       "id": "alo-yoga-united-states-austin",
       "retailer": "Alo Yoga",
-      "name": "Austin",
-      "address": null,
+      "name": "South Congress",
+      "address": "1221 South Congress Avenue #150",
       "city": "Austin",
       "state": "Texas",
       "country": "US",
@@ -7473,41 +6932,6 @@
       "year_opened_validation": "builder-createddate-only"
     },
     {
-      "id": "alo-yoga-united-states-stonebriar-centre-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Stonebriar Centre - Coming Soon",
-      "address": "2601 Preston Rd #1215,",
-      "city": "Frisco",
-      "state": "Texas",
-      "country": "US",
-      "postal_code": null,
-      "lat": 33.0988003,
-      "lng": -96.8159944,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Texas",
-        "_coord_source": "embedded",
-        "city": "Frisco, TX",
-        "aloStudioAvailability": false,
-        "name": "Stonebriar Centre - Coming Soon",
-        "location": "<p><a href=\"https://www.google.com/maps/place/2601+Preston+Rd+%231215,+Frisco,+TX+75034/@33.0988003,-96.8159944,17z/data=!3m1!4b1!4m5!3m4!1s0x864c3ceb326c940d:0x443f0d0e6e7d48ff!8m2!3d33.0987958!4d-96.8134195?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">2601 Preston Rd #1215,</a></p><p><a href=\"https://www.google.com/maps/place/2601+Preston+Rd+%231215,+Frisco,+TX+75034/@33.0988003,-96.8159944,17z/data=!3m1!4b1!4m5!3m4!1s0x864c3ceb326c940d:0x443f0d0e6e7d48ff!8m2!3d33.0987958!4d-96.8134195?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Frisco, TX 75034</a></p>",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771873816488
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
       "id": "alo-yoga-canada-bloor",
       "retailer": "Alo Yoga",
       "name": "Bloor",
@@ -7788,7 +7212,8 @@
         },
         "_year_opened_citation": "Bangkok Post + bk.asia-city.com — Alo's FIRST store in Asia, opened November 17, 2023 at EmQuartier Bangkok. Builder.io createdDate had this as 2024 because the CMS entry was created later."
       },
-      "year_opened_validation": "web-search-corrected"
+      "year_opened_validation": "web-search-corrected",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-thailand-central-floresta",
@@ -7825,7 +7250,8 @@
         },
         "_year_opened_citation": "hisopartyofficial.com + gourmetandcuisine.com — 2nd Thailand store, Phuket Floresta 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-thailand-iconsiam",
@@ -7862,7 +7288,8 @@
         },
         "_year_opened_citation": "hashtaglegend.com — 2nd Bangkok store, 2025 (after EmQuartier 2023)"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-turkey-emaar-square",
@@ -7899,7 +7326,8 @@
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
-      "year_opened_validation": "builder-createddate-only"
+      "year_opened_validation": "builder-createddate-only",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-turkey-mandarin-oriental-bodrum",
@@ -7935,7 +7363,8 @@
         },
         "_year_opened_citation": "Wikipedia + hal.news — Turkey beach club opened May/June 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-turkey-istinye-park",
@@ -7972,7 +7401,8 @@
         },
         "_year_opened_citation": "alshaya.com — Istanbul Istinye Park, September 2025"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-uae-the-dubai-mall",
@@ -8011,7 +7441,8 @@
         },
         "_year_opened_citation": "alshaya.com + whatson.ae — UAE debut Feb 23 2024"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-uae-the-galleria-al-maryah-island",
@@ -8049,7 +7480,8 @@
         },
         "_year_opened_citation": "alshaya.com — UAE expansion to Abu Dhabi 2024"
       },
-      "year_opened_validation": "web-search-confirmed"
+      "year_opened_validation": "web-search-confirmed",
+      "franchise_market": true
     },
     {
       "id": "alo-yoga-united-states-city-creek-center",
@@ -8084,41 +7516,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2023,
           "builder_created_ms": 1689308794791
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-fashion-place-mall-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Fashion Place Mall - Coming Soon",
-      "address": "6191 South State Street",
-      "city": "Murray",
-      "state": "Utah",
-      "country": "US",
-      "postal_code": null,
-      "lat": 40.6370083,
-      "lng": -111.8898022,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Utah",
-        "_coord_source": "embedded",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><a href=\"https://www.google.com/maps/place/6191+S+State+St,+Murray,+UT+84107/@40.6370083,-111.8898022,17z/data=!3m1!4b1!4m6!3m5!1s0x875289bde495f83b:0xec727477d64c20cd!8m2!3d40.6370043!4d-111.8872273!16s%2Fg%2F11bw41hpyb!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">6191 South State Street</a></p><p><a href=\"https://www.google.com/maps/place/6191+S+State+St,+Murray,+UT+84107/@40.6370083,-111.8898022,17z/data=!3m1!4b1!4m6!3m5!1s0x875289bde495f83b:0xec727477d64c20cd!8m2!3d40.6370043!4d-111.8872273!16s%2Fg%2F11bw41hpyb!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 12px;\">Murray, UT 84107</a></p>",
-        "name": "Fashion Place Mall - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "Murray, UT",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771876390036
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
@@ -8433,42 +7830,6 @@
       "year_opened_validation": "web-search-corrected"
     },
     {
-      "id": "alo-yoga-united-kingdom-westbourne-grove-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "Westbourne Grove - Coming Soon",
-      "address": null,
-      "city": "London",
-      "state": null,
-      "country": "GB",
-      "postal_code": null,
-      "lat": 51.5147932,
-      "lng": -0.1971043,
-      "coord_is_estimated": true,
-      "phone": null,
-      "hours": null,
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United Kingdom",
-        "_group_state": null,
-        "_coord_source": "nominatim",
-        "name": "Westbourne Grove - Coming Soon",
-        "aloStudioAvailability": false,
-        "city": "London, UK",
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "location": "<p><span style=\"font-size: 12px;\">222-224 Westbourne Grove,</span></p><p><span style=\"font-size: 12px;\">W11 2RH, London, UK</span></p>",
-        "_geocode_query": "Westbourne Grove, London, United Kingdom",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771875928762
-        },
-        "_year_opened_citation": "Retail Gazette 2025/10 — part of Alo's UK 4-store expansion plan; opens 2026"
-      },
-      "year_opened_validation": "web-search-confirmed"
-    },
-    {
       "id": "alo-yoga-united-states-tysons-galleria",
       "retailer": "Alo Yoga",
       "name": "Tysons Galleria",
@@ -8539,42 +7900,6 @@
         "_year_opened_signals": {
           "builder_created_year": 2025,
           "builder_created_ms": 1759501408411
-        },
-        "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
-      },
-      "year_opened_validation": "builder-createddate-only"
-    },
-    {
-      "id": "alo-yoga-united-states-one-loudoun-coming-soon",
-      "retailer": "Alo Yoga",
-      "name": "One Loudoun - Coming Soon",
-      "address": "20302 Exchange Street",
-      "city": "Ashburn",
-      "state": "Virginia",
-      "country": "US",
-      "postal_code": null,
-      "lat": 39.0543819,
-      "lng": -77.4565925,
-      "coord_is_estimated": false,
-      "phone": null,
-      "hours": "Monday-Saturday:10am-8pm﻿Sunday: 11am-6pm",
-      "url": null,
-      "year_opened": 2026,
-      "scraped_at": "2026-05-06T03:18:57Z",
-      "raw": {
-        "_group_country": "United States",
-        "_group_state": "Virginia",
-        "_coord_source": "embedded",
-        "aloStudioAvailability": false,
-        "yogaStudio": "Alo Yoga Studio - Learn more",
-        "hours": "<p style=\"text-align: center;\">Monday-Saturday:10am-8pm<span class=\"ql-cursor\">﻿</span></p><p style=\"text-align: center;\">Sunday: 11am-6pm</p><p style=\"text-align: center;\"><br></p>",
-        "location": "<p><a href=\"https://www.google.com/maps/place/20302+Exchange+St,+Ashburn,+VA+20147/@39.0543819,-77.4565925,17z/data=!3m1!4b1!4m6!3m5!1s0x89b63958bb9b2d29:0xf8f40d5f711bcd1e!8m2!3d39.0543819!4d-77.4540176!16s%2Fg%2F11yzvhn8g0?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">20302 Exchange Street</a></p><p><a href=\"https://www.google.com/maps/place/20302+Exchange+St,+Ashburn,+VA+20147/@39.0543819,-77.4565925,17z/data=!3m1!4b1!4m6!3m5!1s0x89b63958bb9b2d29:0xf8f40d5f711bcd1e!8m2!3d39.0543819!4d-77.4540176!16s%2Fg%2F11yzvhn8g0?entry=ttu&amp;g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D\" rel=\"noopener noreferrer\" target=\"_blank\">Ashburn, VA 20147</a></p>",
-        "name": "One Loudoun - Coming Soon",
-        "city": "Ashburn, VA ",
-        "_year_opened_source": "builder-createddate",
-        "_year_opened_signals": {
-          "builder_created_year": 2026,
-          "builder_created_ms": 1771612989071
         },
         "_year_opened_citation": "Alo Builder.io CMS createdDate (not individually web-validated)"
       },
